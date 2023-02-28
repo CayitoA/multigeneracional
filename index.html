@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Integral Multigeneracional</title>
+    <meta name="theme-color" content="#1E88E5">
+    
+<!-- link bootsrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/94c1e46ce4.js" crossorigin="anonymous"></script>
+
+<!-- link css-->
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- link tipografias-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<!-- inicio navbar -->
+    <nav id="barranavegacion" class="navbar fixed-top  navbar-expand-md navbar-light"  >
+    
+        <div id="menu" class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo-color-banner.svg" alt="" width="auto" height="30px">
+                  </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+    <div class="collapse navbar-collapse " id="menu" >
+    
+        <ul class="navbar-nav ms-auto categorias">
+    
+            <li class="nav-item">
+            <a class="nav-link active" href="#carouselExampleDark">Inicio</a></li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#servicios" id="navbarDropdown" role="button" 
+                data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#servicios">Atención Clínica</a></li>
+                  <li><a class="dropdown-item" href="#servicioprofesional">Formación Profesional</a></li>
+                </ul>
+              </li>
+    
+            <li class="nav-item">
+            <a class="nav-link active" href="#nosotros">Nosotros</a></li>
+    
+            <li class="nav-item">
+            <a class="nav-link active" href="#vinculos">Vinculos</a></li>
+
+            <li class="nav-item">
+            <a class="nav-link active" href="#noticias">Noticias</a></li>
+
+            <li class="nav-item">
+            <a class="nav-link active" href="#piedepagina">Contacto</a></li>
+            
+        
+    
+        </ul>
+    
+    
+    </div>
+    
+        </div>
+    
+    
+    
+    </nav>
+    <!-- fin navbar-->
+
+
+
+
+<!-- prueba carrusel-->
+<div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+       <div class="fotocarrusel1"> <img src="" class="d-block w-100" alt=""></div> 
+        <div class="carousel-caption  d-md-block">
+            <h1 class="textocarrusel">Centro Intervención Multigeneracional</h1>
+            <p class="d-none">Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+       <div class="fotocarrusel2">  <img src="" class="d-block w-100" alt=""></div>
+        <div class="carousel-caption d-md-block">
+            <h1 class="textocarrusel">Servicio de Atención Clínica</h1>
+            <p class="d-none">Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <div class="fotocarrusel3"> <img src="" class="d-block w-100" alt=""></div>
+        <div class="carousel-caption d-md-block">
+            <h1 class="textocarrusel">Servicios para profesionales</h1>
+            <p class="d-none">Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<!-- fin carrusel -->
+
+<!-- presentacion-->
+
+<section  id="presentacion">
+
+<div class="presentacion1 ">
+
+<div class=" d-none d-sm-block  d-sm-none d-md-block   logo"></div>
+
+<div class="texto"> 
+<h6>El CIM tiene como propósito la implementación de procesos de</h6>
+
+<h2> <span>  Intervención psicoterapéutica, <br>junto a la formación y supervisión de profesionales</span>  </h2>
+
+<h5>Desde una perspectiva relacional que en conexión con diversas ciencias releva el carácter histórico de la familia humana como una unidad emocional multigeneracional.
+</h5>
+
+</div>
+
+</div>
+
+</section>
+<!-- fin presentacion-->
+
+<!-- Servicios-->
+
+
+<section id="servicios">
+<h2 class="seccion" data-bs-toggle="tooltip" data-bs-placement="top" 
+title="Nuestros servicios"> <span>  Que hacemos </span></h2>
+<div class="servicio123">
+
+<div class="servicio1">
+    
+<div class="foto1"></div>
+
+<div class="texto1">
+    <h6 class="subtitulo" data-bs-toggle="tooltip" data-bs-placement="top" 
+    title="Servicio de Atención Clínica"> <span>Servicio para la comunidad</span></h6>
+   <h1>Atención Clínica</h1>
+    <h6>El servicio de atención clínica del CIM ofrece <strong> atención psicológica individual, de pareja, grupal y familiar</strong>, entendiendo que las problemáticas emocionales que viven las personas y las familias pueden ser comprendidas desde aspectos contextuales actuales e históricos, basados en la comprensión del proceso relacional en sus distintas manifestaciones. 
+    </h6>
+    <footer class="color">
+    <button class="boton1"><a href="formulario1.html" target="_blank" >Contactar</a>
+        <i class="flecha fa-regular fa-envelope"></i> </button>
+    </footer>
+</div>
+
+</div>
+
+<!-- card servicio 2-->
+<div id="servicioprofesional" class="servicio2">
+<div class="foto2">
+    <h4> <span> inicio marzo 2023</span> </h4>
+
+</div>
+    
+<div class="texto2">
+    <h6 class="subtitulo" data-bs-toggle="tooltip" data-bs-placement="top" 
+    title="Servicio para Profesionales"> <span>Formación y supervisión </span></h6>
+    <h1>Servicios para profesionales</h1>
+    <h6>El CIM está comprometido con la <strong>formación y el perfeccionamiento de profesionales</strong> cuyo interés es la terapia e intervención psicológica y social desde un enfoque sistémico relacional multigeneracional. Para ello ofrece distintos espacios de desarrollo y fortalecimiento profesional. 
+    </h6>
+    <footer class="color2">
+    <button class="boton2 btn btnservicios"data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ver Servicios
+    <i class="flecha fa-solid fa-arrow-right"></i> </button>
+    </footer>
+     </div>
+    
+</div>
+
+<div class="collapse" id="collapseExample"> 
+
+<!-- card servicio  desgloce-->  
+
+<div class="servicio2a">
+    <div class="foto3">
+        <h4> <span> Servicio para profesionales</span> </h4>
+    </div>
+    
+    <article class="texto2a">
+        <h6 class="subtitulo" > <span>inicio marzo 2023 </span></h6>
+       <h3>Grupo de Estudio</h3>
+        <h6>A partir de la metodología grupal de lectura guiada y reflexiva se propone revisar y discutir literatura clave del enfoque multigeneracional. Se abordarán textos desde la primatología, el neo-darwinismo, neurociencia social, además de autores como Murray Bowen y Maurizio Andolfi. El grupo será guiado por una dupla de profesionales pertenecientes al CIM.
+        </h6>
+       
+
+        <footer class="">
+
+<!-- Button trigger modal -->
+<div class="color2"> 
+<button type="button" class="boton3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Detalle  <i class="flecha fa-solid fa-magnifying-glass"></i>
+</button>
+</div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Información</h5>
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <ul class="requisitos">
+                <li><strong>Cupos:</strong> 5 profesionales por grupo.</li>
+                <li><strong>Frecuencia:</strong> Martes o jueves de 18:30 a 20:00 hrs. Quincenal.</li>
+                <li><strong>Duración:</strong> 6 sesiones.</li>
+                <li><strong>Valor:</strong> $ 300.000</li>
+                <li><strong>Inicio:</strong> 21 o 23 de marzo 2023 (por confirmar)</li>
+                <li><strong>Requisitos: </strong>
+                    Título profesional de Psicólogo, Trabajador Social, Psiquiatra y profesiones afines.</li>
+                </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="boton2" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="color2">
+<button class="boton4"><a href="formulario2.html" target="_blank"   >Contacto</a></button>
+
+</div>
+
+</footer>
+</article>
+</div>
+    
+
+
+<div class="collapse" id="collapseExample"> 
+
+<div class="servicio2b">
+    <div class="foto4">
+        <h4> <span> Servicio para profesionales</span> </h4>
+
+    </div>
+    
+    <article class="texto2b">
+        <h6 class="subtitulo" > <span>inicio marzo 2023 </span></h6>
+       <h3>Grupo de Supervisión</h3>
+        <h6>A partir de la metodología de reflexión y discusión se ofrece un espacio grupal de supervisión de casos propuestos por los profesionales que participen. El grupo será guiado por una dupla de supervisores pertenecientes al CIM.
+        </h6>
+        <footer class="">
+
+            <!-- Button trigger modal -->
+            <div class="color2"> 
+            <button type="button" class="boton3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Detalle  <i class="flecha fa-solid fa-magnifying-glass"></i>
+            </button>
+            </div>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Información</h5>
+                      <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="requisitos">
+                            <li> Cupos: 5 profesionales por grupo.</li>
+                            <li>Frecuencia: Martes o jueves de 18:30 a 20:00 hrs. Quincenal.</li>
+                            <li>Duración: 6 sesiones.</li>
+                            <li>Valor: $ 300.000</li>
+                            <li><strong>Inicio:</strong> 21 o 23 de marzo 2023 (por confirmar)</li>
+                            <li>Requisitos: 
+                                Título profesional de Psicólogo, Trabajador Social, Psiquiatra y profesiones afines.</li>
+                            </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="boton2" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+                       
+            <div class="color2">
+                <button class="boton4"><a href="formulario2.html" target="_blank"   >Contacto</a></button>
+            </div>
+            </footer>
+    
+    </article>
+    </div>
+
+
+<div class="servicio2c">
+    <div class="foto5">
+        <h4> <span> Servicio para profesionales</span> </h4>
+
+    </div>
+    
+    <article class="texto2c">
+        <h6 class="subtitulo" > <span>inicio marzo 2023 </span></h6>
+        <h3>Grupo de trabajo con la propia familia de origen del terapeuta</h3>
+        <h6>A partir de la metodología de exploración a través del diagrama familiar (genograma) de los aspectos emocionales más significativos de la familia de origen del interventor, se abordarán en contexto grupal temas nodales en el quehacer clínico del profesional. El grupo será guiado por una dupla de supervisores pertenecientes al CIM.
+        </h6>
+        <footer class="">
+
+            <!-- Button trigger modal -->
+            <div class="color2"> 
+            <button type="button" class="boton3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Detalle  <i class="flecha fa-solid fa-magnifying-glass"></i>
+            </button>
+            </div>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Información</h5>
+                      <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="requisitos">
+                            <li> Cupos: 5 profesionales por grupo.</li>
+                            <li>Frecuencia: Martes o jueves de 18:30 a 20:00 hrs. Quincenal.</li>
+                            <li>Duración: 6 sesiones.</li>
+                            <li>Valor: $ 300.000</li>
+                            <li>Requisitos: 
+                                Título profesional de Psicólogo, Trabajador Social, Psiquiatra y profesiones afines.</li>
+                            </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="boton2" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+                       
+            <div class="color2">
+                <button class="boton4"><a href="formulario2.html" target="_blank"   >Contacto</a></button>
+            </div>
+            </footer>
+    
+    </article>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</section>
+<!-- fin Servicios-->
+    
+
+
+    <!-- inicio historia nosotros-->
+
+<section  id="nosotros">
+<h2 class="seccion"> Acerca de nosotros</h2>
+</section>
+
+<section>
+    <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <h4>Somos un equipo de psicólogos clínicos y con formación en terapia familiar, que hace más de 20 años se ha dedicado a la intervención psicológica y psicosocial desde una mirada multigeneracional.
+            </h4> 
+          </div>
+        <div class="carousel-item" data-bs-interval="10000">
+            <h4>Nos interesa la difusión y propagación de ideas, que sustentadas en diversas ciencias y disciplinas, releven la comprensión del sistema familiar humano como una unidad emocional multigeneracional.
+            </h4> 
+        </div>
+         
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+</section>
+
+
+
+
+
+<!-- inicio perfiles profesionales-->
+<section id="perfiles">
+
+    <div class="perfil123">
+
+<div>
+    <div class="perfil1">
+    </div>
+<div class="detalle">
+    <h5 class="nombre"><span>Alicia Cruzat O.</span></h5>
+    <ul>
+    <li>Psicóloga Universidad de Chile. </li>
+    <li>Supervisora Clínica. </li>
+    <li>Docente Universitario. </li>
+        <div class="collapse" id="alicia"> 
+
+    <li>Especialista en Terapia Multigeneracional.</li>
+    <li>Magister en Salud Mental Infantil, Universidad del Desarrollo. Santiago, Chile. </li>
+    <li>Master en Terapia Familiar, Accademia di Psicoterapia della Famiglia. Roma, Italia.</li>
+    <li>Diplomado en Neurociencia Social, Universidad Diego Portales, Chile.</li>
+    <li> Asesora vincular relacional de Fundación Ciudad del Niño y Corporación Opción.</li>
+    </ul>
+    <p class="botonderecha"> 
+        <a class="btn " data-bs-toggle="collapse" href="#alicia" role="button" aria-expanded="false" aria-controls="alicia">
+            <span class="botonperfil"> Ver <i class="flecha fa-solid fa-plus"></i></span>
+            </span>
+        </a>
+    </p>
+    
+    </div>
+    
+    </div>
+    
+
+<div>
+    <div class="perfil2">
+    </div>
+    <div class="detalle">
+    <h5 class="nombre"><span>Daniela Kupfer</span></h5>
+    <ul>
+
+        <li>Psicóloga Universidad de Chile.</li>
+        <li>Terapeuta Familiar.</li>
+        <li>Supervisora Clínica.</li>
+            <div class="collapse" id="daniela"> 
+        <li>Docente Universitario.</li>
+        <li>Especialista en Terapia Multigeneracional.</li>
+        <li>Egresada de la Maestría en Diseño y Gestión de Programas y Proyectos Sociales FLACSO. Buenos Aires, Argentina.
+        </li>
+        <li>Coordinadora de Grupos y Psicodramatista del Nuevo Espacio Psicodrama Grupal Pavlosky. Buenos Aires, Argentina.
+        </li>
+        <li>Asesora en intervención relacional de Corporación Opción. 
+        </li>
+    </ul>
+    <p class="botonderecha"> 
+        <a class="btn btnservicios" data-bs-toggle="collapse" href="#daniela" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <span class="botonperfil"> Ver <i class="flecha fa-solid fa-plus"></i></span>
+        </a>
+    </p>
+    </div>
+
+    </div>
+    
+
+
+<div>
+    <div class="">
+    <div class="perfil3">
+    </div>
+</div>
+<div class="detalle">
+    <h5 class="nombre"><span>Alejandro Astorga A.</span></h5>
+    <ul>
+        <li>Psicólogo Universidad de Chile.</li>
+        <li>Terapeuta Familiar.</li>
+        <li>Supervisor Clínico.</li>
+        <div class="collapse" id="alejandro"> 
+
+        <li>Docente Universitario.</li>
+        <li>Especialista en Terapia Multigeneracional.</li>
+        <li>Master en Terapia Familiar, Accademia di Psicoterapia della Famiglia. Roma, Italia.</li>
+        <li>Magister en Derecho, mención Infancia, Adolescencia y Familia, Universidad Diego Portales. Santiago, Chile.</li>
+        <li>Miembro del Departamento Psicosocial del Instituto Chileno de Terapia Familiar.</li>
+        <li>Jefatura técnica del Área de Desarrollo, Asesoría y Supervisión Técnica de Corporación Opción.</li>
+    </ul>
+    <p class="botonderecha"> 
+        <a class="btn btnservicios" data-bs-toggle="collapse" href="#alejandro" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <span class="botonperfil"> Ver <i class="flecha fa-solid fa-plus"></i></span>
+        </a>
+        
+    </p>
+    </div>
+
+    </div>
+
+</div>
+
+
+
+
+</section>    
+
+<!-- fin perfiles-->
+
+<!-- inicio red internacional-->
+
+
+
+<section id="vinculos"> 
+
+<h2 class="seccion" data-bs-toggle="tooltip" data-bs-placement="top" 
+title="Red de Vinculos Internacionales">Vinculos Internacionales</h2>
+
+
+<div class="slider">
+
+    <div class="slide-track">
+
+        <div class="slide">
+            <img src="assets/img/logo1.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="assets/img/logo3.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="assets/img/logo2.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="assets/img/logo4.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="assets/img/logo1.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="assets/img/logo2.jpg" alt="">
+        </div>
+
+        
+
+    </div>
+
+</div>
+
+<article class="textovinculos">
+    <h5>CIM a través de sus miembros participa y se vincula activamente con diversos centros de formación en terapia familiar que comparten un acercamiento multigeneracional a los procesos humanos.
+    </h5>
+</article>
+
+</section>
+
+
+<!-- fin red internacional-->
+
+<!-- inicio noticias-->
+<section id="noticias">
+
+    <h2 class="seccion"data-bs-toggle="tooltip" data-bs-placement="top" 
+    title="Actualidad y novedades">Noticias</h2>
+
+<div class="todasnoticias">  
+
+    <div class="noticia1">
+        <div class="fotonoticia4"></div>
+            
+        <article class="textonoticia1">
+        <h5>Asís, Italia </h5>
+        <h4>Conferencia Internacional de Terapia Familiar</h4>
+        <h6>En julio próximo los miembros de nuestro equipo estarán presentes en la <strong> Conferencia Internacional de Terapia Familiar</strong>  a realizarse en Asís, Italia.<br>
+
+            Ps. Alicia Cruzat y Ps. Alejandro Astorga dictarán la conferencia <strong> "Terapia e intervención psicosocial multigeneracional en programas de protección infantil: la experiencia de Chile”.</strong> <br>
+            
+            Agradecemos enormemente la invitación de la <strong> Accademia di Psicoterapia della Famiglia.</strong>
+            
+        </h6>
+        </article>
+    </div>
+
+    <div class="noticia1">
+        <div class="fotonoticia3"></div>
+                
+        <article class="textonoticia1">
+        <h5>Santiago</h5>
+        <h4>Jornada de Mejor Niñez con Equipo de Colaboradores y Oferentes en capacitación</h4>
+        <h6>El miércoles 25 de enero el equipo docente del Diplomado Multigeneracional y de los cursos de capacitación en enfoque transversal Transgeneracional de la Universidad Mayor, participaron, junto a otras importantes instituciones colaboradoras, de una instancia de evaluación y reflexión en torno al sistema de capacitación de los profesionales que trabajan en la oferta programática de Mejor Niñez durante este 2022. <br>
+    
+        </h6>
+                
+        </article>
+    </div> 
+
+
+
+<div class="collapse" id="collapseExample2"> 
+
+    <div class="noticia1">
+        <div class="fotonoticia"></div>
+            
+        <article class="textonoticia1">
+        <h5>Swedish Lapland </h5>
+        <h4>Conferencia Internacional Bowen Family System Theory</h4>
+        <h6>En junio del 2022 Alejandro Astorga participo como expositor en la <strong> 3ª Conferencia Internacional de la Teoría de Bowen </strong> en Sorbyn (Swedish Lapland) en Suecia. Fue una muy buena oportunidad de compartir las experiencias desarrolladas en Chile acerca de la intervención multigeneracional. El encuentro reunió a destacados expertos y con una larga trayectoria en la difusión de la teoría de Bowen de diversas partes del mundo.
+        </h6>
+        </article>
+    </div>
+
+   
+
+<div class="noticia1">
+    <div class="fotonoticia2"></div>
+            
+    <article class="textonoticia1">
+    <h5>Valparaíso</h5>
+    <h4>2º Congreso Chileno sobre Maltrato y Abuso Sexual Infantil</h4>
+    <h6>Entre el 11 y 13 de enero 2023 participamos en el <strong>2º Congreso Chileno sobre Maltrato y Abuso Sexual Infantil.</strong> <br>
+
+        Presentando la experiencia que se ha estado desarrollando en el ámbito de trabajo con adolescentes que han abusado sexualmente de otros niños.<br>
+        
+        Fue una muy buena oportunidad de compartir reflexiones y experiencias de trabajo sobre violencia y maltrato hacia la niñez.
+    </h6>
+    </article>
+</div>
+
+
+
+</div>
+
+
+
+<p> 
+<a class="btn btnnoticias" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+<span>Ver todas las noticias</span>
+</a>
+            
+</p>
+
+
+
+
+</div>
+</div>
+</section>
+
+<!-- fin noticias-->
+
+
+<!-- card publicaciones -->
+<section id="articulos">
+
+    <h2 class="seccion"data-bs-toggle="tooltip" data-bs-placement="top" 
+    title="Articulos y material de estudio">Articulos</h2>
+
+    <div class="articulo1">
+        <div class="fotoportada1"></div>
+                
+        <article class="textoarticulo">
+        <h5>Frans de Waal</h5>
+        <h3>El Bonobo y los Diez Mandamientos. En busca de la ética entre los primates.</h3>
+        <h6>Ediciones Metatemas Busquets, 2014.</h6>
+
+        <footer class="color2">
+            <button class="botona btn "data-bs-toggle="collapse" href="#collapseExample1" 
+            role="button" aria-expanded="false" aria-controls="collapseExample1">Leer artículo
+            <i class="flecha fa-solid fa-arrow-right"></i> </button>
+        </footer>
+       
+        </article>
+
+        <div class="collapse" id="collapseExample1"> 
+        <article class="textolargo"> 
+        <h6>Todos los libros de Frans de Waal son una delicia de leer: amenos y llenos de anécdotas personales y profesionales inundados de humor e inteligencia. Además, la relevancia del autor hace que no haya que esperar mucho para que las ediciones en español sean accesibles al público. <br> <br>
+            Este libro trata de abordar la valiente y polémica pregunta de si es posible considerar que la postura moral o ética es única o exclusiva del ser humano o es posible de ser observada en otros primates. Hace solo un par de décadas insinuar la existencia de procesos cognitivos superiores en otros animales como motivaciones o consciencia, o utilizar la palabra antropomorfismo podía terminar con la carrera académica o cerrar las puertas de prestigiosas revistas como Science. ¡Imaginen insinuar que la noción de “bueno o malo” no sea únicamente humana!<br> <br>
+            Como buen holandés, de Waal estructura su libro inspirándose en la observación detallada de una obra maravillosa de El Bosco, llamada el jardín de las delicias (se pude visitar en el Museo Nacional del Prado en Madrid). Atendiendo a cada uno de los detalles de este retablo pintado nos invita a repasar las nociones de altruismo, empatía, cooperación y equidad en el mundo mamífero y primate. Describe con detalle, cientos de escenas relacionales donde otros primates o mamíferos actúan por gratitud, reciprocidad o venganza: una rata se motiva a abrir una caja de vidrio para liberar un congénere atrapado con tanto ahínco como se esmera en abrirla para conseguir virutas de chocolate o cómo jóvenes universitarios que deben subrayar palabras como Dios o Religión de un párrafo (imprimación)  previo a un ejercicio donde se pone a prueba su generosidad suelen serlo más que aquellos que no fueron expuestos a dicha tarea, aunque no comulguen necesariamente con ninguna religión en particular (la religiosidad activaría altruismo).<br> <br>
+            Hacer el bien es movido por el diseño que compartimos con otras especies sociales y nos invita a mirar los determinantes evolutivos que mueven nuestra conducta social: “Nadie duda de la superioridad de nuestro intelecto, pero no tenemos apetencias o necesidades básicas que no estén también presentes en nuestros parientes cercanos. Como nosotros, los monos luchan por el poder, disfrutan el sexo, quieren seguridad y afecto, matan por el territorio y valoran la confianza y la cooperación. Es verdad que tenemos computadores y aviones, pero nuestro bagaje psicológico sigue siendo de un primate social”<br> <br>
+            De Waal propone dos niveles de ética, uno que denomina Moralidad uno a uno fundada en el código social propio del diseño mamífero: “el altruismo tanto humano como animal puede ser genuino (sin esperar nada a cambio). Tanto es así que nos cuesta reprimirlo. A partir de un estudio de imágenes J. Rilling  de la Universidad de Emory concluyó que tenemos un sesgo emocional hacia la cooperación que solo puede vencerse mediante control cognitivo esforzado. Nuestro primer impulso es cooperar y asistir, y que solo secundariamente sopesamos la opción de no hacerlo, para lo cual necesitamos alguna razón”; y otro muy desarrollado en nuestra especie denominado de “Preocupación Comunitaria” donde las capacidades cognitivas e intelectuales y el lenguaje ha permitido que “la humanidad haya llevado la construcción de la reputación y la preocupación comunitaria a un nivel nunca antes visto en los antropoides, tensando así la red moral alrededor de cada individuo” <br> <br>
+             “El código moral no viene impuesto desde arriba ni se deriva de principios bien razonados, sino que surge de valores implantados que han estado ahí desde la noche de los tiempos. El deseo de pertenencia, de buena convivencia, de amar y ser amados, nos lleva a hacer todo lo que está en nuestra mano para llevarnos bien con aquellos de los que dependemos. Los otros primates sociales comparten este valor y dependen del mismo filtro de la emoción y acción para alcanzar este modus vivendi consensuado”<br> <br>
+            Nuevamente una ducha de evidencias que nos obliga a ponernos un ropaje de humildad y de pertenencia al camino evolutivo natural.<br> <br>
+            Alicia Cruzat O.
+            </h6>
+        </article>
+        </div>
+    
+    </div>
+
+    <div class="articulo1">
+        <div class="fotoportada2"></div>
+                
+        <article class="textoarticulo">
+        <h5>Stefano Mancuso y Alessandra Viola</h5>
+        <h3>Sensibilidad e Inteligencia en el Mundo Vegetal</h3>
+        <h6>Editorial Galaxia Gutemberg, 2018</h6>
+
+        <footer class="color2">
+            <button class="botona btn "data-bs-toggle="collapse" href="#collapseExample2" 
+            role="button" aria-expanded="false" aria-controls="collapseExample2">Leer artículo
+            <i class="flecha fa-solid fa-arrow-right"></i> </button>
+        </footer>
+       
+        </article>
+
+        <div class="collapse" id="collapseExample2"> 
+        <article class="textolargo"> 
+        <h6>Llegar a Stefano Mancuso fue un regalo necesario. Luego de leer a un apasionado por el mundo vegetal como lo fue Darwin (se recomienda por ejemplo leer sus libros “Los movimientos y hábitos de las plantas trepadoras” ; “plantas carnívoras” o “la fecundación de las orquídeas”), es refrescante constatar que desde la ciencia contemporánea existen aún enamorados de la complejidad e inteligencia del infravalorado mundo de las plantas. Desde la evidencia y la experimentación; desde la observación naturalista; desde la contemplación y la generación de preguntas relevantes, Mancuso nos invita (y obliga), desde su conocimiento en profundidad del mundo “de lo verde” a revisar nuestra posición en el mundo desde una urgente humildad ontológica. Tal como señala en este maravilloso libro: “la biología se halla más o menos en una situación pre copernicana. Impera la idea de que el hombre es el ser vivo más importante que existe y que todo gira en torno a él….(cuando) el reino vegetal representa el 99,5 por ciento de la biomasa del planeta”. <br> <br>
+            Además de mostrar evidencia de las “pasmantes” capacidades relacionales y “cognitivas” de las plantas visitando cada uno de sus “sentidos” (olfato, oído, visión, etc.) nos ofrece al final de cada capítulo,   valiosa bibliografía referencial para aquellos inquietos que deseen saber de primera mano los conocimientos que este libro recopila y ofrece al público general. <br> <br>
+            Mancuso señala en las conclusiones de este libro que “resulta evidente que las diferencias entre plantas y animales no son cualitativas sino cuantitativas”. Una nueva lectura que nos acerca a comprender con más apertura y sensibilidad las visionarias idea de Darwin :“la diferencia mental entre el hombre y el animal es más de grado que de clase”  (El Origen del Hombre).<br> <br>
+            Parafraseando el fantástico libro del cuasi Chileno Benjamín Labatut, el mundo vegetal es un “un verdor terriblemente inteligente”. <br> <br>
+            Alicia Cruzat O.
+            </h6>
+        </article>
+        </div>
+    
+    </div>
+
+    <div class="articulo1">
+        <div class="fotoportada3"></div>
+                
+        <article class="textoarticulo">
+        <h5>Carl Safina</h5>
+        <h3>Mentes Maravillosas. Lo que piensan y sienten los animales</h3>
+        <h6>Editorial Galaxia Gutemberg, 2017</h6>
+
+        <footer class="color2">
+            <button class="botona btn"data-bs-toggle="collapse" href="#collapseExample3" 
+            role="button" aria-expanded="false" aria-controls="collapseExample3">Leer artículo
+            <i class="flecha fa-solid fa-arrow-right"></i> </button>
+        </footer>
+       
+        </article>
+
+        <div class="collapse" id="collapseExample3"> 
+        <article class="textolargo"> 
+        <h6>Carl Safina nos ofrece este libro para sensibilizar al público general sobre la complejidad de la vida sintiente, cognitiva y relacional en otras especies. Realizando visitas a campos de observación de investigadores de elefantes, lobos, orcas, y recogiendo sus impresiones, nos invita a convérsenos de cómo somos partes de un continuo natural donde “todo lo que hacemos y poseemos los humanos viene de algún lugar. Antes de poder dar forma a los humanos, la evolución necesitaba tener a su disposición la mayoría de las piezas, y esas piezas se desarrollaron para modelos anteriores. Nosotros (al igual que otras especies) las heredamos…en el largo túnel de la vida, el origen de nuestro cerebro es inseparable del de otras especias.  Y, por lo tanto, lo mismo sucede con nuestra mente”. <br> <br>
+            El libro ofrece cientos de escenas, descriptivas y detalladas del relacionamiento y las habilidades de la vida familiar de los elefantes y las orcas…de los lobos…desde ellas surgen sorprendentes aprendizajes y reflexiones sobre nuestro propio relacionamiento y vida en convivencia con otros. Por ejemplo, luego de describir un episodio en que una manada de lobos se despierta y comienzan a saludarse, aullar y gemir en conjunto se pregunta si “serán los aullidos la música de los lobos, hecha exclusivamente por y para ellos?” para luego invitarnos a  abordar la relevancia de la prosodia (la música, tono y el ritmo de las palabras) y su valor comunicativo “ se podría decir que, a veces, el dejar de lado el significado verbal de la letra, purifica la música que emite la voz” permitiendo que patrones de sonidos (en conexión con patrones de funcionamiento corporal como los latidos cardiacos) comuniquen ciertas emociones de manera única. <br> <br>
+            Un libro para seguir estudiando el proceso relacional animal (y humano) con anécdotas que calan en lo más profundo de una sensibilidad claramente compartida inter-específicamente.<br> <br>
+            Alicia Cruzat O.
+            </h6>
+        </article>
+        </div>
+    
+    </div>
+
+
+</section>
+
+
+<!-- fin card publicaciones -->
+
+
+<!-- inicio contacto  
+
+-->
+    
+
+<footer id=piedepagina> 
+    <div class="container">
+
+    <div class="row"> 
+
+        <div class="logoblanco">
+            
+        </div>
+
+        <div class="footer-col"> 
+            <h4>Servicios</h4>
+            <ul>
+                <li><a href="#servicios">Atención Clínica</a></li>
+                <li><a href="#servicioprofesional">Formación Profesional</a></li>
+            </ul>            
+        </div>
+
+        <div class="footer-col"> 
+            <h4>Secciones</h4>
+            <ul>
+                <li><a href="#carouselExampleDark">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#vinculos">Vinculos</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col row"> 
+            <h4>Contacto</h4>
+            <ul>
+                <li class="linea"><i class="icono fa-solid fa-location-dot"></i>
+                    Almirante Pastene Nº 185 Oficina 706 </li>
+                <li class="margen">Providencia</li>
+                <li class="margen">Chile</li>
+                <li class="linea espacio"> <i class="icono fa-regular fa-envelope"></i>contacto@multigeneracional.cl</li>
+                
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+
+
+</footer>
+
+
+
+
+
+
+</body>
+</html>
