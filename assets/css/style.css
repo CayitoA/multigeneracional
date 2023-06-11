@@ -673,6 +673,15 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
+#perfiles .seccion {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family:inherit;
+}
+
 #perfiles .perfil123{
     background-color: #BDD9F2;
     width: 100%;
@@ -739,14 +748,23 @@ body{
     max-width: 300px;
     flex-grow: 1;
 }
-#perfiles .perfil123 .perfil3  :hover {
+
+
+#perfiles .perfil123 .perfil1:hover{
     background-size: cover;
-    
-    transform: scale (1.1);
-    transition: all 300ms;
-}
-
-
+    scale: 110%;
+    transition: 500ms;
+ }
+ #perfiles .perfil123 .perfil2:hover{
+     background-size: cover;
+     scale: 110%;
+     transition: 500ms;
+  }
+  #perfiles .perfil123 .perfil3:hover{
+    background-size: cover;
+     scale: 110%;
+     transition: 500ms;
+  }
 
 
 #perfiles .detalle{
@@ -780,7 +798,7 @@ body{
 
 
 #perfiles .nombre   span{
-    background-color:#88aabf;
+    background-color:#0a4da6;
     padding: 5px 18px;
     border-radius: 12px 0;
     align-items:center;
@@ -820,6 +838,286 @@ body{
     border: 2px solid #030a8c ;
     color: white;
 }
+
+
+/* seccion socias */
+
+#nosotrossocias{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#nosotrossocias .seccion {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family:inherit;
+}
+
+/*secion perfiles socias*/
+
+#perfilessocias {
+    width: 90%;
+    margin: 0 auto;
+}
+#perfilessocias .perfil1234{
+    background-color: #e3edf2;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    border-radius: 10px;
+    max-width: 1200px;
+    min-height: 30vh;
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    
+
+#perfilessocias .detalle  ul{
+    list-style: square;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#perfilessocias .perfil1234 .perfil1{
+    background-image: url(../img/meugenia.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+
+    flex-basis: 240px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+
+#perfilessocias .perfil1234 .perfil2{
+    background-image: url(../img/geraldine2.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+
+    flex-basis: 240px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+#perfilessocias  .perfil1234 .perfil3{
+    background-image: url(../img/ximena.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+
+    flex-basis: 240px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+
+#perfilessocias  .perfil1234 .perfil4{
+    background-image: url(../img/monica.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+
+    flex-basis: 240px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+#perfilessocias .perfil1234 .perfil3  :hover {
+    background-size: cover;
+    
+    transform: scale (1.1);
+    transition: all 300ms;
+}
+
+#perfilessocias .detalle{
+    background-color: #e3edf2;
+    background-color: whitesmoke;
+
+    padding: 15px 10px 1px 10px;
+    border-radius: 10px;
+
+    flex-basis: 280px;
+    max-width: 280px;
+    flex-grow: 1;
+    margin-bottom: 30px;
+}
+
+#perfilessocias .nombre  {
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#perfilessocias .nombre :hover{
+    transform: scale(1.05);
+    transition: all 300ms;
+    background-color: #030a8c;
+}
+
+#perfilessocias .nombre   span{
+    background-color:#1E88E5;
+    padding: 5px 18px;
+    border-radius: 12px 0;
+    align-items:center;
+}
+/* boton perfil desplegar */
+
+#perfiles .botonderecha{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#perfiles .botonperfil{
+    background-color: #e3edf2;
+    border: 2px solid #1E88E5 ;
+    color: #1E88E5;
+    border-radius: 7px;
+    padding: 5px 70px;
+    font-weight: 800;   
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#perfiles .flecha{
+    padding-left: 10px;
+}
+
+#perfiles .btn :hover{
+    background-color: #1E88E5;
+    color: white;
+    border: 2px solid #1E88E5 ;
+
+}
+
+#perfiles .btn :active{
+    background-color: #030a8c;
+    border: 2px solid #030a8c ;
+    color: white;
+}
+
+/* seccion nosotros */
+
+#inspiran {
+    width: 90%;
+    margin: 0 auto;
+}
+#inspiran .seccion {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family:inherit;
+}
+#inspiran .paulina {
+    width: 100%;
+    margin: 0px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+#inspiran .textopaulina{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    height: 22rem;
+    flex-basis: 600px;
+    flex-grow: 1;
+    text-align: left;
+    padding: 30px 30px;
+    background-color: white;
+}
+
+#inspiran .fotopaulina{
+    background-image: url(../img/Paulina_final.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 22rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#inspiran .textonoticia1 h5{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#inspiran .textopaulina h1{
+    padding: 3px 0;
+    font-weight: 600;
+
+}
+#inspiran .textopaulina h6{
+    line-height: 22px;
+    padding: 0 0 10px 0;
+}
+
+#inspiran .paulina footer{
+    display: flex;
+    justify-content: center;   
+    padding: 0;
+}
+#inspiran .botonp{
+    background-color: #f2b90c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 60px;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#inspiran .botonp :hover{
+    background-color: #ffac4b;
+    color: white;
+    text-decoration: none;
+}
+#inspiran .botonp a{
+    text-decoration: none;
+    color: white;
+}
+#inspiran .flecha{
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+
 
 /* seccion vinculos */
 @keyframes scroll{
@@ -973,18 +1271,17 @@ margin: 0 auto;
     align-items: flex-end;
     justify-content: center;
 }
-
-#noticias .textonoticia1 h3{
-    font-weight: 600;
-}
 #noticias .textonoticia1 h4{
+    font-weight: 700;
+}
+#noticias .textonoticia1 h5{
     font-weight: 600;
+    text-transform: uppercase;
 }
 #noticias .btnnoticias{
     display: flex;
     justify-content: flex-end;
 }
-
 #noticias  p span  {
     background-color: #1E88E5;
     color: white;
@@ -995,7 +1292,6 @@ margin: 0 auto;
     border: none;
     padding: 5px 25px;
 }
-
 #noticias .btnnoticias :hover{
     background-color: #030a8c;
     color: white;
@@ -1025,7 +1321,7 @@ margin: 0 auto;
     flex-wrap: wrap;
     border-radius: 10px;
     padding: 0px 0;
-    background-color: #e3edf2;
+    background-color: #FFF7DB;
 }
 #articulos .textoarticulo{
     display: grid;
@@ -1041,7 +1337,6 @@ margin: 0 auto;
     padding: 30px 30px;
     background-color: white;
 }
-
 #articulos .fotoportada1{
     background-image: url(../img/libro1.jpg);
     background-size: cover;
@@ -1086,7 +1381,20 @@ margin: 0 auto;
     align-items: flex-end;
     justify-content: center;
 }
-
+#articulos .fotoportada4{
+    background-image: url(../img/libro4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 18rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
 #articulos .textoarticulo h3{
     font-weight: 700;
 }
@@ -1096,6 +1404,7 @@ margin: 0 auto;
 }
 #articulos .textoarticulo h6{
     font-weight: 600;
+
 }
 
 #articulos .textoarticulo footer  {
@@ -1114,16 +1423,30 @@ margin: 0 auto;
     text-transform: uppercase;
     font-weight: 700;
 }
-
+#articulos .color2  :hover{
+    background-color: #ffac4b;
+    color: white;
+    text-decoration: none;
+}
+#articulos .color2  :active{
+    background-color: #ff9c08;
+    color: white;
+    text-decoration: none;
+}
+#articulos .flecha{
+    padding-left: 10px;
+    font-weight: 700;
+}
 #articulos .textolargo {
     margin: 0 30px;
     padding: 30px;
     text-align: justify;
     margin-top: 30px;
-    background-color: #e3edf2;
-
+    line-height: 100px;
 }
-
+#articulos .textolargo h6{
+    line-height: 22px;
+}
 
 
 
@@ -1415,3 +1738,131 @@ margin: 0 auto;
     display: flex;
     justify-content: flex-end;    
 }
+
+
+
+
+#inspiran .seccionp {
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family:inherit;
+}
+#inspiran .paulinapagina {
+    background-color: white;
+    width: 100%;
+    margin: 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+#inspiran .textocorto{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    flex-grow: 1;
+    text-align: left;
+    padding: 30px 0px;
+}
+#inspiran .textocorto h1{
+    padding: 15px 0;
+    font-weight: 600;
+}
+#inspiran .textocorto h4{
+    padding: 9px 0;
+    font-weight: 600;
+}
+
+#inspiran .fotopaulina2{
+    background-image: url(../img/Paulina_final.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    height: 80vh;
+    min-width: 300px;
+   
+    border-radius: 5px 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 5px solid #ff9c08;
+
+}
+
+#inspiran .textolargo {
+    background-color: white;
+    margin: 0 30px;
+    padding: 30px;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: auto;
+}
+#inspiran .galeriafotos{
+    background-color:#FFF7DB;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px  0;
+    max-width: 1200px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+#inspiran .galeriafotos .foto1{
+    background-image: url(../img/janopaulina.jpeg);
+    background-size: cover;
+    position: relative;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+
+    flex-basis: 300px;
+    max-width: 355px;
+    flex-grow: 1;
+}
+#inspiran .galeriafotos .foto1:hover{
+   scale: 105%;
+   transition: 500ms;
+}
+
+
+#inspiran figure{
+    margin: 0;
+    display: inline-block;
+    border: 4px solid red;
+    position: relative;
+}
+
+#inspiran  figcaption{
+    color: white;
+    transition: all 0.3s;
+    display: none;
+    background:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 3%;
+    color: white;
+}
+
+#inspiran figure:hover figcaption{
+    display: block;
+}
+
+
