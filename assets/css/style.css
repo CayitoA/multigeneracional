@@ -1781,6 +1781,7 @@ margin: 0 auto;
 #inspiranp .textocorto h4{
     padding: 9px 0;
     font-weight: 600;
+    margin-top: 50px;
 }
 
 #inspiranp .nombre   span{
@@ -1799,12 +1800,16 @@ margin: 0 auto;
     width: 60%;
     height: 70vh;
     min-width: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
    
     border-radius: 5px 40px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     border: 10px solid #f2b90c;
+
+
 
 }
 
@@ -1821,9 +1826,9 @@ margin: 0 auto;
     }
 #inspiranp .galeriafotos{
     background-color: #f2cf8d;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px  0;
+    padding: 30px  0;
     max-width: 1200px;
     min-height: 350px;
     display: flex;
@@ -1843,10 +1848,11 @@ margin: 0 auto;
     margin: auto;
     display: block;
     border-radius: 12px;
-    flex-basis: 200px;
-    max-width: 370px;
+    flex-basis: 400px;
+    max-width: 450px;
     flex-grow: 1;
 }
+
 #inspiranp .galeriafotos .foto1:hover{
    scale: 105%;
    transition: 500ms;
