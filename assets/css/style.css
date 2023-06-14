@@ -1848,13 +1848,13 @@ margin: 0 auto;
     background-image: url(../img/janopaulina.jpeg);
     background-size: cover;
     position: relative;
-    width: 360px;
+    width: 350px;
     height: 320px;
     margin: auto;
     display: block;
     border-radius: 12px;
     flex-basis: 380px;
-    max-width: 430px;
+    max-width: 420px;
     flex-grow: 1;
 }
 
