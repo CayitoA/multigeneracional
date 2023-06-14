@@ -1060,7 +1060,7 @@ body{
 }
 
 #inspiran .fotopaulina{
-    background-image: url(../img/Paulina_final.jpg);
+    background-image: url(../img/paulinaFinal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1742,15 +1742,15 @@ margin: 0 auto;
 
 
 
-#inspiran .seccionp {
+#inspiranp .seccionp {
     margin-top: 100px;
     margin-left: 30px;
     margin-bottom: 50px;
     font-weight: 700;
     font-family:inherit;
 }
-#inspiran .paulinapagina {
-    background-color: white;
+#inspiranp .paulinapagina {
+    background-color: #FFF7DB;
     width: 100%;
     margin: 0px ;
     display: flex;
@@ -1761,7 +1761,7 @@ margin: 0 auto;
     border-radius: 10px;
     padding: 20px 0;
 }
-#inspiran .textocorto{
+#inspiranp .textocorto{
     display: grid;
     flex-direction: row;
     justify-content: center;
@@ -1771,84 +1771,146 @@ margin: 0 auto;
     flex-grow: 1;
     text-align: left;
     padding: 30px 0px;
+
 }
-#inspiran .textocorto h1{
+#inspiranp .textocorto h1{
     padding: 15px 0;
     font-weight: 600;
+    color: white;
 }
-#inspiran .textocorto h4{
+#inspiranp .textocorto h4{
     padding: 9px 0;
     font-weight: 600;
 }
 
-#inspiran .fotopaulina2{
-    background-image: url(../img/Paulina_final.jpg);
-    background-size: cover;
+#inspiranp .nombre   span{
+    background-color:#f2b90c;
+    padding: 5px 18px;
+    border-radius: 12px 0;
+    align-items:center;
+    display: inline-block;
+}
+
+#inspiranp .fotopaulina2{
+    background-image: url(../img/paulinaFinal2.jpg);
+    background-size:   cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 60%;
-    height: 80vh;
+    height: 70vh;
     min-width: 300px;
    
-    border-radius: 5px 20px;
+    border-radius: 5px 40px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    border: 5px solid #ff9c08;
+    border: 10px solid #f2b90c;
 
 }
 
-#inspiran .textolargo {
-    background-color: white;
+
+#inspiranp .textolargo {
     margin: 0 30px;
     padding: 30px;
     text-align: justify;
     margin-top: 30px;
     line-height: auto;
 }
-#inspiran .galeriafotos{
-    background-color:#FFF7DB;
-    width: 100%;
+#inspiranp .galeriafotos{
+    background-color: #f2cf8d;
+    width: 80%;
     margin: 0 auto;
     padding: 20px  0;
     max-width: 1200px;
     min-height: 350px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-grow: 1;
     gap: 20px;
 }
 
-#inspiran .galeriafotos .foto1{
+#inspiranp .galeriafotos .foto1{
     background-image: url(../img/janopaulina.jpeg);
     background-size: cover;
     position: relative;
-    width: 350px;
-    height: 300px;
+    width: 360px;
+    height: 320px;
     margin: auto;
     display: block;
-    border-radius: 10px;
-
-    flex-basis: 300px;
-    max-width: 355px;
+    border-radius: 12px;
+    flex-basis: 200px;
+    max-width: 370px;
     flex-grow: 1;
 }
-#inspiran .galeriafotos .foto1:hover{
+#inspiranp .galeriafotos .foto1:hover{
+   scale: 105%;
+   transition: 500ms;
+}
+#inspiranp .galeriafotos .foto2{
+    background-image: url(../img/opcionfinal.jpg);
+    background-size: cover;
+    position: relative;
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: 200px;
+    max-width: 370px;
+    flex-grow: 1;
+}
+#inspiranp .galeriafotos .foto2:hover:hover{
+   scale: 105%;
+   transition: 500ms;
+}
+
+#inspiranp .galeriafotos .foto3{
+    background-image: url(../img/paulina_uniacc.jpg);
+    background-size: cover;
+    position: relative;
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: 200px;
+    max-width: 370px;
+    flex-grow: 1;
+}
+#inspiranp .galeriafotos .foto3:hover:hover{
+   scale: 105%;
+   transition: 500ms;
+}
+#inspiranp .galeriafotos .foto4{
+    background-image: url(../img/foto-4-final.jpg);
+    background-size: cover;
+    position: relative;
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: 200px;
+    max-width: 370px;
+    flex-grow: 1;
+}
+#inspiranp .galeriafotos .foto4:hover:hover{
    scale: 105%;
    transition: 500ms;
 }
 
 
-#inspiran figure{
+
+#inspiranp figure{
     margin: 0;
     display: inline-block;
-    border: 4px solid red;
+    border: 5px solid whitesmoke;
     position: relative;
 }
 
-#inspiran  figcaption{
+#inspiranp  figcaption{
     color: white;
     transition: all 0.3s;
     display: none;
@@ -1861,7 +1923,7 @@ margin: 0 auto;
     color: white;
 }
 
-#inspiran figure:hover figcaption{
+#inspiranp figure:hover figcaption{
     display: block;
 }
 
