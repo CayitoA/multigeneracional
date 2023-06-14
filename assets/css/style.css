@@ -1832,6 +1832,8 @@ margin: 0 auto;
     width: 90%;
     margin: 0 auto;
     padding: 30px  0;
+    border-radius: 12px;
+
     max-width: 1200px;
     min-height: 350px;
     display: flex;
@@ -1851,8 +1853,8 @@ margin: 0 auto;
     margin: auto;
     display: block;
     border-radius: 12px;
-    flex-basis: 400px;
-    max-width: 450px;
+    flex-basis: 380px;
+    max-width: 430px;
     flex-grow: 1;
 }
 
