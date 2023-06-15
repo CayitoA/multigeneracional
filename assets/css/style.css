@@ -1854,6 +1854,7 @@ margin: 0 auto;
     display: block;
     border-radius: 12px;
     flex-basis: fill;
+    flex-grow: 2;
     max-width: 420px;
     flex-grow: 1;
 }
