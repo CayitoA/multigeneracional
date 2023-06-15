@@ -1853,7 +1853,7 @@ margin: 0 auto;
     margin: auto;
     display: block;
     border-radius: 12px;
-    flex-basis: 340px;
+    flex-basis: fill;
     max-width: 420px;
     flex-grow: 1;
 }
