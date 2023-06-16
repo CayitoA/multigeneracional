@@ -1438,8 +1438,8 @@ margin: 0 auto;
     font-weight: 700;
 }
 #articulos .textolargo {
-    margin: 0 30px;
-    padding: 30px;
+    margin: 0 20px;
+    padding: 30px 5px;
     text-align: justify;
     margin-top: 30px;
     line-height: 100px;
