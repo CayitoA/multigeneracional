@@ -1103,8 +1103,14 @@ body{
     text-transform: uppercase;
     font-weight: 700;
 }
-#inspiran .botonp :hover{
+#inspiran .botonp:hover{
     background-color: #ffac4b;
+    color: white;
+    text-decoration: none;
+}
+
+#inspiran .botonp:active{
+    background-color: #ff9c08;
     color: white;
     text-decoration: none;
 }
@@ -1749,7 +1755,7 @@ margin: 0 auto;
 
 #inspiranp .seccionp {
     margin-top: 100px;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-bottom: 50px;
     font-weight: 700;
     font-family:inherit;
@@ -1834,6 +1840,8 @@ margin: 0 auto;
     }
 #inspiranp .galeriafotos{
     background-color: #f2cf8d;
+    background-color: #FFF7DB;
+
     width: 90%;
     margin: 0 auto;
     padding: 30px  0;
@@ -1871,13 +1879,13 @@ margin: 0 auto;
     background-image: url(../img/opcionfinal.jpg);
     background-size: cover;
     position: relative;
-    width: 300px;
+    width: 340px;
     height: 320px;
     margin: auto;
     display: block;
     border-radius: 12px;
-    flex-basis: 200px;
-    max-width: 360px;
+    flex-basis: auto;
+    max-width: 420px;
     flex-grow: 1;
 }
 #inspiranp .galeriafotos .foto2:hover:hover{
@@ -1889,13 +1897,13 @@ margin: 0 auto;
     background-image: url(../img/paulina_uniacc.jpg);
     background-size: cover;
     position: relative;
-    width: 360px;
+    width: 340px;
     height: 320px;
     margin: auto;
     display: block;
     border-radius: 12px;
-    flex-basis: 200px;
-    max-width: 370px;
+    flex-basis: auto;
+    max-width: 420px;
     flex-grow: 1;
 }
 #inspiranp .galeriafotos .foto3:hover:hover{
@@ -1906,21 +1914,19 @@ margin: 0 auto;
     background-image: url(../img/foto-4-final.jpg);
     background-size: cover;
     position: relative;
-    width: 360px;
+    width: 340px;
     height: 320px;
     margin: auto;
     display: block;
     border-radius: 12px;
-    flex-basis: 200px;
-    max-width: 370px;
+    flex-basis: auto;
+    max-width: 420px;
     flex-grow: 1;
 }
 #inspiranp .galeriafotos .foto4:hover:hover{
    scale: 105%;
    transition: 500ms;
 }
-
-
 
 #inspiranp figure{
     margin: 0;
