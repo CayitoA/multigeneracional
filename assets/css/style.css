@@ -2043,23 +2043,77 @@ margin: 0 auto;
     transform: rotate(45deg);
   }
 
-.wrapper .row .foto01{
-    background-image: url(../img/foto-4-final.jpg);
+
+.wrapper .row .foto2{
+    background-image: url(../img/2001publicaciongts.jpg);
     background-size: cover;
-    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
     
-    width: 340px;
-    height: 320px;
+    width: 320px;
+    height: 300px;
     margin: auto;
     display: block;
     border-radius: 12px;
     flex-basis: auto;
-    max-width: 420px;
+    max-width: 400px;
+    border: 5px solid white;
+
+}
+.wrapper .row .foto6{
+    background-image: url(../img/2012coloquioPM.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 400px;
+    border: 5px solid white;
+
+}
+.wrapper .row .foto7{
+    background-image: url(../img/2015bowen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 400px;
+    border: 5px solid white;
+
+}
+ 
+.wrapper .row .foto9{
+    background-image: url(../img/clasediplomado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 400px;
+    border: 5px solid white;
+
 }
 
 
 
-  /*izquierda*/
+
+/*izquierda*/
   .wrapper .row-1{
     justify-content: flex-start;
   }
