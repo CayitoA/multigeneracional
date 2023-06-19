@@ -2089,7 +2089,7 @@ margin: 0 auto;
     display: block;
     border-radius: 12px;
     flex-basis: auto;
-    max-width: 270px;
+    max-width: 100%;
     border: 5px solid white;
 
 }
