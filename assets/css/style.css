@@ -1091,8 +1091,11 @@ body{
 #inspiran .paulina footer{
     display: flex;
     justify-content: center;   
-    padding: 0;
+    padding:  15px 0;
+    align-items: flex-end;
 }
+
+
 #inspiran .botonp{
     background-color: #f2b90c;
     color: white;
@@ -1205,6 +1208,7 @@ margin: 0 auto;
     flex-wrap: wrap;
     border-radius: 10px;
     padding: 20px 0;
+    background-color: greenyellow;
 }
 #noticias .textonoticia1{
     display: grid;
@@ -1980,19 +1984,17 @@ margin: 0 auto;
 
 }
 
+
   /*Título*/
   
 
   .wrapper .seccionp{
     margin-top: 100px;
-    margin-left: 0px;
+    margin-left: 35px;
     margin-bottom: 100px;
     font-weight: 700;
     font-family:inherit;
-
   }
-
-
 
   /*Envoltura*/
   .wrapper{
@@ -2009,6 +2011,7 @@ margin: 0 auto;
     left: 50%;
     top: 20px;
     transform: translateX(-50%);
+    
   }
   .wrapper .row{
     display: flex;
@@ -2032,7 +2035,6 @@ margin: 0 auto;
         color: black;
   }
 
-
   .wrapper .row section::before{
     position: absolute;
     content: "";
@@ -2044,7 +2046,6 @@ margin: 0 auto;
     transform: rotate(45deg);
   }
 
-
 .wrapper .row .foto2{
     background-image: url(../img/2001publicaciongts.jpg);
     background-size: cover;
@@ -2052,12 +2053,12 @@ margin: 0 auto;
     background-position: center;
     
     width: 320px;
-    height: 300px;
+    height: 280px;
     margin: auto;
     display: block;
     border-radius: 12px;
     flex-basis: auto;
-    max-width: 400px;
+    max-width: 100%;
     border: 5px solid white;
 
 }
@@ -2068,12 +2069,12 @@ margin: 0 auto;
     background-position: center;
     
     width: 320px;
-    height: 300px;
+    height: 280px;
     margin: auto;
     display: block;
     border-radius: 12px;
     flex-basis: auto;
-   min-width: 250px;
+    max-width: 100%;
     border: 5px solid white;
 
 }
@@ -2101,12 +2102,12 @@ margin: 0 auto;
     background-position: center;
     
     width: 320px;
-    height: 300px;
+    height: 280px;
     margin: auto;
     display: block;
     border-radius: 12px;
     flex-basis: auto;
-    max-width: 400px;
+    max-width: 100%;
     border: 5px solid white;
 
 }
@@ -2116,7 +2117,7 @@ margin: 0 auto;
     color: white;
     transition: all 0.3s;
     display: none;
-    background: #030a8c;
+    background: #0a4da6;
     position: absolute;
     left: 0px;
     bottom: 0px;
@@ -2186,15 +2187,12 @@ margin: 0 auto;
     font-size: 22px;
     font-weight: 700;
     color: white;
-
     background-color: #f2b90c;
-
     padding: 3px 15px;
     border-radius: 12px 0;
   }
 
   .row  .subtitulo {
-    
     font-weight: 600;
     padding-top: 10px;
   }
