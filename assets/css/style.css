@@ -1074,18 +1074,16 @@ body{
     justify-content: center;
 }
 
-#inspiran .textonoticia1 h5{
+#inspiran .textopaulina h5{
     font-weight: 600;
-    text-transform: uppercase;
+    padding: 5px 0 0 0;
 }
 #inspiran .textopaulina h1{
-    padding: 3px 0;
+    padding: 10px 0;
     font-weight: 600;
-
 }
 #inspiran .textopaulina h6{
     line-height: 22px;
-    padding: 0 0 10px 0;
 }
 
 #inspiran .paulina footer{
