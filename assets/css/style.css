@@ -1020,6 +1020,42 @@ body{
     color: white;
 }
 
+/* linea de tiempo */
+
+#zonahistoria{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    padding: 50px 0;
+
+}
+
+#lineadetiempo{
+display: flex;
+width: 600px;
+height: 430px;
+
+}
+
+#lineadetiempo img{
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+#lineadetiempo img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
 /* seccion nosotros */
 
 #inspiran {
