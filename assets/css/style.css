@@ -1053,6 +1053,8 @@ body{
 display: flex;
 width: 600px;
 height: 400px;
+max-width: 100%;
+
 
 }
 
