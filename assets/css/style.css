@@ -1022,21 +1022,37 @@ body{
 
 /* linea de tiempo */
 
-#zonahistoria{
-    width: 60%;
+#historia{
+    width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+
+}
+#historia .seccion {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family:inherit;
+}
+
+#historia .zonahistoria{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: gainsboro;
-    padding: 50px 0;
+    background-color: whitesmoke;
 
 }
 
 #lineadetiempo{
 display: flex;
 width: 600px;
-height: 430px;
+height: 400px;
 
 }
 
@@ -1054,7 +1070,6 @@ height: 430px;
     opacity: 1;
     filter: contrast(120%);
 }
-
 
 /* seccion nosotros */
 
@@ -1081,19 +1096,19 @@ height: 430px;
     padding: 20px 0;
 }
 #inspiran .textopaulina{
-    display: grid;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     align-content: center;
     width: 60%;
     height: 22rem;
     flex-basis: 600px;
     flex-grow: 1;
-    text-align: left;
     padding: 30px 30px;
     background-color: white;
+    text-align: left;
 }
+
 
 #inspiran .fotopaulina{
     background-image: url(../img/paulinaFinal.jpg);
@@ -1105,28 +1120,26 @@ height: 430px;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+   
 }
 
 #inspiran .textopaulina h5{
     font-weight: 600;
-    padding: 5px 0 0 0;
 }
 #inspiran .textopaulina h1{
-    padding: 10px 0;
     font-weight: 600;
 }
 #inspiran .textopaulina h6{
     line-height: 22px;
+    padding-top: 10px;
+
 }
 
 #inspiran .paulina footer{
     display: flex;
     justify-content: center;   
-    padding:  15px 0;
     align-items: flex-end;
+    padding-top: 20px;
 }
 
 
@@ -1157,7 +1170,7 @@ height: 430px;
 }
 #inspiran .flecha{
     padding-left: 10px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 
@@ -1242,13 +1255,11 @@ margin: 0 auto;
     flex-wrap: wrap;
     border-radius: 10px;
     padding: 20px 0;
-    background-color: greenyellow;
 }
 #noticias .textonoticia1{
-    display: grid;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     align-content: center;
     width: 60%;
     height: 22rem;
@@ -1257,6 +1268,7 @@ margin: 0 auto;
     text-align: left;
     padding: 30px 30px;
     background-color: white;
+    text-align: left;
 }
 
 #noticias .fotonoticia{
@@ -1317,9 +1329,10 @@ margin: 0 auto;
 }
 #noticias .textonoticia1 h4{
     font-weight: 700;
+    padding-bottom: 10px;
 }
 #noticias .textonoticia1 h5{
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 }
 #noticias .btnnoticias{
@@ -1366,12 +1379,12 @@ margin: 0 auto;
     border-radius: 10px;
     padding: 0px 0;
     background-color: #FFF7DB;
+    text-align: left;
 }
 #articulos .textoarticulo{
-    display: grid;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     align-content: center;
     width: 60%;
     height: 18rem;
@@ -1380,6 +1393,7 @@ margin: 0 auto;
     text-align: left;
     padding: 30px 30px;
     background-color: white;
+    text-align: left;
 }
 #articulos .fotoportada1{
     background-image: url(../img/libro1.jpg);
