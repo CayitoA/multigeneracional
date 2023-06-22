@@ -1073,6 +1073,100 @@ max-width: 100%;
     filter: contrast(120%);
 }
 
+/* zona texto */
+
+#historia .textohistoria{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
+    border-radius: 12px;
+    padding:  20px;
+    min-width: 380px;
+}
+#historia .texto {
+    width: 60%;
+    min-width: 380px;
+    margin: 0 auto;
+    flex-grow: 1;
+    padding:  30px;
+    text-align: left;
+    text-align-last: left;
+    hyphens: auto;
+    text-indent: 0px;
+}
+#historia .texto h2 {
+    font-weight: 600;
+    line-height: 30px;
+    padding: 10px 0;
+}
+#historia .texto h6 {
+    font-weight: 600;
+}
+#historia .texto h5 {
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* boton perfil desplegar */
+
+
+
+#historia .textohistoria .centrar{
+    display: flex;
+    justify-content: center;   
+    align-items: flex-end;
+    padding-top: 20px;
+}
+#historia .botonhistoria{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#historia .botonhistoria{
+    background-color: #e3edf2;
+    border: 2px solid #1E88E5 ;
+    color: #1E88E5;
+    border-radius: 7px;
+    padding: 7px 60px;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+}
+#historia .botonhistoria .flecha{
+    padding-left: 10px;
+}
+#historia .botonhistoria:hover{
+    background-color: #1E88E5;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #1E88E5 ;
+}
+#historia .botonhistoria:active{
+    background-color: #030a8c;
+    border: 2px solid #030a8c ;
+    color: white;
+}
+#historia .botonhistoria a{
+    text-decoration: none;
+}
+#historia .botonhistoria a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
 /* seccion nosotros */
 
 #inspiran {
