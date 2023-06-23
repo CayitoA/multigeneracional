@@ -1028,7 +1028,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 50px 0;
-
 }
 #historia .seccion {
     margin-top: 50px;
@@ -1054,7 +1053,7 @@ display: flex;
 width: 600px;
 height: 400px;
 max-width: 100%;
-
+margin-bottom: 70px;
 
 }
 
@@ -1113,23 +1112,22 @@ max-width: 100%;
     line-height: 25px;
 }
 
-/* boton perfil desplegar */
-
-
-
+/* boton  */
 #historia .textohistoria .centrar{
     display: flex;
     justify-content: center;   
     align-items: flex-end;
-    padding-top: 20px;
+    padding-top: 30px;
 }
+
+
 #historia .botonhistoria{
     text-align: center;
     cursor: pointer;
-    margin-bottom: 20px;
 }
 #historia .botonhistoria{
-    background-color: #e3edf2;
+    cursor: pointer;
+    background-color: transparent;
     border: 2px solid #1E88E5 ;
     color: #1E88E5;
     border-radius: 7px;
@@ -1139,7 +1137,6 @@ max-width: 100%;
     text-decoration: none;
     font-weight: 800;
     display: inline-block;
-
 }
 #historia .botonhistoria .flecha{
     padding-left: 10px;
@@ -1155,21 +1152,31 @@ max-width: 100%;
     border: 2px solid #030a8c ;
     color: white;
 }
+#historia .botonhistoria:hover  a {
+    color: white;
+    }
+#historia .botonhistoria:active  a {
+    color: white;
+    }
 #historia .botonhistoria a{
     text-decoration: none;
 }
 #historia .botonhistoria a:hover{
     text-decoration: none;
-    color: white;
+}
+#historia .logo {
+    background-image: url(../img/iconolineatiempo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 120px;
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    align-content: center;
 }
 
-
-
-
-
-
-
-/* seccion nosotros */
+/* seccion quienes nos inspiran */
 
 #inspiran {
     width: 90%;
@@ -1331,6 +1338,58 @@ margin: 0 auto;
     text-align: justify;
     margin-top: 30px;
 }
+
+#vinculos .textovinculosinternacionales{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
+    border-radius: 12px;
+    padding:  20px;
+    min-width: 380px;
+    margin-top: 50px;
+}
+#vinculos .texto {
+    width: 60%;
+    min-width: 380px;
+    margin: 0 auto;
+    flex-grow: 1;
+    padding:  30px;
+    text-align: left;
+    text-align-last: left;
+    hyphens: auto;
+    text-indent: 0px;
+}
+#vinculos .texto h2 {
+    font-weight: 600;
+    line-height: 30px;
+    padding: 10px 0;
+}
+#vinculos .texto h6 {
+    font-weight: 600;
+}
+#vinculos .texto h5 {
+    font-weight: 500;
+    line-height: 25px;
+}
+
+#vinculos .logo {
+    background-image: url(../img/iconovinculos.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 120px;
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    align-content: center;
+}
+
 
 /* noticia */
 
