@@ -1612,6 +1612,20 @@ margin: 0 auto;
     align-items: flex-end;
     justify-content: center;
 }
+#articulos .fotoportada5{
+    background-image: url(../img/libro5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 18rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
 #articulos .textoarticulo h3{
     font-weight: 700;
 }
@@ -2052,6 +2066,11 @@ margin: 0 auto;
     max-width: 1100px;
 
     }
+    #inspiranp h3 {
+        margin: 30px 20px 0 20px;
+        text-align: justify;
+        line-height: auto;    
+        }
 #inspiranp .galeriafotos{
     background-color: #f2cf8d;
     background-color: #FFF7DB;
@@ -2247,7 +2266,7 @@ margin: 0 auto;
   }
 
 .wrapper .row .foto2{
-    background-image: url(../img/2001publicaciongts.jpg);
+    background-image: url(../img/2001publicaciongtsF.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2260,10 +2279,24 @@ margin: 0 auto;
     flex-basis: auto;
     max-width: 100%;
     border: 5px solid white;
-
+}
+.wrapper .row .foto4{
+    background-image: url(../img/academiaromaF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
 }
 .wrapper .row .foto6{
-    background-image: url(../img/2012coloquioPM.jpg);
+    background-image: url(../img/2012coloquioF.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2279,7 +2312,7 @@ margin: 0 auto;
 
 }
 .wrapper .row .foto7{
-    background-image: url(../img/2015bowen.jpg);
+    background-image: url(../img/conferenciabowenF.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2292,11 +2325,24 @@ margin: 0 auto;
     flex-basis: auto;
     max-width: 100%;
     border: 5px solid white;
-
 }
- 
+.wrapper .row .foto8{
+    background-image: url(../img/hongkongF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+}
 .wrapper .row .foto9{
-    background-image: url(../img/clasediplomado.jpg);
+    background-image: url(../img/waltherdiplomadoF.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2309,9 +2355,22 @@ margin: 0 auto;
     flex-basis: auto;
     max-width: 100%;
     border: 5px solid white;
-
 }
-
+.wrapper .row .foto10{
+    background-image: url(../img/mejorniñezF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+}
 
 .wrapper .row figcaption{
     color: white;
