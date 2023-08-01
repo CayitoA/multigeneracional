@@ -44,7 +44,8 @@ body{
     justify-content: center;
 }
 #carouselExampleDark .fotocarrusel1{
-    background-image: url(../img/carrusel1.jpg);
+    background-image: url(../img/carrusel-grupoestudio.jpg);
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1415,6 +1416,24 @@ margin: 0 auto;
     border-radius: 10px;
     padding: 20px 0;
 }
+
+#noticias .articulo1 {
+    width: 100%;
+    margin: 30px 0px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 0px 0;
+    background-color: #e3edf2;
+    text-align: left;
+}
+
+
+
+
 #noticias .textonoticia1{
     display: flex;
     flex-direction: column;
@@ -1486,6 +1505,20 @@ margin: 0 auto;
     align-items: flex-end;
     justify-content: center;
 }
+#noticias .fotonoticia5{
+    background-image: url(../img/foto2F.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 22rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
 #noticias .textonoticia1 h4{
     font-weight: 700;
     padding-bottom: 10px;
@@ -1513,6 +1546,54 @@ margin: 0 auto;
     color: white;
     content: texto;
 }
+
+/* boton leer noticia*/
+
+
+#noticias  .color2 {
+    display: flex;
+    justify-content: flex-end;   
+    padding: 20px 0 0 0;
+}
+#noticias .botona{
+    background-color: #1E88E5;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 60px;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#noticias .color2  :hover{
+    background-color: #0a4da6;
+    color: white;
+    text-decoration: none;
+}
+#noticias .color2  :active{
+    background-color: #030a8c;
+    color: white;
+    text-decoration: none;
+}
+#noticias .flecha{
+    padding-left: 10px;
+    font-weight: 700;
+}
+#noticias .textolargo {
+    margin: 0 20px;
+    padding: 30px 5px;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: 100px;
+    flex-basis: 450px;
+    max-width: 1000px;
+
+
+
+}
+
+
+
 
 /* articulos*/
 
