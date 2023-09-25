@@ -44,7 +44,7 @@ body{
     justify-content: center;
 }
 #carouselExampleDark .fotocarrusel1{
-    background-image: url(../img/carrusel-grupoestudio.jpg);
+    background-image: url(../img/web4.jpg);
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ body{
     min-height: 350px;
 }
 #carouselExampleDark .fotocarrusel2{
-    background-image: url(../img/carrusel2.jpg);
+    background-image: url(../img/carrusel1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,6 +97,12 @@ body{
     text-shadow: 2px 2px 2px #555658;
     align-content: center;
     font-weight: 600;
+}
+
+#carouselExampleDark .textocarrusel a{
+    text-decoration: none;
+    color: white;
+
 }
 #carouselExampleDark p{
     font-style: oblique;
@@ -622,6 +628,171 @@ body{
 
 #servicios .modal-header {
     background: linear-gradient(to bottom right,#030a8c,#0a4da6);}
+
+
+/* curso entreevista */
+
+
+#curso {
+    width: 90%;
+    margin: 0 auto;
+}
+#curso .seccion {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family:inherit;
+}
+#curso .cursoentrevista {
+    width: 100%;
+    margin: 0px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+#curso .textocurso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    height: 22rem;
+    flex-basis: 600px;
+    flex-grow: 1;
+    padding: 30px 30px;
+    background-color: white;
+    text-align: left;
+}
+#curso .fotocurso{
+    background-image: url(../img/web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 22rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;  
+}
+#curso .textocurso h4{
+    font-weight: 600;
+
+}
+#curso .textocurso h2{
+    font-weight: 600;
+    margin-top: 5px;
+
+}
+#curso .textocurso  h5 {
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items:center;
+}
+#curso .textocurso  h6 {
+   margin-top: 20px;
+}
+#curso .textocurso   span{
+    background-color: #0a4da6;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 8px 0;
+}
+
+
+#curso .cursoentrevista footer{
+    display: flex;
+    justify-content: space-evenly;   
+    padding-top: 20px;
+}
+#curso .botoncurso{
+    background-color: #1E88E5;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+}
+#curso .botoncurso:hover{
+    background-color: #0a4da6;
+    color: white;
+    text-decoration: none;
+}
+
+#curso .botoncurso:active{
+    background-color: #030a8c;
+    color: white;
+    text-decoration: none;
+}
+#curso .botoncurso a{
+    text-decoration: none;
+    color: white;
+}
+#curso .lupa{
+    padding-left: 10px;
+    font-weight: 800;
+}
+#curso .botoncurso2{
+    background-color: #c5e0fb;
+    color: #1E88E5;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+}
+
+
+
+
+
+#curso .botoncurso2:hover{
+    background-color: #0a4da6;
+    color: white;
+    text-decoration: none;
+}
+
+#curso .botoncurso2:active{
+    background-color: #030a8c;
+    color: white;
+    text-decoration: none;
+}
+#curso .botoncurso2 a{
+    text-decoration: none;
+}
+#curso .botoncurso2 a:hover{
+    text-decoration: none;
+    color: white;
+}
+#curso .botoncurso2 a:active{
+    text-decoration: none;
+    color: white;
+}
+#curso .requisitos{
+    font-weight: 500;
+    list-style: none;
+}
+#curso  .modal-title{
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+#curso .modal-header {
+    background: #1E88E5;
+}
+
 
 
 
@@ -1519,11 +1690,58 @@ margin: 0 auto;
     align-items: flex-end;
     justify-content: center;
 }
+#noticias .fotonoticia6{
+    background-image: url(../img/grupomanifiesto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 22rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#noticias .fotonoticia7{
+    background-image: url(../img/gubbio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 22rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#noticias .fotonoticia8{
+    background-image: url(../img/diploma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 22rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+
+
 #noticias .textonoticia1 h4{
     font-weight: 700;
     padding-bottom: 10px;
 }
-#noticias .textonoticia1 h5{
+#noticias .textonoticia1 .subtitulo{
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -1546,6 +1764,50 @@ margin: 0 auto;
     color: white;
     content: texto;
 }
+/* carrusel foto noticias */
+
+#noticias .detallefotos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#noticias .fotonoticia9{
+    background-image: url(../img/conferenciaitalia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 21rem;
+    flex-basis: 430px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 5px solid white;
+
+}
+
+#noticias .fotonoticia10{
+    background-image: url(../img/charlaFINAL.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 21rem;
+    flex-basis: 430px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 5px solid white;
+
+}
+
+
 
 /* boton leer noticia*/
 
