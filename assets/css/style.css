@@ -1,14 +1,12 @@
 *
 {margin: 0;padding: 0;box-sizing: border-box;
 
-    font-family: "Open Sans", sans-serif;
-}
+font-family: "DM Sans", sans-serif;}
 
 html{
-    font-size: 62.5% ;    }
+font-size: 62.5% ;    }
 
 body {background: #eee;
-    ;
 }
 .flexone{flex: 1;}
 
@@ -22,9 +20,9 @@ body {background: #eee;
 .groups .card1b{overflow: hidden;display: block; background-color: #c5e0fb;}
 
 .groups .card1a .foto1 {
-background-image: url(/assets/img/servicio1.jpg);}
+background-image: url(./assets/img/servicio1.jpg);}
 .groups .card1b .foto2 {
-background-image: url(/assets/img/servicio2.jpg);}
+background-image: url(./assets/img/servicio2.jpg);}
 
 .card1a   span{
 background-color: #f2b90c;
@@ -155,14 +153,14 @@ font-weight: 600;
 
 .groups .card2{overflow: hidden;display: block; background-color: #f6f7f1 ; }
 .groups .card2 .foto1 {
-    background-image: url(/assets/img/banner_final.jpg);}
+    background-image: url(../assets/img/banner_final.jpg);}
     
 .groups .card2 .foto2 {
-    background-image: url(/assets/img/miami1.jpg);}
+    background-image: url(../assets/img/miami1.jpg);}
 .groups .card2 .foto3 {
-    background-image: url(/assets/img/reunionroma1.jpg);}
+    background-image: url(./assets/img/reunionroma1.jpg);}
 .groups .card2 .foto4 {
-    background-image: url(/assets/img/taller1.jpg);}
+    background-image: url(./assets/img/taller1.jpg);}
 .groups .card2 .foto5 {
     background-image: url(/assets/img/rancagua.jpg);}
 .groups .card2 .foto6 {
