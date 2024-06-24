@@ -10,7 +10,7 @@ body {background: #eee;
 }
 .flexone{flex: 1;}
 
-.groups{margin: 0 auto;width: 950px;padding: 10px 50px;height: auto;}
+.groups{margin: 0 auto;width: 900px;padding: 20px 1px;height: auto;}
 .groups li{position: relative;list-style: none;background: #fff;border-radius: 12px;
     box-shadow: 0 3px 4px 0 #0001;overflow: hidden;margin-bottom: 30px;transition: all 0.3s;}
 .groups li:hover{transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;}
@@ -20,9 +20,9 @@ body {background: #eee;
 .groups .card1b{overflow: hidden;display: block; background-color: #c5e0fb;}
 
 .groups .card1a .foto1 {
-background-image: url(./assets/img/servicio1.jpg);}
+background-image: url(/assets/img/servicio1.jpg);}
 .groups .card1b .foto2 {
-background-image: url(./assets/img/servicio2.jpg);}
+background-image: url(/assets/img/servicio2.jpg);}
 
 .card1a   span{
 background-color: #f2b90c;
@@ -49,8 +49,9 @@ font-weight: 600;
 
 
 .groups .image-session1{float: left;overflow: hidden;margin-right: 20px;}
-.groups .image-session1 .image{width: 330px;height: 32rem;display: block;background-size: cover;
+.groups .image-session1 .image{width: 350px; min-width: 330px; height: 32rem;display: block;background-size: cover;
     background-position: center; background-repeat: no-repeat;}
+
 .groups .meta-sission1{position: relative;padding: 15px;display: block;height: 32rem;}
 .groups .meta-sission1 .head{display: flex; margin: 0; }
 .groups .meta-sission1 .head .catogry{list-style: none;text-decoration: none;font-size: 1.4rem;
@@ -343,22 +344,27 @@ color: #0a4da6; font-weight: 700; right: 15px}
 
 
 
-@media screen and (max-width:950px){.groups{    width: 96%;}
+@media screen and (max-width:900px){.groups{    width: 96%;}
     .groups li:hover{    transform: none;    box-shadow: none;}
 }
-@media screen and (max-width:560px){.groups .image-session1{    float: none;    margin-right: 0;}
+@media screen and (max-width:550px){.groups{    width: 96%; padding: 5px;}
+    
+}
+
+
+@media screen and (max-width:560px){.groups .image-session1{    float: none; padding: 2px;   margin-right: 0;}
     .groups .image-session1 .image{width: 100%;}
 }
 
-@media screen and (max-width:560px){.groups .card4 .image-session2{    float: none;    margin-right: 0;}
+@media screen and (max-width:560px){.groups .card4 .image-session2{    float: none; padding: 2px;   margin-right: 0;}
  .card4   .groups .image-session2 .image{width: 100%;}
 }
 
-@media screen and (max-width:560px){.groups .image-session3{    float: none;    margin-right: 0;}
+@media screen and (max-width:560px){.groups .image-session3{    float: none; padding: 2px;    margin-right: 0;}
     .groups .image-session3 .image{width: 100%;}
 }
 
-@media screen and (max-width:560px){.groups .card2 .image-session2{ float: none;    margin-right: 0;}
+@media screen and (max-width:560px){.groups .card2 .image-session2{ float: none;  padding: 2px;   margin-right: 0;}
  .card2 .groups .image-session2 .image{width: 100%;}
 }
 
