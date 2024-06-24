@@ -15,6 +15,7 @@ body {background: #eee;
     box-shadow: 0 3px 4px 0 #0001;overflow: hidden;margin-bottom: 30px;transition: all 0.3s;}
 .groups li:hover{transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;}
 
+/* servicios */
 .groups .card{overflow: hidden;display: block;}
 .groups .card1a{overflow: hidden;display: block; background-color: #FFF7DB;}
 .groups .card1b{overflow: hidden;display: block; background-color: #c5e0fb;}
@@ -26,25 +27,88 @@ background-image: url(/assets/img/servicio2.jpg);}
 
 .card1a   span{
 background-color: #f2b90c;
-padding: 5px 15px;
+padding: 3px 15px;
 border-radius: 12px 0;
-font-size: 1.2rem;
+font-size: 1.4rem;
 font-weight: 600;
 }
 .card1b   span{
 background-color: #1E88E5;
+padding: 3px 15px;
+border-radius: 12px 0;
+font-size: 1.4rem;
+font-weight: 600;
+}
+.titulo  {
+font-size: 2.6rem;
+font-weight: 600;
+padding: 15px 0;
+}
+.detalle  {
+font-size: 1.4rem;
+}
+
+.groups .image-session1{float: left;overflow: hidden;margin-right: 20px;}
+.groups .image-session1 .image{width: 350px; min-width: 330px; height: 32rem;display: block;background-size: cover;
+    background-position: center; background-repeat: no-repeat;}
+
+.groups .meta-sission1{position: relative;padding: 15px;display: block;height: 32rem;}
+.groups .meta-sission1 .head{display: flex; margin: 0; }
+
+
+.meta-sission1 .head .per input{display: block;font-size: 10px;text-align: right;}
+.meta-sission1 .head .per input{-webkit-appearance: none;height: 5px;border-radius: 5px;background: #0001;
+    margin-bottom: 4px;overflow: hidden;}
+.meta-sission1 .head .per input::-webkit-slider-thumb{-webkit-appearance: none;width: 0;
+    box-shadow: -100px 0 0 100px #0075ff;}
+
+
+.groups .card1a .footer1 .btncontacto{position: absolute;bottom: 20px;right: 25px;background: #f2b90c;
+        color: #fff;line-height: 2.2;padding: 0 60px;border-radius: 8px;text-decoration: none; 
+        text-transform: uppercase; font-weight: 700; border: none;
+      font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+.groups .card1a .footer1 .btncontacto:hover{box-shadow: 0 3px 8px 0 #0005;background: #ffac4b;right: 15px;}
+.groups .card1a .footer1 .btncontacto:active{box-shadow: 0 3px 8px 0 #0005;background: #ff9c08;right: 15px;}
+
+    
+.groups .card1b .footer1 .btncontacto{position: absolute;bottom: 20px;right: 25px;background: #1E88E5;
+    color: #fff;line-height: 2.2;padding: 0 60px;border-radius: 8px;text-decoration: none; 
+    text-transform: uppercase; font-weight: 700; border: none;
+  font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+.groups .card1b .footer1 .btncontacto:hover{box-shadow: 0 3px 8px 0 #0005;background: #0a4da6;right: 15px;}
+.groups .card1b .footer1 .btncontacto:active{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 15px;}
+
+
+/* card detalle servicios profesionales  */
+
+
+.groups .cardservicios{overflow: hidden;display: block; background-color: #e3edf2;}
+.groups .card1a{overflow: hidden;display: block; background-color: #FFF7DB;}
+.groups .card1b{overflow: hidden;display: block; background-color: #c5e0fb;}
+
+.groups .cardservicios .foto1 {
+background-image: url(/assets/img/grupo1.jpg);}
+.groups .cardservicios .foto2 {
+background-image: url(/assets/img/grupo2.jpg);}
+.groups .cardservicios .foto3 {
+background-image: url(/assets/img/grupo3.jpg);}
+
+.cardservicios   span{
+background-color: #f2b90c;
 padding: 5px 15px;
 border-radius: 12px 0;
 font-size: 1.2rem;
 font-weight: 600;
 }
- .titulo  {
-     font-size: 2.6rem;
+
+.cardservicios .tituloservicios  {
+     font-size: 2.2rem;
      font-weight: 600;
      padding: 15px 0;
  }
- .detalle  {
+.cardservicios .detalle  {
     font-size: 1.4rem;
+    
 }
 
 
@@ -53,7 +117,7 @@ font-weight: 600;
     background-position: center; background-repeat: no-repeat;}
 
 .groups .meta-sission1{position: relative;padding: 15px;display: block;height: 32rem;}
-.groups .meta-sission1 .head{display: flex; margin: 0; }
+.groups .meta-sission1 .head{display: flex; margin: 0 auto; }
 .groups .meta-sission1 .head .catogry{list-style: none;text-decoration: none;font-size: 1.4rem;
     font-weight: 700;color:white;
 
@@ -67,85 +131,50 @@ font-weight: 600;
 .meta-sission1 .head .per input::-webkit-slider-thumb{-webkit-appearance: none;width: 0;
     box-shadow: -100px 0 0 100px #0075ff;}
 .groups .body1 .title{height: 60px;overflow: hidden;font-size: auto; color: #101923;font-weight: 400; }
-.groups .body1 .desc{height: 100%;overflow: hidden;margin-bottom: 10px;font-size: auto;}
-.groups .footer1 .button{position: absolute;bottom: 20px;right: 25px;background: #0075ff;color: #fff;
-    line-height: 2.2;padding: 0 20px;border-radius: 50px;text-decoration: none;
-    box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
-.groups .footer1 .button:hover{box-shadow: 0 3px 8px 0 #0005;background: #063a78;right: 15px;}
 
-
-
-
-/* card presentacion 2222 */
-
-.groups #presentacion {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-self: center;
-}
-
-.groups #presentacion .presentacion1 {
-    width: 80%;
-    overflow: hidden;
+.cardservicios .meta-sission1  {
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    align-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);;
-    padding: 30px;
 }
-.groups  .icono {
-    display: inline-block;
-    margin: 0 auto;
-    width: 80px;
-    height: 150px;
-    background-image: url(/assets/img/icononegro.svg);
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-    padding: 10px;  
-    align-content: center; }
+.cardservicios .body1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     
-.presentacion1 .texto  {
-        color: #21242a;
-        width: 50%;
-        height: auto;
-        padding: 20px;
-    }
-
-#presentacion .presentacion1 .texto h2 {
-    color: #21242a;
-    font-weight: 600;
-    line-height: 30px;
-    padding: 10px 0;
-    color: greenyellow;
-}
-#presentacion  .presentacion1 .texto h6 {
-    color: #21242a;
-    font-weight: 600;
-}
-#presentacion .presentacion1 .texto h5 {
-    color: #21242a;
-    font-weight: 500;
-    line-height: 25px;
 }
 
-.groups #presentacion  .presentacion1 .image-session2{float: left;overflow: hidden;margin-right: 20px;}
-.groups .card2 .image-session2 .image{width: 350px;height: 18rem;display: block;background-size: cover;
-    background-position: center; background-repeat: no-repeat;}
 
-.groups .card2 .meta-sission2{position: relative;padding: 8px;display: block;height:18rem;}
-.groups .card2 .meta-sission2 .head{display: flex; margin: 5px 0; }
-.groups .card2 .meta-sission2 .head .autor{list-style: none;text-decoration: none;font-size: 10px;
-    font-weight: 500;color: white;
-    text-transform: uppercase;
-    }
+
+
+
+
+/* botones servicios  */
+
+
+.groups .cardservicios .footer2 .btn1{position: absolute;bottom: 20px;left: 25px;
+    background-color: transparent;
+    border: 2px solid #1E88E5 ;
+    color: #1E88E5;
+   line-height: 2.2;padding: 0 60px;border-radius: 10px;text-decoration: none; 
+    text-transform: uppercase; font-weight: 700; 
+  font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+
+.groups .cardservicios .footer2 .btn1:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;left: 15px;
+color: white; border: none;}
+
+.groups .cardservicios .footer2 .btn2{position: absolute;bottom: 20px;right: 25px;background: #1E88E5;
+    color: #fff;line-height: 2.2;padding: 0 60px;border-radius: 10px;text-decoration: none; 
+    text-transform: uppercase; font-weight: 600; border: none; text-decoration: none;
+  font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+
+
+.groups .cardservicios .footer2 .btn2:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 15px;
+    border: none; text-decoration: none;}
 
 
 /* card noticias  */
@@ -190,7 +219,7 @@ font-weight: 600;
 
 .groups .card2 .meta-sission2{position: relative;padding: 8px;display: block;height:26rem;}
 .groups .card2 .meta-sission2 .head{display: flex; margin: 5px 0; }
-.groups .card2 .meta-sission2 .head .autor{list-style: none;text-decoration: none;font-size: 1rem;
+.groups .card2 .meta-sission2 .head .autor{list-style: none;text-decoration: none;font-size: 1.2rem;
     font-weight: 600;color: white;
     text-transform: uppercase;
     }
@@ -251,6 +280,8 @@ font-weight: 600;
     font-size: 2.4rem;
    font-weight: 700;
    padding:  0;
+   text-transform: uppercase;
+   margin: 5px 0;
 }
 .card4   h4{
     font-size: 1.6rem;
@@ -268,7 +299,7 @@ font-weight: 600;
 
 .groups .card4 .meta-sission2{position: relative;padding: 12px;display: block;height:22rem;}
 .groups .card4 .meta-sission2 .head{display: flex; margin: 5px 0; }
-.groups .card4 .meta-sission2 .head .autor{list-style: none;text-decoration: none;font-size: 1rem;
+.groups .card4 .meta-sission2 .head .autor{list-style: none;text-decoration: none;font-size: 1.2rem;
     font-weight: 700;color: white; text-transform: uppercase;}
 
 .groups .card4 .footer2 .btnlibros{position: absolute;bottom: 20px;right: 25px;background: #f2b90c;
