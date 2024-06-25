@@ -184,17 +184,16 @@ color: white; border: none;}
 .groups .card2{overflow: hidden;display: block; background-color: #f6f7f1 ; }
 .groups .card2 .foto1 {
     background-image: url(../img/banner_final.jpg);}
-    
 .groups .card2 .foto2 {
     background-image: url(../img/miami1.jpg);}
 .groups .card2 .foto3 {
-    background-image: url(./assets/img/reunionroma1.jpg);}
+    background-image: url(../img/reunionroma1.jpg);}
 .groups .card2 .foto4 {
-    background-image: url(./assets/img/taller1.jpg);}
+    background-image: url(../img/taller1.jpg);}
 .groups .card2 .foto5 {
-    background-image: url(/assets/img/rancagua.jpg);}
+    background-image: url(../img/rancagua.jpg);}
 .groups .card2 .foto6 {
-    background-image: url(/assets/img/daniela-conferencia.jpg);}
+    background-image: url(../img/daniela-conferencia.jpg);}
 
 .card2   .span{
     background-color: #101923;
@@ -257,19 +256,19 @@ color: white; border: none;}
 
 .groups .card4{overflow: hidden;display: block; background-color: #f5f5eb ;}
 .groups .card4 .foto1 {
-    background-image: url(/assets/img/libro_1.jpg);}
+    background-image: url(../img/libro_1.jpg);}
 .groups .card4 .foto2 {
-    background-image: url(/assets/img/libro_2.jpg);}
+    background-image: url(../img/libro_2.jpg);}
 .groups .card4 .foto3 {
-    background-image: url(/assets/img/libro_3.jpg);}
+    background-image: url(../img/libro_3.jpg);}
 .groups .card4 .foto4 {
-    background-image: url(/assets/img/libro_4.jpg);}
+    background-image: url(../img/libro_4.jpg);}
 .groups .card4 .foto5 {
-    background-image: url(/assets/img/libro_5.jpg);}
+    background-image: url(../img/libro_5.jpg);}
 .groups .card4 .foto6 {
-    background-image: url(/assets/img/libro_6.jpg);}
+    background-image: url(../img/libro_6.jpg);}
 .groups .card4 .foto7 {
-    background-image: url(/assets/img/libro_7.jpg);}
+    background-image: url(../img/libro_7.jpg);}
 
 .card4   .span{
   background-color: #23262a;
@@ -325,7 +324,7 @@ color: white; border: none;}
 .groups .carddiplo{overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #001d7e ;
 }
 .groups .carddiplo .fotodiplo {
-    background-image: url(/assets/img/diplomado1.jpg);
+    background-image: url(../img/diplomado1.jpg);
 }
 .carddiplo   .span{
     background-color: #ffac4b;
@@ -379,20 +378,28 @@ color: #0a4da6; font-weight: 700; right: 15px}
     .groups li:hover{    transform: none;    box-shadow: none;}
 }
 @media screen and (max-width:550px){.groups{    width: 96%; padding: 5px;
-
 height: auto;}    
 }
 
-@media screen and (max-width:550px){ .cardservicios  .meta-sission1  {   
-
-       height: auto;      }    
-    }
-
+@media screen and (max-width:550px){ .cardservicios .meta-sission1  {   
+height: auto;      }    
+}
 @media screen and (max-width:550px){ .cardservicios  .body1  {   
-
+padding-bottom: 45px;}    
+}
+@media screen and (max-width:550px){ .card1b .meta-sission1  {   
+    height: auto;      }    
+    }
+    @media screen and (max-width:550px){ .card1b  .body1  {   
     padding-bottom: 45px;}    
     }
-
+    @media screen and (max-width:550px){ .card1a .meta-sission1  {   
+        height: auto;      }    
+        }
+        @media screen and (max-width:550px){ .card1a  .body1  {   
+        padding-bottom: 45px;}    
+        }
+    
 
 @media screen and (max-width:560px){.groups .image-session1{    float: none; padding: 2px;   margin-right: 0;}
     .groups .image-session1 .image{width: 100%;}
