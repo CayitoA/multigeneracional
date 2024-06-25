@@ -21,9 +21,9 @@ body {background: #eee;
 .groups .card1b{overflow: hidden;display: block; background-color: #c5e0fb;}
 
 .groups .card1a .foto1 {
-background-image: url(/assets/img/servicio1.jpg);}
+background-image: url(../img/servicio1.jpg);}
 .groups .card1b .foto2 {
-background-image: url(/assets/img/servicio2.jpg);}
+background-image: url(../img/servicio2.jpg);}
 
 .card1a   span{
 background-color: #f2b90c;
@@ -87,7 +87,7 @@ font-size: 1.4rem;
 .groups .card1b{overflow: hidden;display: block; background-color: #c5e0fb;}
 
 .groups .cardservicios .foto1 {
-background-image: url(/assets/img/grupo1.jpg);}
+background-image: url(../img/grupo1.jpg);}
 .groups .cardservicios .foto2 {
 background-image: url(/assets/img/grupo2.jpg);}
 .groups .cardservicios .foto3 {
@@ -156,24 +156,24 @@ font-weight: 600;
 /* botones servicios  */
 
 
-.groups .cardservicios .footer2 .btn1{position: absolute;bottom: 20px;left: 25px;
+.groups .cardservicios .footer2 .btn1{position: absolute;bottom: 20px;left: 30px;
     background-color: transparent;
     border: 2px solid #1E88E5 ;
     color: #1E88E5;
-   line-height: 2.2;padding: 0 60px;border-radius: 10px;text-decoration: none; 
+   line-height: 2.2;padding: 0 10px;border-radius: 10px;text-decoration: none; 
     text-transform: uppercase; font-weight: 700; 
   font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 
-.groups .cardservicios .footer2 .btn1:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;left: 15px;
+.groups .cardservicios .footer2 .btn1:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;left: 10px;
 color: white; border: none;}
 
-.groups .cardservicios .footer2 .btn2{position: absolute;bottom: 20px;right: 25px;background: #1E88E5;
-    color: #fff;line-height: 2.2;padding: 0 60px;border-radius: 10px;text-decoration: none; 
+.groups .cardservicios .footer2 .btn2{position: absolute;bottom: 20px;right: 30px;background: #1E88E5;
+    color: #fff;line-height: 2.2;padding: 0 10px;border-radius: 10px;text-decoration: none; 
     text-transform: uppercase; font-weight: 600; border: none; text-decoration: none;
   font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 
 
-.groups .cardservicios .footer2 .btn2:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 15px;
+.groups .cardservicios .footer2 .btn2:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 10px;
     border: none; text-decoration: none;}
 
 
@@ -183,10 +183,10 @@ color: white; border: none;}
 
 .groups .card2{overflow: hidden;display: block; background-color: #f6f7f1 ; }
 .groups .card2 .foto1 {
-    background-image: url(../assets/img/banner_final.jpg);}
+    background-image: url(../img/banner_final.jpg);}
     
 .groups .card2 .foto2 {
-    background-image: url(../assets/img/miami1.jpg);}
+    background-image: url(../img/miami1.jpg);}
 .groups .card2 .foto3 {
     background-image: url(./assets/img/reunionroma1.jpg);}
 .groups .card2 .foto4 {
@@ -250,7 +250,7 @@ color: white; border: none;}
 .textolargonoticias h6 {
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 
 /* card libros  */
@@ -317,7 +317,7 @@ color: white; border: none;}
 .textolargolibros  h6{
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.8rem;  
+    line-height: 2rem;  
 }
 
 /* card diplomado  */
@@ -378,9 +378,20 @@ color: #0a4da6; font-weight: 700; right: 15px}
 @media screen and (max-width:900px){.groups{    width: 96%;}
     .groups li:hover{    transform: none;    box-shadow: none;}
 }
-@media screen and (max-width:550px){.groups{    width: 96%; padding: 5px;}
-    
+@media screen and (max-width:550px){.groups{    width: 96%; padding: 5px;
+
+height: auto;}    
 }
+
+@media screen and (max-width:550px){ .cardservicios  .meta-sission1  {   
+
+       height: auto;      }    
+    }
+
+@media screen and (max-width:550px){ .cardservicios  .body1  {   
+
+    padding-bottom: 45px;}    
+    }
 
 
 @media screen and (max-width:560px){.groups .image-session1{    float: none; padding: 2px;   margin-right: 0;}
