@@ -12,11 +12,10 @@ body {background: #eee;
 
 .groups{margin: 0 auto;width: 900px;padding: 20px 1px;height: auto;}
 .groups li{position: relative;list-style: none;background: #fff;border-radius: 12px;
-    box-shadow: 0 3px 4px 0 #0001;overflow: hidden;margin-bottom: 30px;transition: all 0.3s;}
+    box-shadow: 0 3px 4px 0 #0001;overflow: hidden;margin-bottom: 40px;transition: all 0.3s;}
 .groups li:hover{transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;}
 
 /* servicios */
-.groups .card{overflow: hidden;display: block;}
 .groups .card1a{overflow: hidden;display: block; background-color: #FFF7DB;}
 .groups .card1b{overflow: hidden;display: block; background-color: #c5e0fb;}
 
@@ -89,9 +88,9 @@ font-size: 1.4rem;
 .groups .cardservicios .foto1 {
 background-image: url(../img/grupo1.jpg);}
 .groups .cardservicios .foto2 {
-background-image: url(/assets/img/grupo2.jpg);}
+background-image: url(../img/grupo2.jpg);}
 .groups .cardservicios .foto3 {
-background-image: url(/assets/img/grupo3.jpg);}
+background-image: url(../img/grupo3.jpg);}
 
 .cardservicios   span{
 background-color: #f2b90c;
@@ -108,9 +107,7 @@ font-weight: 600;
  }
 .cardservicios .detalle  {
     font-size: 1.4rem;
-    
 }
-
 
 .groups .image-session1{float: left;overflow: hidden;margin-right: 20px;}
 .groups .image-session1 .image{width: 350px; min-width: 330px; height: 32rem;display: block;background-size: cover;
@@ -159,10 +156,9 @@ font-weight: 600;
 .groups .cardservicios .footer2 .btn1{position: absolute;bottom: 20px;left: 30px;
     background-color: transparent;
     border: 2px solid #1E88E5 ;
-    color: #1E88E5;
    line-height: 2.2;padding: 0 10px;border-radius: 10px;text-decoration: none; 
     text-transform: uppercase; font-weight: 700; 
-  font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+  font-size: 1.2rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 
 .groups .cardservicios .footer2 .btn1:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;left: 10px;
 color: white; border: none;}
@@ -170,7 +166,7 @@ color: white; border: none;}
 .groups .cardservicios .footer2 .btn2{position: absolute;bottom: 20px;right: 30px;background: #1E88E5;
     color: #fff;line-height: 2.2;padding: 0 10px;border-radius: 10px;text-decoration: none; 
     text-transform: uppercase; font-weight: 600; border: none; text-decoration: none;
-  font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+  font-size: 1.2rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 
 
 .groups .cardservicios .footer2 .btn2:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 10px;
@@ -194,6 +190,19 @@ color: white; border: none;}
     background-image: url(../img/rancagua.jpg);}
 .groups .card2 .foto6 {
     background-image: url(../img/daniela-conferencia.jpg);}
+.groups .card2 .foto7 {
+    background-image: url(../img/grupomanifiesto.jpg);}
+.groups .card2 .foto8 {
+    background-image: url(../img/gubbio.jpg);}
+.groups .card2 .foto9 {
+    background-image: url(../img/foto2F.jpg);}
+.groups .card2 .foto10 {
+    background-image: url(../img/italia.jpg);}
+.groups .card2 .foto11 {
+    background-image: url(../img/jornada.jpg);}
+.groups .card2 .foto12 {
+    background-image: url(../img/noticia1.jpg);}
+
 
 .card2   .span{
     background-color: #101923;
@@ -213,10 +222,9 @@ color: white; border: none;}
 }
 
 .groups .card2 .image-session2{float: left;overflow: hidden;margin-right: 20px;}
-.groups .card2 .image-session2 .image{width: 350px;height: 26rem;display: block;background-size: cover;
-    background-position: center; background-repeat: no-repeat;}
+.groups .card2 .image-session2 .image{width: 350px; min-width: 330px; height: 28rem;display: block;background-size: cover; background-position: center; background-repeat: no-repeat;}
 
-.groups .card2 .meta-sission2{position: relative;padding: 8px;display: block;height:26rem;}
+.groups .card2 .meta-sission2{position: relative;padding: 15px;display: block;height: 28rem;}
 .groups .card2 .meta-sission2 .head{display: flex; margin: 5px 0; }
 .groups .card2 .meta-sission2 .head .autor{list-style: none;text-decoration: none;font-size: 1.2rem;
     font-weight: 600;color: white;
@@ -239,7 +247,6 @@ color: white; border: none;}
 .groups .card2 .footer2 .btnlink:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 15px;
     border: none; text-decoration: none;}
 
-
 .textolargonoticias {
     padding: 20px;
     background-color: #f2f8fc;
@@ -249,7 +256,43 @@ color: white; border: none;}
 .textolargonoticias h6 {
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 2rem;
+    line-height: 2.2rem;
+}
+
+
+
+/* revisar no funciona  */
+
+
+
+
+
+/* boton separador seccion  */
+
+.zonadesgloce {
+    display: flex;
+    justify-content: right;
+   
+}
+
+.botondesgloce {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    background-color: #c5e0fb;
+    padding: 8px 16px;
+    border-radius: 16px;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    border: none;
+    box-shadow: 0 1px 6px 0 #0004;
+    transition: all 0.3s;
+    border: none;
+}
+
+.zonadesgloce  .botondesgloce:hover {
+    box-shadow: 0 3px 8px 0 #0005;background-color: #030a8c;right: 15px;
+    border: none; color: white; right: 15px;
 }
 
 /* card libros  */
@@ -293,10 +336,10 @@ color: white; border: none;}
     padding-top: 10px;
 }
 .groups .card4 .image-session2{float: left;overflow: hidden;margin-right: 20px;}
-.groups .card4 .image-session2 .image{width: 300px;height: 22rem;display: block;background-size: cover;
+.groups .card4 .image-session2 .image{width: 350px;min-width: 330px; height: 24rem;display: block;background-size: cover;
     background-position: center; background-repeat: no-repeat;}
 
-.groups .card4 .meta-sission2{position: relative;padding: 12px;display: block;height:22rem;}
+.groups .card4 .meta-sission2{position: relative;padding: 12px;display: block;height:24rem;}
 .groups .card4 .meta-sission2 .head{display: flex; margin: 5px 0; }
 .groups .card4 .meta-sission2 .head .autor{list-style: none;text-decoration: none;font-size: 1.2rem;
     font-weight: 700;color: white; text-transform: uppercase;}
@@ -316,7 +359,7 @@ color: white; border: none;}
 .textolargolibros  h6{
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 2rem;  
+    line-height: 2.2rem;  
 }
 
 /* card diplomado  */
@@ -400,6 +443,19 @@ padding-bottom: 45px;}
         padding-bottom: 45px;}    
         }
     
+/* revisar no funciona  */
+        @media screen and (max-width:550px){ .card2 .meta-sission2  {   
+            height: auto;      }    
+            }
+            @media screen and (max-width:550px){ .card2  .body  {   
+            padding-bottom: 45px;}    
+            }
+        
+
+
+
+
+
 
 @media screen and (max-width:560px){.groups .image-session1{    float: none; padding: 2px;   margin-right: 0;}
     .groups .image-session1 .image{width: 100%;}
