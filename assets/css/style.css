@@ -6,7 +6,7 @@ font-family: "DM Sans", sans-serif;}
 html{
 font-size: 62.5% ;    }
 
-body {background: #eee;
+body {background: whitesmoke;
 }
 .flexone{flex: 1;}
 
@@ -261,10 +261,6 @@ color: white; border: none;}
 
 
 
-/* revisar no funciona  */
-
-
-
 
 
 /* boton separador seccion  */
@@ -365,6 +361,8 @@ color: white; border: none;}
 /* card diplomado  */
 
 .groups .carddiplo{overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #001d7e ;
+
+    justify-content: space-between;
 }
 .groups .carddiplo .fotodiplo {
     background-image: url(../img/diplomado1.jpg);
@@ -392,24 +390,91 @@ color: white; border: none;}
     color: white;
 }
 .groups .image-session3{float: right;overflow: hidden;margin-right: 0;}
-.groups .image-session3 .image{width: 320px;height: 28rem;display: flex;background-size: cover;
-    justify-content: right ;
-    background-position: center; background-repeat: no-repeat;}
+.groups .image-session3 .image{
+    
+    width: 350px; min-width: 330px; height: 30rem;display: block;background-size: cover; background-position: center; background-repeat: no-repeat;}
 
-.groups .meta-sission3{ width: 500px; position: relative;padding: 30px;display: block;height:28rem;}
-.groups .meta-sission3 .head{display: flex; margin: 10px 0;  }
+.groups .meta-sission3{ width: 500px; position: relative;padding: 20px;display: block;height:30rem;}
+.groups .meta-sission3 .head{display: flex; margin:  0 0 5px 0;   }
 .groups .meta-sission3 .head .title{list-style: none;text-decoration: none;color: white; 
     text-transform: uppercase;  box-shadow: 0 1px 6px 0 #0004 ;}
+
+
+
 
 
 .groups .footer3 .btn{position: absolute;bottom: 20px;background: #1E88E5;
     color: #fff;line-height: 2.2;padding: 0 40px;border-radius: 8px;text-decoration: none; 
     text-transform: uppercase; font-weight: 600; border: none;
-  font-size: 14px;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+  font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 .groups .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005;background: whitesmoke;
 color: #0a4da6; font-weight: 700; right: 15px}
 
 
+
+/* card destacado  */
+
+.groups .carddestacado{overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #e3edf2 ;
+
+    justify-content: space-between;
+}
+.groups .carddestacado .fotomanifiesto {
+    background-image: url(../img/textomanifiesto.jpg);
+}
+.groups .carddestacado .fotodiploma {
+    background-image: url(../img/diploma.jpg);
+}
+.groups .carddestacado .fotoconferencia {
+    background-image: url(../img/conferenciaitalia.jpg);
+}
+.carddestacado   .span{
+    background-color: #ffac4b;
+    padding: 5px 15px;
+    border-radius: 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: wheat;
+    font-size: 1.2rem;    
+}
+.carddestacado   h2{
+    font-size: 2.4rem;
+   font-weight: 700;
+   padding: 10px 0;
+   color: black;
+}
+.carddestacado   h5{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 10px 0 ;
+    color: black;
+}
+.carddestacado   h6{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 10px 0 ;
+    color: black;
+}
+
+
+.carddestacado .image-session3{float: right;overflow: hidden;margin-right: 0}
+.carddestacado .image-session3 .image{
+    
+    width: 350px; min-width: 330px; height: 30rem;display: block;background-size: cover; 
+    background-position: center; background-repeat: no-repeat;}
+
+.groups  .carddestacado  .meta-sission3{ width: 500px; position: relative;padding: 25px;display: block;
+    height:30rem;}
+
+.groups   .carddestacado .footer3 .btn{position: absolute;bottom: 20px;background: #030a8c;
+    ;line-height: 2.2;padding: 0 40px;border-radius: 8px; 
+    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+
+  .groups .carddestacado .footer3 .btn a {color: white; text-decoration: none;
+    font-size: 1.4rem;  font-weight: 600}
+
+.groups .carddestacado .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005;
+background-color: #1E88E5; font-weight: 700}
 
 
 
@@ -443,12 +508,12 @@ padding-bottom: 45px;}
         padding-bottom: 45px;}    
         }
     
-/* revisar no funciona  */
-        @media screen and (max-width:550px){ .card2 .meta-sission2  {   
+/* card diplomado  */
+        @media screen and (max-width:550px){ .carddiplo .meta-sission3  {   
             height: auto;      }    
             }
-            @media screen and (max-width:550px){ .card2  .body  {   
-            padding-bottom: 45px;}    
+            @media screen and (max-width:550px){ .carddiplo  .body  {   
+            padding-bottom: 30px;}    
             }
         
 
