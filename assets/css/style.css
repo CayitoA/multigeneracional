@@ -16,6 +16,15 @@ body {background: whitesmoke;
 .groups li:hover{transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;}
 
 
+
+.nombrezona{
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding:   30px 0;
+}
+
+
+
 /* seccion presentacion */
 .presentacion{
     width: 900px;
@@ -29,7 +38,6 @@ body {background: whitesmoke;
     padding: 25px 30px;
     margin-top: 30px;
 }
-
 .presentacion .presentacion1{
     width: 80%;
     margin: 0 auto;
@@ -73,20 +81,13 @@ body {background: whitesmoke;
     padding: 10px 0;
 }
 .presentacion .texto h6 {
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 .presentacion .texto h5 {
     font-size: 1.6rem;
     font-weight: 500;
 }
-
-
-
-
-
-
-
 
 /* servicios */
 .groups .card1a{overflow: hidden;display: block; background-color: #FFF7DB;}
@@ -247,135 +248,112 @@ color: white; border: none;}
 
 
 
+/* card perfiles profesionales  */
 
 
-/*secion perfiles*/
+#perfiles {
+    width: 100%;
+    margin: 0 auto;
 
-.perfiles {
-    margin: 0 auto;width: 900px;padding: 20px 1px;height: auto;
+    font-family: "DM Sans", sans-serif;
+
 }
-
-
-
-.groups{margin: 0 auto;width: 900px;padding: 20px 1px;height: auto;}
-
-
-.perfiles .perfil123{
+#perfiles .perfil123{
     background-color: #BDD9F2;
+    background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
     width: 100%;
     margin: 0 auto;
     padding: 30px 0 0 0;
     border-radius: 10px;
-    max-width: 8900px;
-    min-height: 230px;
+    min-height: 30vh;
     display: flex;
     align-items: top;
     justify-content: space-evenly;
     flex-wrap: wrap;
     }
-    
-
-.perfiles .detalle  ul{
+#perfiles .detalle   .listado{
     list-style: square;
     font-size: 16px;
     margin-top: 20px;
     margin-bottom: 20px;
-
-}
-
-.perfiles .perfil123 .perfil1{
+    text-decoration: none;
+    margin: 0;
+    box-shadow: none;
+    padding: 0;
+    list-style: square;
+    justify-content: left;
+    background-color: transparent;
+    font-size: 1.4rem;
+    font-size: 800;
+    transform: none;
+    font-weight: bold;
+    }
+#perfiles .perfil123 .perfil1{
     background-image: url(../img/Alicia\(1\).jpg);
     background-size: cover;
-    width: 230px;
+    width: 260px;
     height: 260px;
     border-radius: 50%;
     margin: auto;
     display: block;
     margin-bottom: 30px;
-
-    flex-basis: 220px;
-    max-width: 250px;
+    flex-basis: 260px;
     flex-grow: 1;
 }
-
-.perfiles .perfil123 .perfil2{
+#perfiles .perfil123 .perfil2{
     background-image: url(../img/danielaf2.jpg);
     background-size: cover;
-    width: 230px;
+    width: 260px;
     height: 260px;
     border-radius: 50%;
     margin: auto;
     display: block;
     margin-bottom: 30px;
-
-    flex-basis: 220px;
-    max-width: 250px;
+    flex-basis: 260px;
     flex-grow: 1;
 }
-.perfiles  .perfil123 .perfil3{
+#perfiles  .perfil123 .perfil3{
     background-image: url(../img/Alejandro.jpg);
     background-size: cover;
-    width: 230px;
+    width: 260px;
     height: 260px;
     border-radius: 50%;
     margin: auto;
-    display: block;
+    display: inline-block;
     margin-bottom: 30px;
-
-    flex-basis: 220px;
-    max-width: 250px;
+    flex-basis: 260px;
     flex-grow: 1;
 }
-
-
-.perfiles .perfil123 .perfil1:hover{
+#perfiles .perfil123 .perfil1:hover ,  .perfil2:hover , .perfil3:hover {
     background-size: cover;
-    scale: 110%;
     transition: 500ms;
+    transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;
  }
- .perfiles .perfil123 .perfil2:hover{
-     background-size: cover;
-     scale: 110%;
-     transition: 500ms;
-  }
-  .perfiles .perfil123 .perfil3:hover{
-    background-size: cover;
-     scale: 110%;
-     transition: 500ms;
-  }
-
-
-.perfiles .detalle{
-    background-color: #e3edf2;
+#perfiles .detalle{
+    background-color: #f6f7f1;
     padding: 15px 10px 1px 10px;
     border-radius: 10px;
-
-    flex-basis: 300px;
-    max-width: 300px;
+    flex-basis: 290px;
+    max-width: 290px;
     flex-grow: 1;
     margin-bottom: 30px;
 }
-
-
-
-.perfiles .nombre  {
-    font-weight: 600;
+#perfiles .nombre  {
+    font-size: 1.6rem;
+    font-weight: 700;
     color: white;
     display: flex;
     justify-content: center;
     padding: 7px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
-
-.perfiles .nombre :hover{
+#perfiles .nombre :hover{
     transform: scale(1.05);
     transition: all 300ms;
     background-color: #030a8c;
 }
-
-
-
-.perfiles .nombre   span{
+#perfiles .nombre   span{
     background-color:#0a4da6;
     padding: 5px 18px;
     border-radius: 12px 0;
@@ -383,52 +361,168 @@ color: white; border: none;}
 }
 /* boton perfil desplegar */
 
-.perfiles .botonderecha{
+#perfiles .botonderecha{
     text-align: center;
     cursor: pointer;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
-
-.perfiles .botonperfil{
-    background-color: #e3edf2;
+#perfiles .botonperfil{
+    background-color: #f6f7f1;
     border: 2px solid #1E88E5 ;
     color: #1E88E5;
     border-radius: 7px;
     padding: 5px 70px;
     font-weight: 800;   
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
-
-.perfiles .flecha{
+#perfiles .flecha{
     padding-left: 10px;
 }
-
-.perfiles .btn :hover{
+#perfiles .btn :hover{
     background-color: #1E88E5;
     color: white;
     border: 2px solid #1E88E5 ;
 
 }
-
-.perfiles .btn :active{
+#perfiles .btn :active{
     background-color: #030a8c;
     border: 2px solid #030a8c ;
     color: white;
 }
 
 
+/* seccion socias */
+
+#nosotrossocias{
+    width: 90%;
+    margin: 0 auto;
+
+}
 
 
+/*secion perfiles socias*/
 
-
-
-
-
-
-
-
-
+#perfilessocias {
+    width: 100%;
+    margin: 0 auto;
+}
+#perfilessocias .perfil1234{
+    background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    border-radius: 10px;
+    max-width: 900px;
+    min-height: 30vh;
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+#perfilessocias .detalle  .listado{
+    list-style: square;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin: 0;
+    box-shadow: none;
+    padding: 0;
+    list-style: square;
+    justify-content: left;
+    background-color: transparent;
+    font-size: 1.4rem;
+    font-size: 800;
+    transform: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#perfilessocias .perfil1234 .perfil1{
+    background-image: url(../img/meugenia.jpg);
+    background-size: cover;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    flex-basis: 260px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+#perfilessocias .perfil1234 .perfil2{
+    background-image: url(../img/geraldine2.jpg);
+    background-size: cover;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    flex-basis: 260px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+#perfilessocias  .perfil1234 .perfil3{
+    background-image: url(../img/ximena.jpg);
+    background-size: cover;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    flex-basis: 240px;
+    max-width: 260px;
+    flex-grow: 1;
+}
+#perfilessocias  .perfil1234 .perfil4{
+    background-image: url(../img/monica.jpg);
+    background-size: cover;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    flex-basis: 240px;
+    max-width: 260px;
+    flex-grow: 1;
+}
+#perfilessocias .perfil1234 .perfil1:hover ,  .perfil2:hover , .perfil3:hover,.perfil4:hover {
+    background-size: cover;
+    transition: 500ms;
+    transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;
+}
+#perfilessocias .detalle{
+    background-color: #f6f7f1;
+    padding: 15px 0 1px 0;
+    border-radius: 10px;
+    flex-basis: 260px;
+    max-width: 300px;
+    flex-grow: 1;
+    margin-bottom: 30px;
+}
+#perfilessocias .nombre  {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+#perfilessocias .nombre :hover{
+    transform: scale(1.05);
+    transition: all 300ms;
+    background-color: #030a8c;
+}
+#perfilessocias .nombre   span{
+    background-color:#1E88E5;
+    padding: 5px 18px;
+    border-radius: 12px 0;
+    align-items:center;
+}
 
 
 /* card noticias  */
@@ -616,16 +710,17 @@ color: white; border: none;}
     line-height: 2.2rem;  
 }
 
+
 /* card diplomado  */
 
-.groups .carddiplo{overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #001d7e ;
-
+.groups .carddiplomado {overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #001d7e ;
     justify-content: space-between;
 }
-.groups .carddiplo .fotodiplo {
+
+.groups .carddiplomado .fotodiplo {
     background-image: url(../img/diplomado1.jpg);
 }
-.carddiplo   .span{
+.groups .carddiplomado .span {    
     background-color: #ffac4b;
     padding: 5px 15px;
     border-radius: 10px 0;
@@ -635,42 +730,49 @@ color: white; border: none;}
     color: white;
     font-size: 1.2rem;    
 }
-.carddiplo   h2{
+.groups .carddiplomado .meta-sission3 .head{display: flex; margin: 5px 0; }
+.carddiplomado   h2 {
     font-size: 2.4rem;
-   font-weight: 600;
-   padding: 10px 0;
-   color: white;
+    font-weight: 700;
+    padding: 10px 0 5px 0; 
+    color: white;
+    
 }
-.carddiplo   h5{
+.carddiplomado   h5{
     font-size: 1.6rem;
-    font-weight: 400;
-    padding: 10px 0 ;
+    font-weight: 600;
+    padding: 5px 0 ;
     color: white;
 }
-.groups .image-session3{float: right;overflow: hidden;margin-right: 0;}
-.groups .image-session3 .image{
-    
-    width: 350px; min-width: 330px; height: 30rem;display: block;background-size: cover; background-position: center; background-repeat: no-repeat;}
 
-.groups .meta-sission3{ width: 500px; position: relative;padding: 20px;display: block;height:30rem;}
-.groups .meta-sission3 .head{display: flex; margin:  0 0 5px 0;   }
-.groups .meta-sission3 .head .title{list-style: none;text-decoration: none;color: white; 
-    text-transform: uppercase;  box-shadow: 0 1px 6px 0 #0004 ;}
+.carddiplomado .image-session3{float: right;overflow: hidden;margin-right: 0}
+.carddiplomado .image-session3 .image{ width: 360px; min-width: 350px; height: 30rem;display: block;
+    background-size: cover; background-position: center; background-repeat: no-repeat;}
+.groups  .carddiplomado  .meta-sission3{ width: 500px; position: relative;padding: 25px;display: flex;
+    height:30rem; align-items: center;
+}
 
+.groups   .carddiplomado .footer3 .centrar{  
+    display: flex;  justify-content: center;}
 
+.groups   .carddiplomado .footer3 .btn{  
+    display: block; position: absolute;bottom: 20px;background: #1E88E5;
+    line-height: 2.2;padding: 0 40px;border-radius: 8px; 
+    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 
+  .groups .carddiplomado .footer3 .btn a {color: white; text-decoration: none;
+    font-size: 1.4rem;  font-weight: 600}
 
+.groups .carddiplomado .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005; 
+background-color: #1E88E5; font-weight: 700; right: 15px ;}
 
-.groups .footer3 .btn{position: absolute;bottom: 20px;background: #1E88E5;
-    color: #fff;line-height: 2.2;padding: 0 40px;border-radius: 8px;text-decoration: none; 
-    text-transform: uppercase; font-weight: 600; border: none;
-  font-size: 1.4rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
-.groups .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005;background: whitesmoke;
-color: #0a4da6; font-weight: 700; right: 15px}
-
-
+.groups .carddiplomado .footer3 .btn:active{box-shadow: 0 3px 8px 0 #0005; 
+    background-color: white; font-weight: 700; right: 15px ; color: #030a8c;}
 
 /* card destacado  */
+ 
+
+
 
 .groups .carddestacado{overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #e3edf2 ;
 
@@ -684,6 +786,9 @@ color: #0a4da6; font-weight: 700; right: 15px}
 }
 .groups .carddestacado .fotoconferencia {
     background-image: url(../img/conferenciaitalia.jpg);
+}
+.groups .carddestacado .fotodiplo {
+    background-image: url(../img/diplomado1.jpg);
 }
 
 .carddestacado   h2{
@@ -734,6 +839,9 @@ background-color: #1E88E5; font-weight: 700; right: 15px ;}
 
 
 
+
+
+
 @media screen and (max-width:900px){.presentacion{    width: 96%;}
     .groups li:hover{    transform: none;    box-shadow: none;}
 }
@@ -771,10 +879,10 @@ padding-bottom: 45px;}
         }
     
 /* card diplomado  */
-        @media screen and (max-width:550px){ .carddiplo .meta-sission3  {   
+        @media screen and (max-width:550px){ .carddiplomado .meta-sission3  {   
             height: auto;      }    
             }
-            @media screen and (max-width:550px){ .carddiplo  .body  {   
+            @media screen and (max-width:550px){ .carddiplomado  .body  {   
             padding-bottom: 30px;}    
             }
         
@@ -787,7 +895,6 @@ padding-bottom: 45px;}
     @media screen and (max-width:550px){ .carddestacado  .body  {   
     padding-bottom: 3px;}    
     }
-
 
 
 
