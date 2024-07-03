@@ -16,14 +16,12 @@ body {background: whitesmoke;
 .groups li:hover{transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;}
 
 
-
+/* titulos secciones */
 .nombrezona{
     font-size: 2.4rem;
     font-weight: 700;
     padding:   30px 0;
 }
-
-
 
 /* seccion presentacion */
 .presentacion{
@@ -89,6 +87,58 @@ body {background: whitesmoke;
     font-weight: 500;
 }
 
+/* boton  */
+.presentacion1 .texto .centrar{
+    display: flex;
+    justify-content: center;   
+    align-items: flex-end;
+    padding-top: 30px;
+}
+.presentacion1 .botonhistoria{
+    text-align: center;
+    cursor: pointer;
+}
+.presentacion1 .botonhistoria{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #101923 ;
+    color: #101923;
+    border-radius: 7px;
+    padding: 7px 40px;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: inline-block;
+    color: #101923;
+}
+.presentacion1 .botonhistoria .flecha{
+    padding-left: 10px;
+}
+.presentacion1 .botonhistoria:hover{
+    background-color: #1E88E5;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #1E88E5 ;
+}
+.presentacion1 .botonhistoria:active{
+    background-color: #030a8c;
+    border: 2px solid #030a8c ;
+    color: white;
+}
+.presentacion1 .botonhistoria:hover  a {
+    color: white;
+    }
+.presentacion1 .botonhistoria:active  a {
+    color: white;
+    }
+.presentacion1 .botonhistoria a{
+    text-decoration: none;
+}
+.presentacion1 .botonhistoria a:hover{
+    text-decoration: none;
+}
+
 /* servicios */
 .groups .card1a{overflow: hidden;display: block; background-color: #FFF7DB;}
 .groups .card1b{overflow: hidden;display: block; background-color: #c5e0fb;}
@@ -151,6 +201,10 @@ font-size: 1.4rem;
 .groups .card1b .footer1 .btncontacto:hover{box-shadow: 0 3px 8px 0 #0005;background: #0a4da6;right: 15px;}
 .groups .card1b .footer1 .btncontacto:active{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 15px;}
 
+.groups .card1b .flecha{
+    padding-left: 10px;
+}
+
 
 /* card detalle servicios profesionales  */
 
@@ -173,7 +227,6 @@ border-radius: 12px 0;
 font-size: 1.2rem;
 font-weight: 600;
 }
-
 .cardservicios .tituloservicios  {
      font-size: 2.2rem;
      font-weight: 600;
@@ -182,29 +235,22 @@ font-weight: 600;
 .cardservicios .detalle  {
     font-size: 1.4rem;
 }
-
 .groups .image-session1{float: left;overflow: hidden;margin-right: 20px;}
 .groups .image-session1 .image{width: 350px; min-width: 330px; height: 32rem;display: block;background-size: cover;
     background-position: center; background-repeat: no-repeat;}
-
 .groups .meta-sission1{position: relative;padding: 15px;display: block;height: 32rem;}
 .groups .meta-sission1 .head{display: flex; margin: 0 auto; }
 .groups .meta-sission1 .head .catogry{list-style: none;text-decoration: none;font-size: 1.4rem;
     font-weight: 700;color:white;
-
     text-transform: uppercase; line-height: 22px;
     padding: 0 0 10px 0;}
-
-
 .meta-sission1 .head .per input{display: block;font-size: 10px;text-align: right;}
 .meta-sission1 .head .per input{-webkit-appearance: none;height: 5px;border-radius: 5px;background: #0001;
     margin-bottom: 4px;overflow: hidden;}
 .meta-sission1 .head .per input::-webkit-slider-thumb{-webkit-appearance: none;width: 0;
     box-shadow: -100px 0 0 100px #0075ff;}
 .groups .body1 .title{height: 60px;overflow: hidden;font-size: auto; color: #101923;font-weight: 400; }
-
 .cardservicios .meta-sission1  {
-    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -216,16 +262,12 @@ font-weight: 600;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    
+}
+.groups .cardservicios .flecha{
+    padding-left: 10px;
 }
 
-
-
-
-
-
 /* botones servicios  */
-
 
 .groups .cardservicios .footer2 .btn1{position: absolute;bottom: 20px;left: 30px;
     background-color: transparent;
@@ -242,21 +284,232 @@ color: white; border: none;}
     text-transform: uppercase; font-weight: 600; border: none; text-decoration: none;
   font-size: 1.2rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 
-
 .groups .cardservicios .footer2 .btn2:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 10px;
     border: none; text-decoration: none;}
 
+/* card diplomado  */
 
+.groups .carddiplomado {overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #001d7e ;
+    justify-content: space-between;
+}
+.groups .carddiplomado .fotodiplo {
+    background-image: url(../img/diplomado1.jpg);
+}
+.groups .carddiplomado .span {    
+    background-color: #ffac4b;
+    padding: 5px 15px;
+    border-radius: 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;    
+}
+.groups .carddiplomado .meta-sission3 .head{display: flex; margin: 5px 0; }
+.carddiplomado   h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 10px 0 5px 0; 
+    color: white;
+}
+.carddiplomado   h5{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 5px 0 ;
+    color: white;
+}
+.carddiplomado .image-session3{float: right;overflow: hidden;margin-right: 0}
+.carddiplomado .image-session3 .image{ width: 100%; min-width: 350px; height: 30rem;display: block;
+    background-size: cover; background-position: center; background-repeat: no-repeat;}
+.groups  .carddiplomado  .meta-sission3{ width: 500px; position: relative;padding: 25px;display: flex;
+    height:30rem; align-items: center;
+}
+
+.groups   .carddiplomado .footer3 .centrar{  
+    display: flex;  justify-content: center;}
+
+.groups   .carddiplomado .footer3 .btn{  
+    display: block; position: absolute;bottom: 20px;background: #1E88E5;
+    line-height: 2.2;padding: 0 40px;border-radius: 8px; 
+    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+
+  .groups .carddiplomado .footer3 .btn a {color: white; text-decoration: none;
+    font-size: 1.4rem;  font-weight: 600}
+
+.groups .carddiplomado .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005; 
+background-color: #1E88E5; font-weight: 700; right: 15px ;}
+
+.groups .carddiplomado .footer3 .btn:active{box-shadow: 0 3px 8px 0 #0005; 
+    background-color: white; font-weight: 700; right: 15px ; color: #030a8c;}
+
+/* card destacado  */
+ 
+.groups .carddestacado{overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #e3edf2 ;
+
+    justify-content: space-between;
+}
+.groups .carddestacado .fotomanifiesto {
+    background-image: url(../img/textomanifiesto.jpg);
+}
+.groups .carddestacado .fotodiploma {
+    background-image: url(../img/diploma.jpg);
+}
+.groups .carddestacado .fotoconferencia {
+    background-image: url(../img/conferenciaitalia.jpg);
+}
+.groups .carddestacado .fotodiplo {
+    background-image: url(../img/diplomado1.jpg);
+}
+
+.carddestacado   h2{
+    font-size: 2.4rem;
+   font-weight: 700;
+   padding: 10px 0;
+   color: black;
+}
+.carddestacado   h5{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 10px 0 ;
+    color: black;
+}
+.carddestacado   h6{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 10px 0 ;
+    color: black;
+}
+
+
+.carddestacado .image-session3{float: right;overflow: hidden;margin-right: 0}
+.carddestacado .image-session3 .image{
+    
+    width: 350px; min-width: 350px; height: 30rem;display: block;background-size: cover; 
+    background-position: center; background-repeat: no-repeat;}
+
+.groups  .carddestacado  .meta-sission3{ width: 500px; position: relative;padding: 25px;display: flex;
+    height:30rem;
+
+align-items: center;
+}
+
+
+.groups   .carddestacado .footer3 .btn{  
+    display: block;
+    position: absolute;bottom: 20px;background: #030a8c;
+    line-height: 2.2;padding: 0 40px;border-radius: 8px; 
+    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+
+  .groups .carddestacado .footer3 .btn a {color: white; text-decoration: none;
+    font-size: 1.4rem;  font-weight: 600}
+
+.groups .carddestacado .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005; 
+background-color: #1E88E5; font-weight: 700;  ;}
+
+
+.groups .carddestacado .flecha{
+    padding-left: 10px;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+/* card paulina  */
+
+.groups .cardpaulina {overflow: hidden;display: flex;flex-wrap: wrap-reverse ;
+    background-color: #FFF7DB;
+    justify-content: space-between;
+}
+.groups .cardpaulina .fotopaulina {
+    background-image: url(../img/paulinaFinal.jpg);
+}
+.groups .cardpaulina .span {    
+    background-color: #ffac4b;
+    background-color: #101923;
+    padding: 5px 15px;
+    border-radius: 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;    
+}
+.groups .cardpaulina .meta-sission3 .head{display: flex; margin: 5px 0; }
+.cardpaulina   h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 10px 0 5px 0; 
+}
+.cardpaulina   h5{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 0 ;
+}
+.cardpaulina .image-session3{float: right;overflow: hidden;margin-right: 0}
+.cardpaulina .image-session3 .image{ width: 360px; min-width: 350px; height: 30rem;display: block;
+    background-size: cover; background-position: center; background-repeat: no-repeat;}
+.groups  .cardpaulina  .meta-sission3{ width: 500px; position: relative;padding: 25px;display: flex;
+    height:30rem; align-items: center;}
+.groups   .cardpaulina .footer3 .centrar{  
+    display: flex;  justify-content: center;}
+.groups   .cardpaulina .footer3 .btn{  
+    display: block; position: absolute;bottom: 20px;background: #f2b90c;
+    line-height: 2.2;padding: 0 40px;border-radius: 8px; 
+    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+.groups .cardpaulina .footer3 .btn a {color: white; text-decoration: none;
+    font-size: 1.4rem;  font-weight: 600}
+.groups .cardpaulina .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005; 
+    background-color: #ffac4b; font-weight: 700;}
+.groups .cardpaulina .footer3 .btn:active{box-shadow: 0 3px 8px 0 #0005; 
+    background-color: #ff9c08; font-weight: 700;}
+
+
+    
+/* carrusel azul  */
+/* seccion azul */
+
+.carruselazul{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px 30px;
+    margin-top: 30px;
+}
+
+#carouselExampleInterval {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    height: 100%;
+    background: linear-gradient(to bottom right,#030a8c,#0a4da6);
+    min-width: 380px;
+    padding: 10px 5px;
+    margin-bottom: 30px;
+}
+#carouselExampleInterval .carousel-inner{
+    width: 80%;
+}
+#carouselExampleInterval h4{
+    color: white;
+    text-align: left;
+    padding: 30px 20px;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+}
 
 /* card perfiles profesionales  */
-
 
 #perfiles {
     width: 100%;
     margin: 0 auto;
-
     font-family: "DM Sans", sans-serif;
-
 }
 #perfiles .perfil123{
     background-color: #BDD9F2;
@@ -271,22 +524,26 @@ color: white; border: none;}
     justify-content: space-evenly;
     flex-wrap: wrap;
     }
+
+
+
 #perfiles .detalle   .listado{
     list-style: square;
-    font-size: 16px;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-decoration: none;
     margin: 0;
     box-shadow: none;
     padding: 0;
-    list-style: square;
     justify-content: left;
     background-color: transparent;
     font-size: 1.4rem;
     font-size: 800;
     transform: none;
     font-weight: bold;
+    }
+
+    #perfiles .detalle .listado li{
+        list-style: square;
     }
 #perfiles .perfil123 .perfil1{
     background-image: url(../img/Alicia\(1\).jpg);
@@ -301,7 +558,7 @@ color: white; border: none;}
     flex-grow: 1;
 }
 #perfiles .perfil123 .perfil2{
-    background-image: url(../img/danielaf2.jpg);
+    background-image: url(../img/daniela-perfil.jpg);
     background-size: cover;
     width: 260px;
     height: 260px;
@@ -360,7 +617,6 @@ color: white; border: none;}
     align-items:center;
 }
 /* boton perfil desplegar */
-
 #perfiles .botonderecha{
     text-align: center;
     cursor: pointer;
@@ -384,7 +640,6 @@ color: white; border: none;}
     background-color: #1E88E5;
     color: white;
     border: 2px solid #1E88E5 ;
-
 }
 #perfiles .btn :active{
     background-color: #030a8c;
@@ -392,18 +647,11 @@ color: white; border: none;}
     color: white;
 }
 
-
-/* seccion socias */
-
+/* seccion perfilessocias */
 #nosotrossocias{
-    width: 90%;
+    width: 1000%;
     margin: 0 auto;
-
 }
-
-
-/*secion perfiles socias*/
-
 #perfilessocias {
     width: 100%;
     margin: 0 auto;
@@ -526,9 +774,6 @@ color: white; border: none;}
 
 
 /* card noticias  */
-
-
-
 .groups .card2{overflow: hidden;display: block; background-color: #f6f7f1 ; }
 .groups .card2 .foto1 {
     background-image: url(../img/banner_final.jpg);}
@@ -611,18 +856,66 @@ color: white; border: none;}
     line-height: 2.2rem;
 }
 
+/* fotos detalle noticias   */
 
+.textolargonoticias .detallefotos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.textolargonoticias .detallefotos .foto{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 21rem;
+    flex-basis: 430px;
+    max-width: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 5px solid white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.textolargonoticias .fotonoticia20{
+    background-image: url(../img/miami2.jpg);}
+.textolargonoticias .fotonoticia21{
+    background-image: url(../img/miami3.jpg);}
+.textolargonoticias .fotonoticia17{
+    background-image: url(../img/foto3.jpg);}
+.textolargonoticias .fotonoticia18{
+    background-image: url(../img/grupo.jpg);
+}
+.textolargonoticias .fotonoticia14{
+    background-image: url(../img/taller2.jpg);
+}
+.textolargonoticias .fotonoticia15{
+    background-image: url(../img/taller3.jpg);
+}
+.textolargonoticias .fotonoticia9{
+    background-image: url(../img/conferenciaitalia.jpg);
+}
+.textolargonoticias .fotonoticia10{
+    background-image: url(../img/charlaFINAL.jpg);
+}
+.textolargonoticias .fotonoticia25{
+    background-image: url(../img/gubbio.jpg);
+}
+.textolargonoticias .fotonoticia26{
+    background-image: url(../img/gubbio3.jpg);
+}
 
 
 
 /* boton separador seccion  */
-
 .zonadesgloce {
     display: flex;
     justify-content: right;
-   
 }
-
 .botondesgloce {
     font-size: 1.6rem;
     font-weight: 700;
@@ -637,12 +930,10 @@ color: white; border: none;}
     transition: all 0.3s;
     border: none;
 }
-
 .zonadesgloce  .botondesgloce:hover {
     box-shadow: 0 3px 8px 0 #0005;background-color: #030a8c;right: 15px;
     border: none; color: white; right: 15px;
 }
-
 /* card libros  */
 
 .groups .card4{overflow: hidden;display: block; background-color: #f5f5eb ;}
@@ -711,143 +1002,25 @@ color: white; border: none;}
 }
 
 
-/* card diplomado  */
-
-.groups .carddiplomado {overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #001d7e ;
-    justify-content: space-between;
-}
-
-.groups .carddiplomado .fotodiplo {
-    background-image: url(../img/diplomado1.jpg);
-}
-.groups .carddiplomado .span {    
-    background-color: #ffac4b;
-    padding: 5px 15px;
-    border-radius: 10px 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    font-size: 1.2rem;    
-}
-.groups .carddiplomado .meta-sission3 .head{display: flex; margin: 5px 0; }
-.carddiplomado   h2 {
-    font-size: 2.4rem;
-    font-weight: 700;
-    padding: 10px 0 5px 0; 
-    color: white;
-    
-}
-.carddiplomado   h5{
-    font-size: 1.6rem;
-    font-weight: 600;
-    padding: 5px 0 ;
-    color: white;
-}
-
-.carddiplomado .image-session3{float: right;overflow: hidden;margin-right: 0}
-.carddiplomado .image-session3 .image{ width: 360px; min-width: 350px; height: 30rem;display: block;
-    background-size: cover; background-position: center; background-repeat: no-repeat;}
-.groups  .carddiplomado  .meta-sission3{ width: 500px; position: relative;padding: 25px;display: flex;
-    height:30rem; align-items: center;
-}
-
-.groups   .carddiplomado .footer3 .centrar{  
-    display: flex;  justify-content: center;}
-
-.groups   .carddiplomado .footer3 .btn{  
-    display: block; position: absolute;bottom: 20px;background: #1E88E5;
-    line-height: 2.2;padding: 0 40px;border-radius: 8px; 
-    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
-
-  .groups .carddiplomado .footer3 .btn a {color: white; text-decoration: none;
-    font-size: 1.4rem;  font-weight: 600}
-
-.groups .carddiplomado .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005; 
-background-color: #1E88E5; font-weight: 700; right: 15px ;}
-
-.groups .carddiplomado .footer3 .btn:active{box-shadow: 0 3px 8px 0 #0005; 
-    background-color: white; font-weight: 700; right: 15px ; color: #030a8c;}
-
-/* card destacado  */
- 
 
 
 
-.groups .carddestacado{overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #e3edf2 ;
-
-    justify-content: space-between;
-}
-.groups .carddestacado .fotomanifiesto {
-    background-image: url(../img/textomanifiesto.jpg);
-}
-.groups .carddestacado .fotodiploma {
-    background-image: url(../img/diploma.jpg);
-}
-.groups .carddestacado .fotoconferencia {
-    background-image: url(../img/conferenciaitalia.jpg);
-}
-.groups .carddestacado .fotodiplo {
-    background-image: url(../img/diplomado1.jpg);
-}
-
-.carddestacado   h2{
-    font-size: 2.4rem;
-   font-weight: 700;
-   padding: 10px 0;
-   color: black;
-}
-.carddestacado   h5{
-    font-size: 1.6rem;
-    font-weight: 600;
-    padding: 10px 0 ;
-    color: black;
-}
-.carddestacado   h6{
-    font-size: 1.4rem;
-    font-weight: 400;
-    padding: 10px 0 ;
-    color: black;
-}
-
-
-.carddestacado .image-session3{float: right;overflow: hidden;margin-right: 0}
-.carddestacado .image-session3 .image{
-    
-    width: 350px; min-width: 350px; height: 30rem;display: block;background-size: cover; 
-    background-position: center; background-repeat: no-repeat;}
-
-.groups  .carddestacado  .meta-sission3{ width: 500px; position: relative;padding: 25px;display: flex;
-    height:30rem;
-
-align-items: center;
-}
-
-
-.groups   .carddestacado .footer3 .btn{  
-    
-    display: block;
-    position: absolute;bottom: 20px;background: #030a8c;
-    line-height: 2.2;padding: 0 40px;border-radius: 8px; 
-    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
-
-  .groups .carddestacado .footer3 .btn a {color: white; text-decoration: none;
-    font-size: 1.4rem;  font-weight: 600}
-
-.groups .carddestacado .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005; 
-background-color: #1E88E5; font-weight: 700; right: 15px ;}
-
-
-
-
-
-
+/* presentacion  */
 @media screen and (max-width:900px){.presentacion{    width: 96%;}
     .groups li:hover{    transform: none;    box-shadow: none;}
 }
 @media screen and (max-width:550px){.presentacion1{    width: 96%; padding: 5px;
 height: auto;}    
 }
+
+
+/* carrusel azul  */
+@media screen and (max-width:900px){.presentacion .carruselazul{    width: 96%;}
+    .groups li:hover{    transform: none;    box-shadow: none;}
+}
+@media screen and (max-width:550px){.carruselazul{ width: 96%; padding: 5px; height: auto;}    
+}
+
 
 
 
@@ -886,6 +1059,7 @@ padding-bottom: 45px;}
             padding-bottom: 30px;}    
             }
         
+    
 
 /* card destacado  */
 
@@ -895,8 +1069,19 @@ padding-bottom: 45px;}
     @media screen and (max-width:550px){ .carddestacado  .body  {   
     padding-bottom: 3px;}    
     }
+ 
+    
 
+/* card paulina  */
 
+@media screen and (max-width:550px){ .cardpaulina .meta-sission3  {   
+    height: auto;      }    
+    }
+    @media screen and (max-width:550px){ .cardpaulina  .body  {   
+    padding-bottom: 30px;}    
+    }
+
+ 
 
 
 @media screen and (max-width:560px){.groups .image-session1{    float: none; padding: 2px;   margin-right: 0;}
@@ -916,3 +1101,959 @@ padding-bottom: 45px;}
 }
 
 
+/* pagina formulario 1 */
+#formulario {
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    font-family: "DM Sans", sans-serif;
+    }
+#formulario .contenido1{
+    background-image: url(../img/fondo1final.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    }
+#formulario .imagenfondo {
+    background-image: url(../img/icono2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: auto ;
+    flex-grow: 1;
+    padding: 25px;
+    }
+#formulario .formulario1 {
+    flex-basis: 450px;
+    max-width: 550px;
+    min-width: 290px;
+    flex-grow: 1;
+    margin: 60px 40px ;
+    text-align: justify;
+    border-radius: 12px;
+    font-weight: 600;
+    background-color: #FFF7DB;
+    display: grid;
+    flex-direction: row;
+    padding: 50px 40px;
+}
+#formulario .formulario1  .subtitulo {
+    margin-top: 50px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+}
+#formulario .marco{
+    background-color: white;
+    border-radius: 12px;
+}
+#formulario .logo{
+    background-image: url(../img/logo-color-banner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45px;
+    width: auto ;
+    margin: 20px ;
+}
+#formulario .formulario1   span{
+    background-color: #f2b90c;
+    padding: 5px 12px;
+    font-size: 1.2rem;
+    border-radius: 12px 0;
+}
+#formulario  .formulario1 h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+#formulario  .botonenviar {
+    background-color: #f2b90c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 70px;
+    transition: .3s ease all;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#formulario .botonenviar :hover{
+    background-color: #ffac4b;
+    color: white;
+    text-decoration: none;
+}
+#formulario .botonenviar :active{
+    background-color: #ff9c08;
+    color: white;
+    text-decoration: none;
+    
+}
+#formulario .form-label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#formulario  .formulario1 footer  {
+    display: flex;
+    justify-content: flex-end;    
+}
+
+/* formulario 2 */
+#formulario .contenido2{
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+}
+#formulario .formulario2 {
+    flex-basis: 450px;
+    max-width: 550px;
+    min-width: 290px;
+    flex-grow: 1;
+    margin:  60px 40px;
+    text-align: justify;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #e3edf2;
+    display: grid;
+    flex-direction: row;
+    padding: 50px 40px;
+}
+#formulario .formulario2  .subtitulo {
+    margin-top: 50px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+}
+#formulario  .formulario2 h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+#formulario .formulario2   span{
+    background-color: #1E88E5;
+    padding: 5px 12px;
+    font-size: 1.2rem;
+    border-radius: 12px 0;
+}
+#formulario .formulario2 .botonenviar {
+    background-color: #0a4da6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 70px;
+    transition: .3s ease all;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#botonazul .botonenviar :hover{
+    background-color: #ffac4b;
+    color: white;
+    text-decoration: none;
+}
+#botonazul .botonenviar :active{
+    background-color: #ff9c08;
+    color: white;
+    text-decoration: none;
+}
+
+#formulario  .formulario2 footer  {
+    display: flex;
+    justify-content: flex-end;    
+}
+
+
+  /*diplomado*/
+
+  #diplomadop .paulinapagina {
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+#diplomadop .textocorto{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+#diplomadop .textocorto h1{
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: white;
+}
+#diplomadop .textocorto h4{
+    padding: 6px 0;
+    font-weight: 600;
+    margin-top: 0px;
+}
+#diplomadop .nombre   span{
+    background-color: #578bf2;
+    padding: 5px 20px;
+    border-radius: 0 12px ;
+    align-items:center;
+    display: inline-block;
+}
+#diplomadop .nombre   {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+#diplomadop .nombre2   span{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 8px ;
+    align-items:center;
+    display: inline-block;
+    margin-top: 50px;
+}
+#diplomadop .nombre2   {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+   font-size: 1.8rem;
+}
+
+#diplomadop .nombre3   span{
+    background-color: #ffac4b;
+    padding: 5px 20px;
+    border-radius:0 10px ;
+    align-items:center;
+    display: inline-block;
+    margin-top: 10px;
+}
+#diplomadop .nombre3   {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+   
+}
+
+#diplomadop .fotoportadamani{
+    background-image: url(../img/familia-grande.jpg);
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 200px;
+    min-width: 350px;
+    flex-basis: 550px;
+    max-width: 650px;
+    border-radius: 5px 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 10px solid #001d7e;
+    margin-bottom: 40px;
+
+}
+#diplomadop .fotoiconos1{
+    background-image: url(../img/iconos1.jpg);
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 8rem;
+    max-width: 750px;
+    border-radius: 9px ;
+    display: flex;
+    justify-content: center;
+}
+
+#diplomadop .fotoiconos2{
+    background-image: url(../img/iconos2.jpg);
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 8rem;
+    max-width: 750px;
+    border-radius: 9px ;
+    display: flex;
+    justify-content: center;
+}
+#diplomadop .fotocentro {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    }
+#diplomadop .textolargo {
+    margin: 0 20px;
+    padding: 20px 5px;
+    text-align: justify;
+    margin-top: 0px;
+    line-height: auto;
+    flex-basis: 450px;
+    max-width: 1100px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    }
+#diplomadop .textolargo1 {
+        margin:  20px;
+        padding: 25px;
+        text-align: justify;
+        margin-top: 0px;
+        line-height: auto;
+        flex-basis: 450px;
+        max-width: 1100px;
+        background-color: whitesmoke;
+        background-color: #e3edf2;
+        border-radius: 15px;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        font-weight: 400;
+
+        }
+    
+
+
+
+
+
+
+
+
+ /* pagina manifiesto*/
+
+#manifiestop .seccionp {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family:inherit;
+}
+#manifiestop .paulinapagina {
+    background-color: #e3edf2;
+    width: 100%;
+    margin: 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+#manifiestop .textocorto{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    flex-grow: 1;
+    text-align: left;
+    padding: 30px 0px;
+}
+#manifiestop .textocorto h1{
+    padding: 15px 0;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 60px;
+}
+#manifiestop .textocorto h4{
+    padding: 9px 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 0px;
+    min-width: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+}
+#manifiestop .nombre   span{
+    background-color: #0a4da6;
+    padding: 5px 20px;
+    border-radius: 12px 0;
+    align-items:center;
+    display: inline-block;
+}
+#manifiestop .fotoportadamani{
+    background-image: url(../img/textomanifiesto.jpg);
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 70vh;
+    min-width: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 5px 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 10px solid #c5e0fb;
+    margin-bottom: 30px;
+}
+#manifiestop .fotoportadaasis{
+    background-image: url(../img/conferenciaitalia.jpg);
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 70vh;
+    min-width: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 5px 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 10px solid #c5e0fb;
+    margin-bottom: 30px;
+}
+#manifiestop .textolargo {
+    margin: 0 20px;
+    padding: 20px 5px;
+    text-align: justify;
+    margin-top: 0px;
+    line-height: auto;
+    flex-basis: 450px;
+    max-width: 1100px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    }
+#manifiestop .textolargo2 {
+    margin: 0 20px;
+    padding: 10px 5px;
+    text-align: justify;
+    margin-top: 0px;
+    line-height: auto;
+    flex-basis: 450px;
+    max-width: 1100px;
+    font-size: 1.4rem;
+    }
+
+  /*pagina paulina*/
+
+#inspiranp .seccionp {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family:inherit;
+}
+#inspiranp .paulinapagina {
+    background-color: #FFF7DB;
+    width: 100%;
+    margin: 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+#inspiranp .textocorto{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    flex-grow: 1;
+    text-align: left;
+}
+#inspiranp .textocorto h1{
+    padding: 10px 0;
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+    line-height: 2.8rem;  
+}
+#inspiranp .textocorto h2{
+    padding: 5px 0;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.8rem;  
+}
+#inspiranp .textocorto h4{
+    padding: 9px 0;
+    font-weight: 600;
+    margin-top: 50px;
+    min-width: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8rem;  
+    margin-bottom: 50px;
+}
+#inspiranp .nombre   span{
+    background-color:#f2b90c;
+    padding: 5px 18px;
+    border-radius: 12px 0;
+    align-items:center;
+    display: inline-block;
+}
+#inspiranp .fotopaulina2{
+    background-image: url(../img/paulinaFinal2.jpg);
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    height: 70vh;
+    min-width: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 5px 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 10px solid #f2b90c;
+}
+#inspiranp .textolargo {
+    margin: 0 20px;
+    padding: 30px 5px;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: auto;
+    flex-basis: 450px;
+    max-width: 1100px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;  
+
+    }
+    #inspiranp h3 {
+        text-align: justify;
+        line-height: auto;    
+        }
+#inspiranp .galeriafotos{
+    background-color: #FFF7DB;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px  0;
+    border-radius: 12px;
+    max-width: 1200px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+#inspiranp .galeriafotos .foto1{
+    background-image: url(../img/janopaulina.jpeg);
+}
+
+#inspiranp .galeriafotos .foto1:hover{
+   scale: 105%;
+   transition: 500ms;
+}
+#inspiranp .galeriafotos .foto2{
+    background-image: url(../img/opcionfinal.jpg);
+}
+#inspiranp .galeriafotos .foto2:hover:hover{
+   scale: 105%;
+   transition: 500ms;
+}
+#inspiranp .galeriafotos .foto3{
+    background-image: url(../img/paulina_uniacc.jpg);
+}
+#inspiranp .galeriafotos .foto3:hover:hover{
+   scale: 105%;
+   transition: 500ms;
+}
+#inspiranp .galeriafotos .foto4{
+    background-image: url(../img/foto-4-final.jpg);
+}
+#inspiranp .galeriafotos .fotop{
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 320px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 420px;
+    flex-grow: 1;
+}
+#inspiranp .galeriafotos .foto4:hover:hover{
+   scale: 105%;
+   transition: 500ms;
+}
+#inspiranp figure{
+    margin: 0;
+    display: inline-block;
+    border: 5px solid whitesmoke;
+    position: relative;
+}
+#inspiranp  figcaption{
+    color: white;
+    transition: all 0.3s;
+    display: none;
+    background:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 3%;
+    color: white;
+}
+#inspiranp figure:hover figcaption{
+    display: block;
+}
+ 
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+ 
+  
+.fondotiempo {
+    background: #c5e0fb;
+    background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+  /*Título*/
+  
+
+  .wrapper .seccionp{
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-family:inherit;
+  }
+
+  /*Envoltura*/
+  .wrapper{
+    max-width: 1080px;
+    margin: 100px auto;
+    padding: 0 20px;
+    position: relative;
+  }
+  .wrapper .center-line{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: #0a4da6;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    
+  }
+  .wrapper .row{
+    display: flex;
+  }
+  .wrapper .row section{
+    background: #FFF7DB;
+
+    border-radius: 9px;
+    width: calc(50% - 40px);
+    padding: 20px;
+    position: relative;
+    
+  }
+
+  .wrapper .row section:hover{
+        background: #1E88E5;
+        background-color: #0a4da6;
+        background-color: #BDD9F2;
+        background-color: whitesmoke;
+        color: white;
+        color: black;
+  }
+
+  .wrapper .row section::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FFF7DB;
+    top: 28px;
+    z-index: -1;
+    transform: rotate(45deg);
+  }
+
+.wrapper .row .foto2{
+    background-image: url(../img/2001publicaciongtsF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+}
+.wrapper .row .foto4{
+    background-image: url(../img/academiaromaF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+}
+.wrapper .row .foto6{
+    background-image: url(../img/2012coloquioF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+
+}
+.wrapper .row .foto7{
+    background-image: url(../img/conferenciabowenF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+}
+.wrapper .row .foto8{
+    background-image: url(../img/hongkongF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+}
+.wrapper .row .foto9{
+    background-image: url(../img/waltherdiplomadoF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+}
+.wrapper .row .foto10{
+    background-image: url(../img/mejorniñezF.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    flex-basis: auto;
+    max-width: 100%;
+    border: 5px solid white;
+}
+
+.wrapper .row figcaption{
+    color: white;
+    transition: all 0.3s;
+    display: none;
+    background: #0a4da6;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 3%;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper .row figure:hover figcaption {
+    display: block;
+}
+
+
+
+/*izquierda*/
+  .wrapper .row-1{
+    justify-content: flex-start;
+  }
+  .row-1 section::before{
+    right: -7px;
+  }
+  .row-1 section .icon{
+    top: 15px;
+    right: -60px;
+  }
+  /*derecha*/
+  .wrapper .row-2{
+    justify-content: flex-end;
+  }
+  .row-2 section::before{
+    left: -7px;
+  }
+  .row-2 section .icon{
+    top: 15px;
+    left: -60px;
+  }
+  /*Botón subir arriba*/
+  .center-line .scroll-icon{
+    bottom: 0px;
+    left: 50%;
+    font-size: 25px;
+    transform: translateX(-50%);
+  }
+  /*Líneas*/
+  .row section .icon,
+  .center-line .scroll-icon{
+    position: absolute;
+    background:#0a4da6;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 17px;
+    border-radius: 50%;
+
+  }
+  .row section .details,
+  .row section .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .row section .details .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    background-color: #f2b90c;
+    padding: 3px 15px;
+    border-radius: 12px 0;
+  }
+
+  .row  .subtitulo {
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  
+  .row section p{
+    margin: 10px 0 17px 0;
+    font-weight: 600;
+  }
+
+
+
+
+  /*MediaQuerys*/
+  @media(max-width: 790px){
+    .wrapper .center-line{
+      left: 40px;
+    }
+    .wrapper .row{
+      margin: 30px 0 3px 60px;
+    }
+    .wrapper .row section{
+      width: 100%;
+    }
+    .row-1 section::before{
+      left: -7px;
+    }
+    .row-1 section .icon{
+      left: -60px;
+    }
+  }
+  @media(max-width: 300px){
+    .wrapper .center-line,
+    .row section::before,
+    .row section .icon{
+      display: none;
+    }
+    .wrapper .row{
+      margin: 10px 0;
+    }
+  }
+
+  
