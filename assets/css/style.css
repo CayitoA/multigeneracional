@@ -16,6 +16,7 @@ body {background: whitesmoke;
 .groups li:hover{transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;}
 
 
+
 /* barra navegacion*/
 
 #barranavegacion .navbar-toggler :hover {
@@ -187,7 +188,7 @@ body {background: whitesmoke;
 }
 .presentacion .texto h2 {
     font-weight: 700;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     line-height: 3rem;
     padding: 10px 0;
 }
@@ -529,6 +530,65 @@ background-color: #1E88E5; font-weight: 700;  ;}
 
 
 .groups .carddestacado .flecha{
+    padding-left: 10px;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+/* card pequeña dupla  */
+ 
+
+.groups2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.groups2 .carddupla{overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #e3edf2 ;
+}
+
+
+.carddupla   h2{
+    font-size: 2.2rem;
+   font-weight: 700;
+   padding: 10px 0;
+   color: black;
+}
+.carddupla   h3{
+    font-size: 1.8rem;
+   font-weight: 700;
+   padding: 0 0 5px 0;
+   color: black;
+}
+.carddupla   h5{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 5px 0 ;
+    color: black;
+}
+
+.groups2  .carddupla  .meta-sission3{ width: 430px; position: relative;padding: 20px;display: flex;
+    height:20rem; align-items: center;
+}
+
+.groups2   .carddupla .footer3 .btn{  
+    display: block;
+    position: absolute;bottom: 20px;background: #030a8c;
+    line-height: 2.2;padding: 0 40px;border-radius: 8px; 
+    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+
+  .groups .carddupla .footer3 .btn a {color: white; text-decoration: none;
+    font-size: 1.4rem;  font-weight: 600}
+
+.groups2 .carddupla .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005; 
+background-color: #1E88E5; font-weight: 700;  ;}
+
+
+.groups2 .carddupla .flecha{
     padding-left: 10px;
     color: white;
     font-size: 1.6rem;
@@ -1104,6 +1164,11 @@ height: auto;}
 @media screen and (max-width:550px){#carouselExampleDark{ width: 96%; padding: 5px; height: auto;}    
 }
 
+/* card dupla  */
+
+@media screen and (max-width:550px){.groups2 { width: 96%; padding: 5px; height: auto;}    
+.groups li:hover{    transform: none;    box-shadow: none;}
+} 
 
 
 
