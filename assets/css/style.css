@@ -16,6 +16,119 @@ body {background: whitesmoke;
 .groups li:hover{transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;}
 
 
+/* barra navegacion*/
+
+#barranavegacion .navbar-toggler :hover {
+    text-transform: capitalize;
+}
+#barranavegacion{
+    font-family: "DM Sans", sans-serif;
+    color: black;}
+#barranavegacion {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e3edf2;
+    background-color: #f5f5eb;
+}
+.logo{
+    width: 20%;
+    justify-content: flex-start;
+}
+#menu  {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#barranavegacion .categorias  .nav-link{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-decoration: none;
+    gap: 50px;
+    color: black;
+    text-transform: uppercase;    
+} 
+#barranavegacion .categorias {    
+    gap: 30px;
+} 
+#barranavegacion .categorias  a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+} 
+#barranavegacion .categorias :hover {
+    font-weight: 700;  
+    color: #1E88E5;
+}
+#barranavegacion .categorias a :active {
+    font-weight: 700;  
+    color:white;
+}
+
+/* carrusel*/
+#carouselExampleDark{
+    width: 950px;
+    margin: 0 auto;
+   
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+}
+#carouselExampleDark .fotocarrusel1{
+    background-image: url(../img/familia-grande.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px 0;
+    justify-content: center;
+    height: 430px;
+    max-width: 900px;
+    min-height: 350px;
+}
+#carouselExampleDark .fotocarrusel2{
+    background-image: url(../img/carrusel1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px 0;
+    justify-content: top;
+    width: 100%;
+    height: 430px;
+    flex-basis: 100%;
+    max-width: 900px;
+    min-height: 350px;
+}
+#carouselExampleDark .fotocarrusel3{
+    background-image: url(../img/carrusel3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 40px 0;
+    width: 100%;
+    height: 430px;
+    flex-basis: 100%;
+    max-width: 900px;
+    min-height: 350px;
+}
+#carouselExampleDark .textocarrusel{
+    font-style: oblique;
+    color: white;
+    text-shadow: 2px 2px 2px #555658;
+    align-content: center;
+    font-weight: 600;
+}
+#carouselExampleDark .textocarrusel a{
+    text-decoration: none;
+    color: white;
+}
+#carouselExampleDark p{
+    font-style: oblique;
+    color: white;
+    text-shadow: 2px 2px 2px #555658;
+    align-content: center;
+    font-weight: 500;
+}
+
 /* titulos secciones */
 .nombrezona{
     font-size: 2.4rem;
@@ -126,6 +239,10 @@ body {background: whitesmoke;
     border: 2px solid #030a8c ;
     color: white;
 }
+.presentacion1 .botonhistoria  a {
+    color: black;  font-weight: 800;
+    }
+
 .presentacion1 .botonhistoria:hover  a {
     color: white;
     }
@@ -336,11 +453,15 @@ color: white; border: none;}
   .groups .carddiplomado .footer3 .btn a {color: white; text-decoration: none;
     font-size: 1.4rem;  font-weight: 600}
 
-.groups .carddiplomado .footer3 .btn:hover{box-shadow: 0 3px 8px 0 #0005; 
-background-color: #1E88E5; font-weight: 700; right: 15px ;}
+.groups .carddiplomado .footer3 .btn:hover {box-shadow: 0 3px 8px 0 #0005; 
+background-color: #0a4da6; font-weight: 700;}
+
+.groups .carddiplomado .footer3 .btn:active a { font-weight: 700; color: #030a8c;}
 
 .groups .carddiplomado .footer3 .btn:active{box-shadow: 0 3px 8px 0 #0005; 
-    background-color: white; font-weight: 700; right: 15px ; color: #030a8c;}
+    background-color: white; font-weight: 700; color: #030a8c;}
+
+
 
 /* card destacado  */
  
@@ -524,9 +645,6 @@ background-color: #1E88E5; font-weight: 700;  ;}
     justify-content: space-evenly;
     flex-wrap: wrap;
     }
-
-
-
 #perfiles .detalle   .listado{
     list-style: square;
     margin-top: 20px;
@@ -541,51 +659,35 @@ background-color: #1E88E5; font-weight: 700;  ;}
     transform: none;
     font-weight: bold;
     }
-
-    #perfiles .detalle .listado li{
+#perfiles .detalle .listado li{
         list-style: square;
     }
+
+#perfiles .perfil123 .fotoperfil{
+        background-size: cover;
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        margin: auto;
+        display: block;
+        margin-bottom: 30px;
+        flex-basis: 260px;
+        flex-grow: 1;
+    }
 #perfiles .perfil123 .perfil1{
-    background-image: url(../img/Alicia\(1\).jpg);
-    background-size: cover;
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 30px;
-    flex-basis: 260px;
-    flex-grow: 1;
+    background-image: url(../img/alicia_perfil.jpg);
 }
 #perfiles .perfil123 .perfil2{
     background-image: url(../img/daniela-perfil.jpg);
-    background-size: cover;
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 30px;
-    flex-basis: 260px;
-    flex-grow: 1;
 }
 #perfiles  .perfil123 .perfil3{
-    background-image: url(../img/Alejandro.jpg);
-    background-size: cover;
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    margin: auto;
-    display: inline-block;
-    margin-bottom: 30px;
-    flex-basis: 260px;
-    flex-grow: 1;
+    background-image: url(../img/alejandro_perfil.jpg);
 }
 #perfiles .perfil123 .perfil1:hover ,  .perfil2:hover , .perfil3:hover {
     background-size: cover;
     transition: 500ms;
     transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;
- }
+}
 #perfiles .detalle{
     background-color: #f6f7f1;
     padding: 15px 10px 1px 10px;
@@ -686,8 +788,8 @@ background-color: #1E88E5; font-weight: 700;  ;}
     margin-bottom: 20px;
     font-weight: bold;
 }
-#perfilessocias .perfil1234 .perfil1{
-    background-image: url(../img/meugenia.jpg);
+
+#perfilessocias .perfil1234 .fotoperfiles{
     background-size: cover;
     width: 210px;
     height: 210px;
@@ -698,45 +800,19 @@ background-color: #1E88E5; font-weight: 700;  ;}
     flex-basis: 260px;
     max-width: 280px;
     flex-grow: 1;
+}
+
+#perfilessocias .perfil1234 .perfil1{
+    background-image: url(../img/meugenia.jpg);
 }
 #perfilessocias .perfil1234 .perfil2{
     background-image: url(../img/geraldine2.jpg);
-    background-size: cover;
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 30px;
-    flex-basis: 260px;
-    max-width: 280px;
-    flex-grow: 1;
 }
 #perfilessocias  .perfil1234 .perfil3{
     background-image: url(../img/ximena.jpg);
-    background-size: cover;
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 30px;
-    flex-basis: 240px;
-    max-width: 260px;
-    flex-grow: 1;
 }
 #perfilessocias  .perfil1234 .perfil4{
     background-image: url(../img/monica.jpg);
-    background-size: cover;
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 30px;
-    flex-basis: 240px;
-    max-width: 260px;
-    flex-grow: 1;
 }
 #perfilessocias .perfil1234 .perfil1:hover ,  .perfil2:hover , .perfil3:hover,.perfil4:hover {
     background-size: cover;
@@ -819,7 +895,8 @@ background-color: #1E88E5; font-weight: 700;  ;}
 }
 
 .groups .card2 .image-session2{float: left;overflow: hidden;margin-right: 20px;}
-.groups .card2 .image-session2 .image{width: 350px; min-width: 330px; height: 28rem;display: block;background-size: cover; background-position: center; background-repeat: no-repeat;}
+.groups .card2 .image-session2 .image{width: 350px; min-width: 330px; height: 28rem;display: block;
+    background-size: cover; background-position: center; background-repeat: no-repeat;}
 
 .groups .card2 .meta-sission2{position: relative;padding: 15px;display: block;height: 28rem;}
 .groups .card2 .meta-sission2 .head{display: flex; margin: 5px 0; }
@@ -1020,7 +1097,12 @@ height: auto;}
 }
 @media screen and (max-width:550px){.carruselazul{ width: 96%; padding: 5px; height: auto;}    
 }
-
+/* carrusel grande  */
+@media screen and (max-width:900px){#carouselExampleDark {    width: 96%;}
+    .groups li:hover{    transform: none;    box-shadow: none;}
+}
+@media screen and (max-width:550px){#carouselExampleDark{ width: 96%; padding: 5px; height: auto;}    
+}
 
 
 
@@ -1082,7 +1164,8 @@ padding-bottom: 45px;}
     }
 
  
-
+   
+ 
 
 @media screen and (max-width:560px){.groups .image-session1{    float: none; padding: 2px;   margin-right: 0;}
     .groups .image-session1 .image{width: 100%;}
@@ -1291,7 +1374,7 @@ padding-bottom: 45px;}
 }
 
 
-  /*diplomado*/
+  /*pagina diplomado*/
 
   #diplomadop .paulinapagina {
     background-color: whitesmoke;

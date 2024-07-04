@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro Intervención Multigeneracional</title>
-    <meta name="descripcion" content="hhhhhh">
+    <meta name="descripcion" content="Centro Intervención Multigeneracional">
     <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#1E88E5">
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -30,10 +31,134 @@
 
 <body>
 
-    <header>
-        <nav> </nav>
-    </header>
+   
+<!-- inicio navbar -->
+<nav id="barranavegacion" class="navbar fixed-top  navbar-expand-md navbar-light"  >
     
+    <div id="menu" class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-color-banner.svg" alt="" width="auto" height="30px">
+              </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+
+<div class="collapse navbar-collapse " id="menu" >
+
+    <ul class="navbar-nav ms-auto categorias">
+
+        <li class="nav-item">
+        <a class="nav-link active" href="#carouselExampleDark">Inicio</a></li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" 
+            data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#servicio1">Atención Clínica</a></li>
+              <li><a class="dropdown-item" href="#servicio2">Formación Profesional</a></li>
+            </ul>
+        </li>
+
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#servicios" id="navbarDropdown" role="button" 
+            data-bs-toggle="dropdown" aria-expanded="false">
+              Nosotros
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#equipo">Directores</a></li>
+              <li><a class="dropdown-item" href="#historia">Nuestra Historia</a></li>
+              <li><a class="dropdown-item" href="#inspiran">Quiénes nos inspiran</a></li>
+
+            </ul>
+        </li>
+     
+        <li class="nav-item">
+        <a class="nav-link active" href="#noticias">Noticias</a></li>
+
+        <li class="nav-item">
+            <a class="nav-link active" href="#libros">Libros recomendados</a></li>
+
+        <li class="nav-item">
+        <a class="nav-link active" href="#piedepagina">Contacto</a></li>
+        
+    
+
+    </ul>
+
+
+</div>
+
+    </div>
+
+
+
+</nav>
+<!-- fin navbar-->
+    
+<div class="article-contener groups">
+
+<!-- prueba carrusel-->
+<div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+       <div class="fotocarrusel1"> <img src="" class="d-block w-100" alt=""></div> 
+        <div class="carousel-caption  d-md-block">
+            <h1 class="textocarrusel">  <a class="nav-link active" href="#diplomado">Diplomado Internacional en Terapia Multigeneracional</a></h1> 
+            <p class="d-none">nn</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+       <div class="fotocarrusel2">  <img src="" class="d-block w-100" alt=""></div>
+        <div class="carousel-caption d-md-block">
+            <h1 class="textocarrusel">Centro Intervención Multigeneracional</h1>
+            <p class="d-none">Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <div class="fotocarrusel3"> <img src="" class="d-block w-100" alt=""></div>
+        <div class="carousel-caption d-md-block">
+            <h1 class="textocarrusel">Servicios para profesionales</h1>
+            <p class="d-none">Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<!-- fin carrusel -->
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <div class="article-contener">
@@ -62,7 +187,7 @@
             <h1 class="nombrezona">Que hacemos</h1>
 
             <li>
-                <div class="card1a">
+                <div   id="servicio1"     class="card1a">
                     <div class="image-session1">
                         <div class="foto1 image"></div>
                     </div>
@@ -83,7 +208,7 @@
             </li>
 
             <li>
-                <div class="card1b">
+                <div  id="servicio2" class="card1b">
                     <div class="image-session1">
                         <div class="foto2 image"></div>
                     </div>
@@ -255,7 +380,7 @@
 <div class="article-contener">
     <ul class="groups">
         
-        <li>
+        <li id="diplomado">
             <div class="carddiplomado">
                 <div class="meta-sission3 ">
                     <div>  
@@ -396,14 +521,14 @@
 <div class="article-contener">
     
     <ul class="groups">
-        <h1 class="nombrezona">Directores</h1>
+        <h1 id="equipo"   class="nombrezona">Directores</h1>
 <li> 
 
 <section id="perfiles">
     <div class="perfil123">
 
 <div>
-    <div class="perfil1">
+    <div class="perfil1 fotoperfil">
     </div>
 <div class="detalle">
     <h5 class="nombre"><span>Ps. Alicia Cruzat O.</span></h5>
@@ -431,7 +556,7 @@
     
 
 <div>
-    <div class="perfil2">
+    <div class="perfil2 fotoperfil">
     </div>
     <div class="detalle">
     <h5 class="nombre"><span>Ps. Daniela Kupfer</span></h5>
@@ -460,7 +585,7 @@
     
 <div>
     <div class="">
-    <div class="perfil3">
+    <div class="perfil3 fotoperfil">
     </div>
 </div>
 <div class="detalle">
@@ -499,19 +624,14 @@
  <ul class="groups">
 
     <h1 class="nombrezona">Miembros Asociados</h1>
-
     <li>
-        
-
         <section  id="nosotrossocias">
-           
             </section>
-            
             <!-- inicio perfiles profesionales-->
             <section id="perfilessocias">
                 <div class="perfil1234">
             <div>
-                <div class="perfil1">
+                <div class="perfil1 fotoperfiles">
                 </div>
             <div class="detalle">
                 <h5 class="nombre"><span> Ps. Mª Eugenia Escudero</span></h5>
@@ -522,58 +642,42 @@
             </div>
             </div>
                 
-            
             <div>
-                <div class="perfil2">
+                <div class="perfil2 fotoperfiles">
                 </div>
                 <div class="detalle">
                 <h5 class="nombre"><span>Ps. Geraldine Taunton</span></h5>
                 <ul>
-            
-                    <li class="listado">Psicóloga Clínica.</li>
-                 
+                <li class="listado">Psicóloga Clínica.</li>
                 </ul>
-               
                 </div>
-            
                 </div>
                 
-            
-            
             <div>
                 <div class="">
-                <div class="perfil3">
+                <div class="perfil3 fotoperfiles">
                 </div>
             </div>
             <div class="detalle">
                 <h5 class="nombre"><span>Ps. Ximena Zalaquett</span></h5>
                 <ul>
-                    <li class="listado">Psicóloga Clínica.</li>
-                   
+                <li class="listado">Psicóloga Clínica.</li>
                 </ul>
-                
                 </div>
-            
                 </div>
         
-                <div>
-                    <div class="">
-                    <div class="perfil4">
-                    </div>
+            <div>
+                <div class="">
+                <div class="perfil4 fotoperfiles">
+                </div>
                 </div>
                 <div class="detalle">
-                    <h5 class="nombre"><span>Ps. Mónica Rojas</span></h5>
-                    <ul>
-                        <li class="listado">Psicóloga Clínica.</li>
-                        
-        
-                
-                    </ul>
-                   
-                    </div>
-                
-                    </div>     
-            
+                <h5 class="nombre"><span>Ps. Mónica Rojas</span></h5>
+                <ul>
+                <li class="listado">Psicóloga Clínica.</li>
+                </ul>
+                </div>
+                </div>     
             </div>
             
             </section>    
@@ -581,12 +685,10 @@
     </li>
  </ul>
 
-
-
     <!--  nuestra historia-->
 
     <ul class="groups">
-        <section  class="presentacion">
+        <section id="historia" class="presentacion">
             <div class="presentacion1 ">
                 <div class=" d-none d-sm-block  d-sm-none d-md-block   logo"></div>
                 <div class="texto"> 
@@ -621,7 +723,7 @@
      <!-- quienes nos inspiran-->
 
      <ul class="groups">
-        <h1 class="nombrezona">Quiénes nos inspiran</h1>
+        <h1 id="inspiran"  class="nombrezona">Quiénes nos inspiran</h1>
         <li>
             <div class="cardpaulina">
                 <div class="meta-sission3 ">
@@ -664,7 +766,7 @@
     <ul class="groups">
 
 
-        <h1 class="nombrezona">Noticias</h1>
+        <h1 id="noticias"  class="nombrezona">Noticias</h1>
         <li>
             <div class="card2">
                 <div class="image-session2">
@@ -1079,12 +1181,8 @@
         <button class="botondesgloce" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ver todas las noticias</button>
     </div>
 
-
-
     </ul>
 </div>
-
-
 
 
 
@@ -1093,7 +1191,7 @@
        
         <ul class="groups">
 
-            <h1 class="nombrezona">Libros recomendados</h1>
+            <h1 id="libros"   class="nombrezona">Libros recomendados</h1>
             <li>
                 <div class="card4">
                     <div class="image-session2">
