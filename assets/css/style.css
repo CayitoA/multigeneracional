@@ -322,7 +322,9 @@ font-size: 1.4rem;
 .groups .card1b .flecha{
     padding-left: 10px;
 }
-
+.groups .cardservicios .flecha{
+    padding-left: 10px;
+}
 
 /* card detalle servicios profesionales  */
 
@@ -388,23 +390,55 @@ font-weight: 600;
 /* botones servicios  */
 
 .groups .cardservicios .footer2 .btn1{position: absolute;bottom: 20px;left: 30px;
-    background-color: transparent;
+    background-color: transparent; color: #1E88E5;
     border: 2px solid #1E88E5 ;
-   line-height: 2.2;padding: 0 10px;border-radius: 10px;text-decoration: none; 
+   line-height: 2.2;padding: 0 12px;border-radius: 10px;text-decoration: none; 
     text-transform: uppercase; font-weight: 700; 
   font-size: 1.2rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 
-.groups .cardservicios .footer2 .btn1:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;left: 10px;
+.groups .cardservicios .footer2 .btn1:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;
 color: white; border: none;}
 
 .groups .cardservicios .footer2 .btn2{position: absolute;bottom: 20px;right: 30px;background: #1E88E5;
-    color: #fff;line-height: 2.2;padding: 0 10px;border-radius: 10px;text-decoration: none; 
+    color:white;line-height: 2.2;padding: 0 12px;border-radius: 10px;text-decoration: none; 
     text-transform: uppercase; font-weight: 600; border: none; text-decoration: none;
   font-size: 1.2rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
 
-.groups .cardservicios .footer2 .btn2:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;right: 10px;
+  .groups .cardservicios .footer2 .btn2 a {
+    color:white; text-decoration: none;}
+
+
+.groups .cardservicios .footer2 .btn2:hover{box-shadow: 0 3px 8px 0 #0005;background: #030a8c;
     border: none; text-decoration: none;}
 
+    #exampleModal  li {
+        transform: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 8px 0;
+    }
+   
+    #exampleModal .requisitos {
+        font-size: 1.6rem;
+        font-weight: 500;
+        list-style: none;
+
+    }
+    #exampleModal  .modal-header{
+        background-color: #030a8c;
+    }
+    #exampleModal .modal-title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    #exampleModal  .btn2{position: absolute;bottom: 20px;right: 30px;background: #1E88E5;
+        color:white;line-height: 2.2;padding: 0 12px;border-radius: 10px;text-decoration: none; 
+        text-transform: uppercase; font-weight: 600; border: none; text-decoration: none;
+      font-size: 1.2rem;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s; }
+    
 /* card diplomado  */
 
 .groups .carddiplomado {overflow: hidden;display: flex;flex-wrap: wrap-reverse; background-color: #001d7e ;
@@ -1248,6 +1282,95 @@ padding-bottom: 45px;}
  .card2 .groups .image-session2 .image{width: 100%;}
 }
 
+/* seccion ingreso alumnos */
+
+
+.groups .container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+}
+
+ .groups .container form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border-radius: 15px;
+    background-color: #030a8c;
+}
+
+.groups .container h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+ .groups .container span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+   
+
+}
+.groups .container .form-control{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+.groups .container label{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+.groups .container input{
+    padding: 10px ;
+    border: 1px solid #0a4da6;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+}
+
+.groups .container .btningresar {
+    background-color: #1E88E5;
+    border-radius: 12px;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+/* pagina alumnos */
+
+#alumnos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+#inlineframeexample{
+    width: 800px;
+    height: 600px;
+    background-color: #e3edf2;
+ 
+}
+
+
+
+
 
 /* pagina formulario 1 */
 #formulario {
@@ -1595,16 +1718,7 @@ padding-bottom: 45px;}
         font-size: 1.6rem;
         line-height: 2.2rem;
         font-weight: 400;
-
         }
-    
-
-
-
-
-
-
-
 
  /* pagina manifiesto*/
 
@@ -1925,6 +2039,19 @@ padding-bottom: 45px;}
     font-weight: 700;
     font-family:inherit;
   }
+  .wrapper h4{
+      font-size: 1.8rem;
+      font-weight: 700;      
+  }
+
+  .wrapper p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;  
+}
+
+
+
 
   /*Envoltura*/
   .wrapper{
@@ -1948,18 +2075,13 @@ padding-bottom: 45px;}
   }
   .wrapper .row section{
     background: #FFF7DB;
-
     border-radius: 9px;
     width: calc(50% - 40px);
     padding: 20px;
     position: relative;
-    
   }
 
   .wrapper .row section:hover{
-        background: #1E88E5;
-        background-color: #0a4da6;
-        background-color: #BDD9F2;
         background-color: whitesmoke;
         color: white;
         color: black;
@@ -2160,16 +2282,15 @@ padding-bottom: 45px;}
     background-color: #f2b90c;
     padding: 3px 15px;
     border-radius: 12px 0;
+    font-size: 2.2rem;
   }
 
   .row  .subtitulo {
-    font-weight: 600;
     padding-top: 10px;
   }
   
   .row section p{
     margin: 10px 0 17px 0;
-    font-weight: 600;
   }
 
 
@@ -2204,4 +2325,5 @@ padding-bottom: 45px;}
     }
   }
 
-  
+
+

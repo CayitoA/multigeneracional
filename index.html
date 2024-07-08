@@ -24,11 +24,9 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 <script src="https://kit.fontawesome.com/94c1e46ce4.js" crossorigin="anonymous"></script>
 
-   
-   
+
     </head>
     
-
 <body>
 
    
@@ -84,7 +82,8 @@
             <a class="nav-link active" href="#libros">Libros recomendados</a></li>
 
         <li class="nav-item">
-        <a class="nav-link active" href="#piedepagina">Contacto</a></li>
+        <a class="nav-link active" href="alumnos.html" target="_blank" >Alumnos</a></li>
+      
         
     </ul>
 
@@ -136,10 +135,6 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
-
-
-
 
 
 </div>
@@ -229,10 +224,15 @@
 
                             <div class="footer2">
                                 <div class="espacio"> 
-                                <a href="#" class="button btn1">Detalle →</a>
-                                <a href="#" class="button btn2">Contacto 
-                                    <i class="flecha fa-solid fa-arrow-right"></i>
-                                </a>
+
+                                    <div>
+                                        <button type="button" class=" btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalle  <i class="flecha fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                    <div>
+                                     <button class="button btn2 "><a href="formulario2.html" target="_blank"   >Contacto  <i class="flecha fa-solid fa-arrow-right"></i> </a></button>
+                                    </div>
                                 </div>
                             </div>
                             </div>
@@ -240,6 +240,37 @@
                     </div>
                 </div>
             </li>
+
+
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Información</h5>
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <ul class="requisitos">
+                <li><strong>Cupos:</strong> 5 profesionales por grupo</li>
+                <li><strong>Frecuencia:</strong> Jueves de 18:30 a 20:00 hrs. Quincenal</li>
+                <li><strong>Duración:</strong> 4 sesiones</li>
+                <li><strong>Valor:</strong> $ 200.000</li>
+                <li><strong>Inicio:</strong> A programar</li>
+                <li><strong>Requisitos: </strong>
+                    Título profesional de Psicólogo, Trabajador Social, Psiquiatra y profesiones afines</li>
+                </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn2" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+
 
             <li>
                 <div class="cardservicios">
@@ -255,10 +286,17 @@
                             </div>
                             <div class="footer2">
                                 <div class="espacio"> 
-                                <a href="#" class="button btn1 ">Detalle →</a>
-                                <a href="#" class="button btn2 " >Contacto  
-                                    <i class="flecha fa-solid fa-arrow-right"></i>
-                                </a>
+                                    <div>
+                                        <button type="button" class=" btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalle  <i class="flecha fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+
+                                    <div>
+                                        <button class="button btn2 "><a href="formulario2.html" target="_blank"   >Contacto  <i class="flecha fa-solid fa-arrow-right"></i> </a></button>
+                                    </div>
+
+                              
                                 </div>
                             </div>
                     </div>
@@ -279,10 +317,17 @@
                             </div>
                             <div class="footer2">
                                 <div class="espacio"> 
-                                <a href="#" class="button btn1">Detalle →</a>
-                                <a href="#" class="button btn2">Contacto 
-                                    <i class="flecha fa-solid fa-arrow-right"></i>
-                                </a>
+                                    <div>
+                                        <button type="button" class=" btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Detalle  <i class="flecha fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button class="button btn2 "><a href="formulario2.html" target="_blank"   >Contacto  <i class="flecha fa-solid fa-arrow-right"></i> </a></button>
+                                    </div>
+
+
+
                                 </div>
                             </div>
                     </div>
@@ -1547,20 +1592,10 @@
                     </article>
             </div>
 
-
-
-
-
-
-
-
-
-
-
         </div>
 
         <div class="zonadesgloce"> 
-            <button class="botondesgloce" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">Ver + libros</button>
+            <button class="botondesgloce" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">Ver todos los libros</button>
         </div>
 
 
