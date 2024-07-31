@@ -31,6 +31,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+
+
+
+
 </head>
 
 <!-- formulario atencion clinica -->
@@ -42,7 +46,8 @@
 
 <div class=" d-none d-sm-block  d-sm-none d-md-block     imagenfondo">  </div>
 
-<form class="formulario1 row g-3">
+<form   action="https://formsubmit.co/claudioastorga13@gmail.com" method="POST"
+ class="formulario1 row g-3">
 
   <div class="marco">
 
@@ -56,15 +61,15 @@
 
     <div class="col-md-12">
       <label for="inputnombre" class="form-label">Nombre</label>
-      <input type="nombre" class="form-control" id="inputnombre">
+      <input type="nombre" name="name" class="form-control" id="inputnombre">
     </div>
     <div class="col-md-12">
       <label for="inputtelefono" class="form-label">Teléfono</label>
-      <input type="telefono" class="form-control" id="inputtelefono">
+      <input type="telefono" name="phone" class="form-control" id="inputtelefono">
     </div>
     <div class="col-md-12">
       <label for="inputmail" class="form-label">Correo electrónico</label>
-      <input type="mail" class="form-control" id="inputmail" placeholder="nombre@mail.com ">
+      <input type="mail" name="mail" class="form-control" id="inputmail" placeholder="nombre@mail.com ">
     </div>
 
     
@@ -84,6 +89,13 @@
 
     </footer>
 
+    <input type="hidden" name="_next" value="http://127.0.0.1:5503/formulario1.html">
+
+    <input type="hidden"  name="_captcha" value="false">
+
+
+
+    
 
   </form>
 
