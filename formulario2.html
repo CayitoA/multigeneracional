@@ -42,7 +42,7 @@
 
 <div class=" d-none d-sm-block  d-sm-none d-md-block     imagenfondo">  </div>
 
-<form action="https://formsubmit.co/941a2c95419d325760531682b5beee13" method="POST"
+<form action="https://formsubmit.co/9e212e685cf4fbbabbbee56204f8b9a1" method="POST"
 class="formulario2 row g-3">
   <div class="marco">
     <div class="logo"> </div>
@@ -54,39 +54,39 @@ class="formulario2 row g-3">
 
     <div class="col-md-12">
       <label for="inputnombre" class="form-label">Nombre</label>
-      <input type="nombre" class="form-control" id="inputnombre">
+      <input type="nombre" name="nombre"  class="form-control" id="inputnombre" placeholder="Nombre y apellido">
     </div>
     <div class="col-md-12">
       <label for="inputtelefono" class="form-label">Teléfono</label>
-      <input type="telefono" class="form-control" id="inputtelefono">
+      <input type="telefono" name="telefono" class="form-control" id="inputtelefono" placeholder="Número de contacto">
     </div>
     <div class="col-md-12">
       <label for="inputmail" class="form-label">Correo electrónico</label>
-      <input type="mail" class="form-control" id="inputmail" placeholder="nombre@mail.com ">
+      <input type="mail" name="mail"   class="form-control" id="inputmail" placeholder="nombre@mail.com ">
     </div>
 
     <div class="form-floating col-md-12">
       
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" name="asunto" style="height: 100px"></textarea>
       <label for="floatingTextarea2">Comentario</label>
     </div>
 
 
     <div class="col-12">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <input class="form-check-input" name="estudio"   type="checkbox" id="gridCheck">
         <label class="form-check-label" for="gridCheck">
           Grupo de Estudio
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <input class="form-check-input" name="supervision"   type="checkbox" id="gridCheck">
         <label class="form-check-label" for="gridCheck">
           Grupo de Supervisión
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <input class="form-check-input" name="familia"  type="checkbox" id="gridCheck">
         <label class="form-check-label" for="gridCheck">
           Grupo de trabajo con la propia familia de origen del terapeuta
         </label>
@@ -99,9 +99,11 @@ class="formulario2 row g-3">
 
     </footer>
 
-    <input type="hidden" name="_next" value="http://127.0.0.1:5503/formulario2.html">
 
     <input type="hidden"  name="_captcha" value="false">
+
+    <input type="hidden" name="_next" value="https://centromultigeneracional.cl/">
+    <input type="hidden" name="_subject" value="Nuevo mensaje Formación Profesional">
 
   </form>
 
