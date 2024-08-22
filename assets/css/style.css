@@ -1382,35 +1382,61 @@ padding-bottom: 45px;}
         padding-bottom: 45px;}    
         }
     
+/* card clases  */
+@media screen and (max-width:550px){ .cardclases .image-session3  {   
+    width: 100%;      }    
+    }
+
+
+
 /* card diplomado  */
         @media screen and (max-width:550px){ .carddiplomado .meta-sission3  {   
             height: auto;      }    
             }
-            @media screen and (max-width:550px){ .carddiplomado  .body  {   
+        @media screen and (max-width:550px){ .carddiplomado  .body  {   
             padding-bottom: 30px;}    
+            }
+        @media screen and (max-width:550px){ .carddiplomado .image-session3  {   
+            width: 100%;      }    
             }
         
     
 
 /* card destacado  */
 
-@media screen and (max-width:550px){ .carddestacado .meta-sission3  {   
+    @media screen and (max-width:550px){ .carddestacado .meta-sission3  {   
     height: auto;      }    
     }
     @media screen and (max-width:550px){ .carddestacado  .body  {   
     padding-bottom: 3px;}    
     }
- 
+    @media screen and (max-width:550px){ .carddestacado .image-session3  {   
+        width: 100%;      }    
+        }
     
 
 /* card paulina  */
 
-@media screen and (max-width:550px){ .cardpaulina .meta-sission3  {   
+    @media screen and (max-width:550px){ .cardpaulina .meta-sission3  {   
     height: auto;      }    
     }
     @media screen and (max-width:550px){ .cardpaulina  .body  {   
     padding-bottom: 30px;}    
     }
+    @media screen and (max-width:550px){ .cardpaulina .image-session3  {   
+        width: 100%;         }    
+        }
+
+/* notocias libros no funciona ancho  */
+    @media screen and (max-width:550px){ .card2 .image-session2  {   
+    width: 100%;         }    
+            }
+    
+    @media screen and (max-width:550px){ .card4 .image-session2 {   
+                width: 100%;         }    
+                        }
+
+
 
  /* footer  */
 
@@ -2492,3 +2518,100 @@ padding-bottom: 45px;}
 
 
 
+/* clases internacionales */
+/* card diplomado  */
+
+.groups .cardclases {overflow: hidden;display: flex;flex-wrap: wrap; background-color: #e3edf2 ;
+    justify-content: space-between;
+}
+.groups .cardclases .foto1 {
+    background-image: url(../img/Miquel-Llorente.jpg);
+}
+.groups .cardclases .foto2 {
+    background-image: url(../img/board-wsmith\ 3.jpg);
+}
+.groups .cardclases .foto3 {
+    background-image: url(../img/martinez-headshot.jpg);
+}
+.groups .cardclases .span {    
+    background-color: #101923;
+    padding: 5px 15px;
+    border-radius: 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;    
+}
+
+.groups .cardclases .meta-sission3 .head{display: flex; margin:10px 0; }
+.cardclases   h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    padding: 10px 0 5px 0; 
+}
+.cardclases   h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 5px 0 ;
+    margin-top: 25px;
+}
+.cardclases   h5{
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.cardclases .image-session3{float: right;overflow: hidden;margin-right: 0}
+.cardclases .image-session3 .image{ width: 100%; min-width: 360px; height: 32rem;display: block;
+    background-size: cover; background-position: center; background-repeat: no-repeat;}
+.groups  .cardclases  .meta-sission3{ width: 500px; position: relative;padding: 10px;display: flex;
+    height:32rem; 
+}
+
+.groups   .cardclases .footer3 .centrar{  
+    display: flex;  justify-content: center;}
+
+.groups   .cardclases .footer3 .btn{  
+    display: block; position: absolute;bottom: 20px;background: #030a8c;
+    line-height: 2.2;padding: 0 40px;border-radius: 8px; 
+    text-transform: uppercase; border: none;  box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;
+    color: white; text-decoration: none;
+    font-size: 1.4rem;  font-weight: 600
+}
+
+.groups .cardclases .footer3 .btn:hover {box-shadow: 0 3px 8px 0 #0005; 
+background-color: #1E88E5; font-weight: 700;}
+
+.groups .cardclases .footer3 .btn:active a { font-weight: 700; color: #001d7e;}
+
+.groups .cardclases .footer3 .btn:active{box-shadow: 0 3px 8px 0 #0005; 
+    background-color: white; font-weight: 700; color: #030a8c;}
+
+
+    .textolargoclases {
+        padding: 20px;
+        background-color: #f5f5eb;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        
+        display: grid;
+        place-items: center;
+    }
+    .textolargoclases h6 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.2rem;
+    }
+    .textolargoclases .datos{
+        padding: 20px;
+        background-color:#e3edf2;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        width: 90%;
+    }
+    .textolargoclases .datos h5 {
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 2.2rem;
+    }
