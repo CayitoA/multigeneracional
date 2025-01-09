@@ -1,6 +1,6 @@
-let sections = document.querySelectorAll ('section')
+let sections = document.querySelectorAll('section');
 
-window.onscroll = () => (
+window.onscroll = () => {
     sections.forEach(sec => { 
         let top = window.scrollY;
         let offset = sec.offsetTop - 150;
@@ -8,12 +8,9 @@ window.onscroll = () => (
 
         if (top >= offset && top < offset + height ){
             sec.classlist.add ('show-animate');
-
         }
-        
-        else{
+        else {
             sec.classlist.remove ('show-animate');
         }
-        
      } )
-    }
+}

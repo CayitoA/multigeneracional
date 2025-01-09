@@ -1,5 +1,8 @@
 * {
   font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -56,6 +59,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: color 4s infinite;
 }
 
 .contenedor {
@@ -97,6 +101,23 @@ span {
   font-size: 3rem;
 }
 
+@keyframes color {
+  0% {
+    background-color: #232323;
+  }
+  25% {
+    background-color: #2c2c2c;
+  }
+  50% {
+    background-color: #373737;
+  }
+  75% {
+    background-color: #484848;
+  }
+  100% {
+    background-color: #656565;
+  }
+}
 #servicios {
   width: 100vw;
   height: 100vh;
@@ -287,16 +308,18 @@ span {
   height: 100vh;
   background-color: #2C2C2C;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 #modulo .frase {
   width: 990px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 #modulo .frase h2 {
   font-size: 6rem;
@@ -309,8 +332,6 @@ span {
   text-align: center;
   line-height: 1.2;
   text-transform: uppercase;
-  transition: transform 1s;
-  transition-timing-function: cubic-bezier(1, -0.01, 0.96, 1.07);
 }
 #modulo .frase h3 {
   font-size: 1.5rem;
@@ -320,8 +341,6 @@ span {
   padding: 0 90px;
   line-height: 1.2;
   padding-top: 20px;
-  transition: transform 1s;
-  transition-timing-function: cubic-bezier(1, -0.01, 0.96, 1.07);
 }
 
 section .animate {
@@ -332,8 +351,36 @@ section .animate {
   transform: scale(0.7);
 }
 
-.sec-3 .show-animate .animate {
+.sec-3.show-animate .animate {
   transform: scale(1);
+}
+
+.sec-2 .animate {
+  transform: translateX(100%);
+}
+
+.sec-2.show-animate .animate {
+  transform: translateX(0);
+}
+
+.section-2-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.section-2-h1 {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(-200px);
+}
+
+.section-2-h1.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 #modulo .fraselegal h2 {
@@ -362,42 +409,6 @@ section .animate {
   padding-top: 20px;
   transition: transform 1s;
   transition-timing-function: cubic-bezier(1, -0.01, 0.96, 1.07);
-}
-
-@keyframes show {
-  from {
-    opacity: 0;
-    scale: 50%;
-  }
-}
-to {
-  opacity: 1;
-  scale: 100%;
-}
-
-.frasegrande {
-  view-timeline-name: --reveal;
-  animation-name: show;
-  animation-fill-mode: both;
-  animation-timeline: --reveal;
-  animation-range: entry 25% cover 50%;
-  transition-timing-function: cubic-bezier(1, -0.01, 0.96, 1.07);
-}
-
-.frasetitulo {
-  view-timeline-name: --reveal;
-  animation-name: show;
-  animation-fill-mode: both;
-  animation-timeline: --reveal;
-  animation-range: entry 25% cover 50%;
-}
-
-h3 {
-  view-timeline-name: --reveal;
-  animation-name: show;
-  animation-fill-mode: both;
-  animation-timeline: --reveal;
-  animation-range: entry 25% cover 50%;
 }
 
 #plataformas {
@@ -448,16 +459,6 @@ h3 {
   padding: 10px;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 #mensaje {
   width: 100vw;
   height: 40vh;
@@ -510,6 +511,50 @@ h3 {
   width: 100vw;
   height: 5rem;
   background-color: #121212;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+section h2 {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+}
+section h4 {
+  font-size: 1.8rem;
+  color: #E53E1F;
+  text-align: center;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+section h3 {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 0 90px;
+  line-height: 1.2;
+  padding-top: 20px;
+}
+
+section .animate {
+  transition: 1s;
+}
+
+.sec-tres .animate {
+  transform: scale(0.7);
+  background-color: yellowgreen;
+}
+
+.sec-tres.show-animate .animate {
+  transform: scale(1);
+  background-color: yellowgreen;
 }
 
 /*# sourceMappingURL=style.css.map */
