@@ -60,6 +60,10 @@ body {
   justify-content: center;
   align-items: center;
   animation: color 4s infinite;
+  background-image: url(/img/BNclose-hands-using-smart-phone-course-deadline-businesswoman-texting-late-night-while-working-important-project-using-smartphone.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .contenedor {
@@ -322,9 +326,10 @@ span {
   overflow-x: hidden;
 }
 #modulo .frase h2 {
-  font-size: 6rem;
+  font-size: 5rem;
   color: white;
   text-align: center;
+  transition-timing-function: cubic-bezier(1, -0.01, 0.96, 1.07);
 }
 #modulo .frase h4 {
   font-size: 1.8rem;
@@ -344,7 +349,16 @@ span {
 }
 
 section .animate {
-  transition: 1s;
+  opacity: 0;
+  filter: blur(9px);
+  transition: 2s;
+  transform: scale(0.5);
+}
+
+section.show-animate .animate {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
 }
 
 .sec-3 .animate {
@@ -353,34 +367,6 @@ section .animate {
 
 .sec-3.show-animate .animate {
   transform: scale(1);
-}
-
-.sec-2 .animate {
-  transform: translateX(100%);
-}
-
-.sec-2.show-animate .animate {
-  transform: translateX(0);
-}
-
-.section-2-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  max-width: 1280px;
-  margin: auto;
-}
-
-.section-2-h1 {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateX(-200px);
-}
-
-.section-2-h1.visible {
-  opacity: 1;
-  transform: translateX(0);
 }
 
 #modulo .fraselegal h2 {
