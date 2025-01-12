@@ -99,6 +99,8 @@ align-items: center;
             text-align: center;
             line-height: 1.2;
             text-transform: uppercase;
+            transition-timing-function:  cubic-bezier(.17,.67,.83,.67);
+
            
         }
         h3{
@@ -109,6 +111,9 @@ align-items: center;
             padding: 0 90px;
             line-height: 1.2;
             padding-top: 20px;
+            animation-delay: 3s;
+            transition-timing-function:  cubic-bezier(.17,.67,.83,.67);
+
           
             
         }   
