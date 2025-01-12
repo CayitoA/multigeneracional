@@ -361,14 +361,6 @@ section.show-animate .animate {
   transform: scale(1);
 }
 
-.sec-3 .animate {
-  transform: scale(0.7);
-}
-
-.sec-3.show-animate .animate {
-  transform: scale(1);
-}
-
 #modulo .fraselegal h2 {
   font-size: 4rem;
   color: white;
@@ -406,6 +398,7 @@ section.show-animate .animate {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 #plataformas .cards {
@@ -418,19 +411,17 @@ section.show-animate .animate {
 }
 
 #plataformas .card {
+  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
   border: 3px solid white;
   background-color: black;
   padding: 30px 0;
-  animation: fadeIn 1s ease forwards;
-  opacity: 0;
-  animation-delay: var(--delay);
+  white-space: nowrap;
 }
 
 #plataformas .card h3 {
-  color: white;
   text-align: center;
   font-size: 1.2rem;
   font-weight: 800;
@@ -445,6 +436,13 @@ section.show-animate .animate {
   padding: 10px;
 }
 
+#plataformas .card i {
+  font-size: 1.5rem;
+  padding-right: 10px;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
 #mensaje {
   width: 100vw;
   height: 40vh;
@@ -453,6 +451,7 @@ section.show-animate .animate {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 #mensaje .cards {
@@ -462,6 +461,7 @@ section.show-animate .animate {
   justify-content: center;
   align-items: center;
   padding: 40px;
+  overflow-x: hidden;
 }
 
 #mensaje .card {
@@ -471,9 +471,6 @@ section.show-animate .animate {
   border: 3px solid white;
   background-color: black;
   padding: 30px 0;
-  animation: fadeIn 1s ease forwards;
-  opacity: 0;
-  animation-delay: var(--delay);
 }
 
 #mensaje .card h3 {
@@ -490,6 +487,19 @@ section.show-animate .animate {
 
 #mensaje .margen {
   padding: 10px;
+}
+
+section .animacion {
+  opacity: 0;
+  filter: blur(9px);
+  transition: 2s;
+  transform: translateX(100%);
+}
+
+section.show-animacion .animacion {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
 
 #piedepagina {
