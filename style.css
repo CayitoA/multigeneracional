@@ -55,7 +55,6 @@ body {
 #presentacion {
   width: 100vw;
   height: 100vh;
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,6 +71,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-attachment: fixed;
 }
 
 .contenedor_texto {
@@ -265,6 +265,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 #header-foto .imagen2 {
   background-image: url(img/istockphoto-694960328-1024x1024.jpg);
@@ -276,6 +277,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 #header-foto .imagen3 {
   background-image: url(img/istockphoto-1019702098-1024x1024.jpg);
@@ -287,6 +289,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 #header-foto .imagen4 {
   background-image: url(img/istockphoto-1759364452-1024x1024.jpg);
@@ -298,6 +301,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 
 #header-foto h1 {
@@ -421,7 +425,7 @@ section.show-animate .animate {
   justify-content: center;
   border-radius: 5px;
   border: 3px solid white;
-  background-color: black;
+  background-color: transparent;
   padding: 30px 0;
   white-space: nowrap;
 }
