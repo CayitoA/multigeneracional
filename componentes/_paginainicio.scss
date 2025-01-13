@@ -8,22 +8,28 @@
     justify-content: center;
     align-items: center;
 
-    
     .contenedor {
         width: 100%;
         height: 100%;
-        background-image: url(/img/BNclose-hands-using-smart-phone-course-deadline-businesswoman-texting-late-night-while-working-important-project-using-smartphone.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         position: relative;
         display: flex;
         justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        background-attachment: fixed;
     }
  }
    
+#presentacion .foto-inicio{
+    background-image: url(/img/BNclose-hands-using-smart-phone-course-deadline-businesswoman-texting-late-night-while-working-important-project-using-smartphone.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
     .contenedor_texto {
         display: flex;
         align-items: center;
@@ -73,9 +79,114 @@
 
     }
 
-   
+    // menu
+
+    #barra{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        animation: color 4s infinite;
+    }
+
+        #barra .contenedor-card{
+            width: $width;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card-servicios{
+            height: auto;
+            background-color: snow;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-radius: 12px;
+            box-shadow:$shadow;
+            transition: all 0.3s;
+            overflow: hidden;
+        }
+        .margen{
+            padding: 10px;
+        }
+      
+    #barra .contenedor-imagen .foto1{
+        background-image: url(img/istockphoto-2165505447-1024x1024.jpg);    
+    }
+    #barra .contenedor-imagen .foto2{
+        background-image: url(img/istockphoto-694960328-1024x1024.jpg);    
+    }
+    #barra .contenedor-imagen .foto3{
+        background-image: url(img/istockphoto-1019702098-1024x1024.jpg);    
+    }
+    #barra .contenedor-imagen .foto4{
+        background-image: url(img/istockphoto-1759364452-1024x1024.jpg);    
+    }
+    #barra  .contenedor-imagen{
+        display: block;
+        position: relative;
+        }
+    #barra .imagen{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 14rem;
+        flex-grow: 1;
+        background-clip: content-box;
+        transition: 500ms; 
+        }
+    #barra .imagen:hover{
+        scale: 110%;
+        }
+    #barra .contenedor-texto {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 14rem;
+        padding: 20px;
+        }
+         
+    #barra .contenedor-texto h3{
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 10px 0;
+        color: $color2;
+        }
+    #barra  h5 {
+        font-size: 1.5rem;
+        }
+            
+        .card-servicios:hover{
+            transform: scale(1.02);
+            box-shadow: $shadow2;
+            }
+
+
+
+            section .animate{
+                opacity: 0;
+                filter: blur(9px);
+                transition: 2s;
+                transform: scale(.5);
+            }
+            
+            section.show-animate .animate{
+                opacity: 1;
+                filter: blur(0);
+                transform: scale(1);
+            }
+            
+
     
-    // cards servicios
+
+    
+    // cards servicios anterior
 
     #servicios{
         width: 100vw;
