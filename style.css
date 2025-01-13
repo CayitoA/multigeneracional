@@ -59,8 +59,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.contenedor {
+#presentacion .contenedor {
   width: 100%;
   height: 100%;
   background-image: url(/img/BNclose-hands-using-smart-phone-course-deadline-businesswoman-texting-late-night-while-working-important-project-using-smartphone.jpg);
